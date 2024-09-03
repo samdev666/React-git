@@ -1,3 +1,4 @@
+import { Troubleshoot } from "@mui/icons-material";
 import { Typography } from "@mui/material";
 import { greyScaleColour } from "@wizehub/common/theme/style.palette";
 import { fontSize, fontWeight } from "@wizehub/common/theme/style.typography";
@@ -25,3 +26,8 @@ export const StyledBenchmarksNoteText = styled(Typography)`
   font-weight: ${fontWeight.medium} !important;
   line-height: 24px !important;
 `;
+
+export const StyledBenchedData =styled(Typography)`
+`
+export const StyledDataBench = styled(Troubleshoot)`
+`

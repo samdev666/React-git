@@ -389,7 +389,7 @@ const Matrix: React.FC<Props> = ({
                   top: 20,
                   right: 50,
                   left: 30,
-                  bottom: 10,
+                  bottom: 11,
                 }}
                 yAxisTickMargin={55}
               />
