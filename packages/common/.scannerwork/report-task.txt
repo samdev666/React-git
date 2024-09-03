@@ -1,0 +1,6 @@
+projectKey=wizehub-web-common
+serverUrl=http://13.234.251.21
+serverVersion=10.3.0.82913
+dashboardUrl=http://13.234.251.21/dashboard?id=wizehub-web-common
+ceTaskId=AY_tL-cZ5IsXvO6-rfyn
+ceTaskUrl=http://13.234.251.21/api/ce/task?id=AY_tL-cZ5IsXvO6-rfyn

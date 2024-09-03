@@ -1,0 +1,475 @@
+{
+  "en": {
+    "general": {
+      "change": "Change",
+      "update": "Update",
+      "show": "Show",
+      "edit": "Edit",
+      "view": "View",
+      "noData": "No data found",
+      "action": "Action",
+      "showMore": "Show more",
+      "showing": "Rows per page:",
+      "search": "Search...",
+      "reset": "Reset",
+      "add": "Add",
+      "submit": "Submit",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "remove": "Remove",
+      "errors": {
+        "invalidEmail": "Please enter a valid email address",
+        "serverError": "Something went wrong! please try again",
+        "invalidPassword": "Password should contain atleast 8 characters, one upper case letter, one lower case letter, one number and one special character",
+        "invalidPhone": "Phone number is not valid",
+        "emptyValue": "Please enter a value",
+        "nameToBeDeleted": "Please enter a name to be deleted",
+        "fileSizeError": "Try uploading a file less than 4 MB",
+        "fileTypeError": "Try uploading image file",
+        "invalidABN": "Please enter only alphanumeric characters"
+      },
+      "error": {
+        "serverError": {
+          "error.deleteVillageAdmin.deleteAssociatedData": "Unable to delete village. Associated data must be cleared first",
+          "error.deleteCompany.deleteAssociatedData": "Unable to delete company. Associated data must be cleared first",
+          "error.deleteCompany.companyNotFound": "Company not found",
+          "error.deleteCompany.unableToDeleteCompany": "Unable to delete company.",
+          "error.deleteVillage.villageNotFound": "Village not found",
+          "error.deleteVillage.deleteAssociatedData": "Unable to delete village. Associated data must be cleared first",
+          "error.deleteVillage.unableToDeleteVillage": "Unable to delete village, please try again.",
+          "error.deleteVillageAdmin.villageNotFound": "Unable to delete village admin. Associated data must be cleared first.",
+          "error.deleteVillageAdmin.villageAdminNotFound": "Village admin not found.",
+          "error.deleteVillageAdmin.unableToDeleteVillageAdmins": "Unable to delete village admins.",
+          "error.deleteVillageAdmin.unableToDeleteVillageAdmin": "Unable to delete village admin.",
+          "error.deleteCompanyAdmin.companyNotFound": "Unable to delete company admin due to company not found.",
+          "error.deleteCompanyAdmin.userNotFound": "Unable to delete company admin due to user not found.",
+          "error.deleteCompanyAdmin.unableToDeleteCompanyAdmin": "Unable to delete company admin, please try again.",
+          "error.deleteCompanyAdmin.deleteAssociatedData": "Unable to delete company. Associated data must be cleared first.",
+          "Name not matched": "Name not matched"
+        }
+      },
+      "headings": {
+        "manageLocations": "Manage locations",
+        "manageUsers": "Manage users",
+        "about": "About"
+      }
+    },
+    "sidePanel": {
+      "upperMiddleText": "We lead with hope",
+      "lowerMiddleText": "To transform accounting firm leaders, teams, and systems to achieve exceptional results.",
+      "lowerText": "© 2023 WizeHub. All right reserved."
+    },
+    "sidebar": {
+      "menuItems": {
+        "mainMenu": {
+          "heading": "MAIN MENU",
+          "subMenuItems": {
+            "dashboard": "Dashboard",
+            "userManagement": "User Management",
+            "tenantManagement": "Tenant Management",
+            "productManagement": "Product Management"
+          }
+        },
+        "secondaryMenu": {
+          "heading": "SECONDARY MENU",
+          "subMenuItems": {
+            "masterData": {
+              "heading": "Master Data",
+              "subItems": {
+                "application": "Application",
+                "feeLostReason": "Fee Lost Reason",
+                "teamPosition": "Team Position",
+                "meetingQuestionsAndCategories": "Meeting Questions and Categories",
+                "meetingAgendaAndStatus": "Meeting Agenda and Status"
+              }
+            },
+            "leadDataManagement": {
+              "heading": "Lead Data Management",
+              "subItems": {
+                "leadProgressStages": "Lead Progress Stages",
+                "leadSource": "Lead Source",
+                "leadIndustry": "Lead Industry"
+              }
+            }
+          }
+        }
+      },
+      "logout": "Logout"
+    },
+    "header": {
+      "generalInfo": "General information",
+      "welcomeBack": "Welcome back"
+    },
+    "login": {
+      "heading": "Login",
+      "subHeading": "Please enter the email address & password",
+      "form": {
+        "email": "Email address",
+        "password": "Password",
+        "logIn": "Login",
+        "forgotPassword": "Forgot password?",
+        "errors": {
+          "emailRequired": "Please enter an email address",
+          "passwordRequired": "Please enter a password",
+          "invalidDetails": "Your email address or password is invalid"
+        }
+      }
+    },
+    "twoFactorAuthentication": {
+      "heading": "Enter Secure code",
+      "subHeading": "You must have received a 6 digit secure code on your email address ",
+      "form": {
+        "submitCta": "Verify",
+        "success": "Link sent successfully. Redirecting to Login page",
+        "logIn": "Go Back to Login",
+        "errors": {
+          "invalidDetails": "Your email address is invalid"
+        }
+      }
+    },
+    "forgotPassword": {
+      "heading": "Reset password",
+      "subHeading": "We will send a password reset link to your email address",
+      "form": {
+        "submitCta": "Send Instructions",
+        "success": "Link sent successfully. Redirecting to Login page",
+        "logIn": "Go Back to Login",
+        "errors": {
+          "invalidDetails": "Your email address is invalid"
+        }
+      }
+    },
+    "activeTwoFactorAuthentication": {
+      "heading": "Activate Multi Factor Authentication",
+      "subHeading": "Select the below option on which you want to receive an OTP (One-Time Password)",
+      "form": {
+        "submitCta": "Send",
+        "success": "Link sent successfully. Redirecting to Login page",
+        "mobileNumber": "Mobile number",
+        "email": "Email",
+        "emailAddress": "Email address",
+        "errors": {}
+      }
+    },
+    "resetPassword": {
+      "heading": "Change password",
+      "subHeading": "Use 8-16 characters",
+      "form": {
+        "success": "Password changed successfully",
+        "newPassword": "New password",
+        "confirmNewPassword": "Confirm new password",
+        "submitCta": "Update Password",
+        "errors": {
+          "confirmPasswordRequired": "Please enter confirm password",
+          "invalidDetails": "Your reset password link is invalid"
+        }
+      }
+    },
+    "userManagement": {
+      "heading": "User Management",
+      "buttonText": "Add new user",
+      "searchUser": "Search user or email",
+      "dateRange": "Date range (Last loged in)",
+      "status": "Status",
+      "role": "Role",
+      "userProfile": {
+        "heading": "User Profile",
+        "changeUserPassword": "Change user password",
+        "editDetails": "Edit details",
+        "generalInformation": "General information",
+        "deleteThisUser": "Delete this user",
+        "userName": "User name",
+        "emailAddress": "Email address",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "role": "Role",
+        "status": "Status"
+      },
+      "form": {
+        "addUser": "Add new user",
+        "editUser": "Edit user",
+        "emailAddress": "Email address",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "role": "Role",
+        "userStatus": "User status",
+        "cancelButton": "Cancel button",
+        "updateButton": "Update",
+        "addButton": "Add",
+        "generateNewPassword": "Generate new password",
+        "generate": "Generate",
+        "automatically": "Automatically",
+        "manually": "Manually",
+        "enterPassword": "Enter password",
+        "sendpassword": "Send password",
+        "passwordDetails": "Send password detail to the user",
+        "copy": "Copy",
+        "deactivateUser": "Deactivate user",
+        "deactivateUserText": "This user is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the user from the system."
+      }
+    },
+    "customersList": {
+      "heading": "Customers list",
+      "buttonText": "Create new",
+      "form": {
+        "heading": "Create new customer",
+        "buttonText": "Create",
+        "basicDetails": "Basic details",
+        "billingDetails": "Billing details",
+        "customerName": "Customer name",
+        "abn": "ABN",
+        "address": "Address",
+        "businessName": "Business name",
+        "billingEmail": "Billing email",
+        "registeredAddress": "Registered address",
+        "error": {
+          "customerName": "Please enter a customer name",
+          "abn": "Please enter an ABN",
+          "address": "Please enter an address",
+          "businessName": "Please enter a business name",
+          "billingEmail": "Please enter a billing email",
+          "registeredAddress": "Please enter a registered address",
+          "customerNameLength": "Please enter a name shorter than 120 characters"
+        },
+        "success": {
+          "createdSuccessfully": "Customer created successfully"
+        }
+      },
+      "errors": {
+        "serverError": {
+          "error.createCompany.companyWithAbnNAlreadyExist": "Company with ABN already exists",
+          "error.createCompany.companyWithemailAlreadyExist": "Company with email already exists",
+          "error.createCompany.unableToCreateCompany": "Something went wrong! please try again",
+          "error.createCompany.maxLengthExceeded": "Company name exceeds max length",
+          "error.createCompany.companyAlreadyExist": "Company already exists",
+          "error.createCompany.duplicateEntry": "Company with same details already exists",
+          "error.updateCompany.companyNotFound": "Company with details not found",
+          "error.updateCompany.customerAlreadyExistWithGivenData": "Customer already exists with given data"
+        }
+      }
+    },
+    "manageLocations": {
+      "heading": "Manage locations",
+      "buttonText": "Create new",
+      "form": {
+        "heading": "Create new location",
+        "buttonText": "Create",
+        "locationName": "Location name",
+        "address": "Address",
+        "error": {
+          "locationName": "Please enter a location name",
+          "address": "Please enter an address"
+        },
+        "success": "Location created successfully",
+        "edited": "Location edited successfully"
+      },
+      "errors": {
+        "serverError": {
+          "error.createVillage.companyNotFound": "Company not found",
+          "error.createVillage.unableToCreateVillage": "Unable to create location",
+          "error.createVillage.maxLengthExceeded": "Unable to create location due to max length reached",
+          "error.updateVillage.villageNotFound": "Village not found.",
+          "error.updateVillage.unableToUpdateVillage": "Unable to update village, please try again.",
+          "error.updateVillage.maxLengthExceeded": "Unable to update location due to max length reached"
+        }
+      }
+    },
+    "manageUsers": {
+      "heading": "Manage users",
+      "buttonText": "Create new",
+      "form": {
+        "heading": "Create new",
+        "buttonText": "Create",
+        "name": "Name",
+        "emailAddress": "Email address",
+        "editHeading": "Edit admin",
+        "status": "Status",
+        "updateButtonText": "Update",
+        "error": {
+          "name": "Please enter name",
+          "emailAddress": "Please enter an email address"
+        },
+        "created": "Company admin created successfully",
+        "edited": "Company admin edited successfully"
+      },
+      "deleteForm": {
+        "heading": "Delete admin",
+        "subHeading": "This will permanently delete the admin.",
+        "body": "To confirm, please enter the name of the admin.",
+        "buttonText": "Delete admin",
+        "deletedUserText": "Company admin deleted successfully"
+      },
+      "errors": {
+        "serverError": {
+          "error.createCompanyAdmin.companyNotFound": "Company not found.",
+          "error.createCompanyAdmin.userAlreadyExist": "Company admin already exists.",
+          "error.createCompanyAdmin.unableToCreateCompanyAdmin": "Unable to create company admin, please try again.",
+          "error.updateCompanyAdmin.userNotFound": "Company admin not found.",
+          "error.updateCompanyAdmin.unableToUpdateCompanyAdmin": "Company admin coudn't be updated, please try again.",
+          "error.updateCompanyAdmin.emailAlreadyExists": "Company admin with email already exists",
+          "error.updateCompanyAdmin.maxLengthExceeded": "Company admin coudn't be updated due to max length exceeded"
+        }
+      }
+    },
+    "about": {
+      "heading": "General information",
+      "logo": "Company logo",
+      "contactEmail": "Contact email",
+      "status": "Status",
+      "address": "Address",
+      "website": "Website",
+      "billingDetails": "Billing details",
+      "abn": "ABN",
+      "businessName": "Business name",
+      "registeredAddress": "Registered address",
+      "form": {
+        "heading": "Delete company",
+        "subHeading": "This will permanently delete the company. The associated village will get affected.",
+        "body": "To confirm, please enter the name of the company.",
+        "buttonText": "Delete company"
+      },
+      "success": {
+        "deleted": "Company deleted successfully"
+      }
+    },
+    "companyInformation": {
+      "heading": "General information",
+      "general": {
+        "address": "Address",
+        "locationStatus": "Location status",
+        "deleteForm": {
+          "heading": "Delete location",
+          "subHeading": "This will permanently delete the location.",
+          "body": "To confirm, please enter the name of the location.",
+          "buttonText": "Delete location",
+          "success": "Location deleted successfully"
+        },
+        "editForm": {
+          "heading": "Edit location",
+          "buttonText": "Update"
+        }
+      },
+      "theme": {
+        "heading": "Theme",
+        "primaryColor": "Primary color",
+        "secondaryColor": "Secondary color",
+        "buttonColor": "Button color",
+        "buttonText": "Button text"
+      },
+      "locationAdmin": {
+        "heading": "Location admin",
+        "buttonText": "Create new admin",
+        "form": {
+          "createAdmin": "Create new admin",
+          "name": "Name",
+          "emailAddress": "Email address",
+          "userType": "User type",
+          "assignModules": "Assign modules",
+          "editAdmin": "Edit admin",
+          "status": "Status",
+          "createButtonText": "Create",
+          "updateButtonText": "Update",
+          "error": {
+            "name": "Please enter name",
+            "userType": "Please select a user type",
+            "assignModules": "Please select at least one module",
+            "emailAddress": "Please enter an email address"
+          },
+          "edit": "Location admin edited successfully",
+          "created": "Location admin created successfully"
+        },
+        "deleteForm": {
+          "heading": "Delete admin",
+          "subHeading": "This will permanently delete the admin.",
+          "body": "To confirm, please enter the name of the admin.",
+          "buttonText": "Delete admin",
+          "success": "Location admin deleted successfully"
+        },
+        "errors": {
+          "serverError": {
+            "error.createVillageAdmin.villageNotFound": "Village not found",
+            "error.createVillageAdmin.roleNotFound": "Please select correct role",
+            "error.createVillageAdmin.incorrectRoleType": "Please select correct role type.",
+            "error.createVillageAdmin.userAlreadyExist": "User already exists",
+            "error.createVillageAdmin.duplicatedModulesDetected": "Please select different modules",
+            "error.createVillageAdmin.noModulesSelected": "Please select at least one module",
+            "error.createVillageAdmin.modulesNotFound": "Please select a module",
+            "error.createVillageAdmin.someModulesNotFound": "Some moudules not found",
+            "error.createVillageAdmin.unableToCreateVillageAdmins": "Village admin coudn't be created",
+            "error.createVillageAdmin.unableToCreateVillageAdmin": "Village admin not created, please try again.",
+            "error.updateVillageAdmin.villageAdminNotFound": "Village admin not found",
+            "error.updateVillageAdmin.roleNotFound": "Please select correct role",
+            "error.updateVillageAdmin.incorrectRoleType": "Please select correct role type.",
+            "error.updateVillageAdmin.duplicatedModulesDetected": "Please select different modules",
+            "error.updateVillageAdmin.noModulesSelected": "Please select at least one module",
+            "error.updateVillageAdmin.modulesNotFound": "Please select a module",
+            "error.updateVillageAdmin.someModulesNotFound": "Some moudules not found",
+            "error.updateVillageAdmin.unableToUpdateVillageAdmins": "Village admin coudn't be updated",
+            "error.updateVillageAdmin.unableToUpdateVillageAdmin": "Village admin not updated, please try again.",
+            "error.updateVillageAdmin.emailAlreadyExists": "User with email already exists",
+            "error.updateVillageAdmin.maxLengthExceeded": "Admin not updated due to max length exceeded"
+          }
+        }
+      }
+    },
+    "profile": {
+      "heading": "Profile",
+      "form": {
+        "errors": {
+          "nameRequired": "Name is required",
+          "emailRequired": "Email is required",
+          "phoneRequired": "Phone number is required"
+        }
+      },
+      "profileSection": {
+        "name": "Name",
+        "emailAddress": "Email address",
+        "phoneNumber": "Phone number"
+      },
+      "password": {
+        "heading": "Password",
+        "password": "Password",
+        "changePassword": "Change password"
+      },
+      "editForm": {
+        "heading": "Edit information",
+        "buttonText": "Update",
+        "name": "Name",
+        "emailAddress": "Email address",
+        "phoneNumber": "Phone number",
+        "changePhoto": "Change photo",
+        "success": {
+          "updatedSuccessfully": "Profile updated successfully"
+        },
+        "updateError": "Profile update stuck. Retry?",
+        "photoError": "Oops! Something went wrong while uploading your photo."
+      },
+      "changePasswordForm": {
+        "heading": "Change password",
+        "buttonText": "Change",
+        "oldPassword": "Old password",
+        "newPassword": "New password",
+        "confirmNewPassword": "Confirm new password",
+        "success": "Password changed successfully",
+        "required": {
+          "oldPassword": "Old password is required",
+          "password": "New password is required",
+          "confirmPassword": "Confirm password is required",
+          "passwordNotMatched": "Password not matched"
+        },
+        "error": "Password could not be changed"
+      }
+    },
+    "dragDrop": {
+      "heading": "Select a file or drag and drop here",
+      "subHeading": "JPG, PNG file size no more than 10MB",
+      "uploading": "Uploading...",
+      "error": {
+        "fileAlreadyUploaded": "File already uploaded",
+        "maximumFilesAllowed": "Maximum 7 files allowed",
+        "fileSizeError": "Try uploading a file less than 10 MB",
+        "fileTypeError": "Only image files are allowed"
+      }
+    }
+  }
+}

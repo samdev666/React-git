@@ -1,0 +1,12 @@
+{
+  "name": "@wizehub/common",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "esw -w --ext '.tsx' --fix --clear --color"
+  },
+  "dependencies": {
+    "@wizehub/eslint-config": "1.0.0"
+  }
+}

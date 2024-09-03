@@ -1,0 +1,2922 @@
+{
+  "en": {
+    "general": {
+      "change": "Change",
+      "update": "Update",
+      "show": "Show",
+      "edit": "Edit",
+      "view": "View",
+      "setup": "Setup",
+      "noData": "No data found",
+      "comingSoon": "Coming soon",
+      "action": "Action",
+      "showMore": "Show more",
+      "showing": "Rows per page:",
+      "search": "Search...",
+      "reset": "Reset",
+      "add": "Add",
+      "submit": "Submit",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "next": "Next",
+      "finish": "Finish",
+      "previous": "Prev",
+      "validYear": "Please select a year between 1900 and 2100",
+      "validLink": "Please enter a valid link",
+      "errors": {
+        "invalidEmail": "Please enter a valid email address",
+        "serverError": "Something went wrong! please try again",
+        "invalidPassword": "Password should contain atleast 8 characters, one upper case letter, one lower case letter, one number and one special character",
+        "invalidPhone": "Phone number is not valid",
+        "emptyValue": "Please enter a value",
+        "nameToBeDeleted": "Please enter a name to be deleted",
+        "fileSizeError": "Try uploading a file less than 10 MB",
+        "fileTypeError": "Try uploading image file",
+        "invalidABN": "Please enter only alphanumeric characters",
+        "invalidMonth": "Please enter a valid month",
+        "invalidHoursPerWeek": "Please enter valid hours per week",
+        "invalidWeeksPerYear": "Please enter valid weeks per year",
+        "invalidDaysInAnYear": "Please enter valid days in an year",
+        "invalidYear": "Please enter a valid year"
+      },
+      "error": {
+        "serverError": {
+          "error.deleteVillageAdmin.deleteAssociatedData": "Unable to delete village. Associated data must be cleared first",
+          "error.deleteCompany.deleteAssociatedData": "Unable to delete company. Associated data must be cleared first",
+          "error.deleteCompany.companyNotFound": "Company not found",
+          "error.deleteCompany.unableToDeleteCompany": "Unable to delete company.",
+          "error.deleteVillage.villageNotFound": "Village not found",
+          "error.deleteVillage.deleteAssociatedData": "Unable to delete village. Associated data must be cleared first",
+          "error.deleteVillage.unableToDeleteVillage": "Unable to delete village, please try again.",
+          "error.deleteVillageAdmin.villageNotFound": "Unable to delete village admin. Associated data must be cleared first.",
+          "error.deleteVillageAdmin.villageAdminNotFound": "Village admin not found.",
+          "error.deleteVillageAdmin.unableToDeleteVillageAdmins": "Unable to delete village admins.",
+          "error.deleteVillageAdmin.unableToDeleteVillageAdmin": "Unable to delete village admin.",
+          "error.deleteCompanyAdmin.companyNotFound": "Unable to delete company admin due to company not found.",
+          "error.deleteCompanyAdmin.userNotFound": "Unable to delete company admin due to user not found.",
+          "error.deleteCompanyAdmin.unableToDeleteCompanyAdmin": "Unable to delete company admin, please try again.",
+          "error.deleteCompanyAdmin.deleteAssociatedData": "Unable to delete company. Associated data must be cleared first.",
+          "Name not matched": "Name not matched",
+          "error.twoFactorAuthentication.failed": "Two factor authentication failed",
+          "error.twoFactorAuthentication.invalidToken": "Invalid OTP, please try again.",
+          "error.invalidOtp": "Please enter an OTP",
+          "error.twoFactorAuthentication.unableToVerify": "Please enter the correct OTP",
+          "error.profile.invalidOldPassword": "Please enter valid old password",
+          "error.account.unableToDelete": "Unable to delete account, please try again",
+          "error.deleteUser.dataAssociated": "Account couldn’t be deleted due to its association with linked data.",
+          "error.tenant.unableToDetach": "Account couldn’t be deleted due to its association with linked data.",
+          "error.divisionTeamEmployee.dataAssociated": "Division employee already has data associated",
+          "error.divisionTeamEmployee.unableToRemove": "Unable to remove division employee, please try again",
+          "error.team.unableToDelete": "Team already has data associated",
+          "error.team.dataAssociated": "Team already has data associated",
+          "error.team.tenantAccessDenied": "Team access denied",
+          "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+          "error.missionVisionValue.tenantAccessDenied": "Tenant access denied",
+          "error.missionVisionValue.unableToDelete": "Unable to delete MVV"
+        }
+      },
+      "headings": {
+        "manageLocations": "Manage locations",
+        "manageUsers": "Manage users",
+        "about": "About"
+      }
+    },
+    "sidePanel": {
+      "upperMiddleText": "We lead with hope",
+      "lowerMiddleText": "To transform accounting firm leaders, teams, and systems to achieve exceptional results.",
+      "lowerText": "© 2023 WizeHub. All right reserved."
+    },
+    "sidebar": {
+      "menuItems": {
+        "dashboard": "DASHBOARD",
+        "discovery": "DISCOVERY",
+        "plan": "PLAN",
+        "execute": "EXECUTE",
+        "measure": "MEASURE",
+        "crm": "CRM",
+        "settings": "SETTINGS",
+        "supportCenter": "SUPPORT CENTER",
+        "knowledgeBase": "KNOWLEDGE BASE",
+        "mainMenuItems": {
+          "overview": "Overview",
+          "wizeBlueprint": "Wize Blueprint",
+          "businessScorecards": "Business Scorecards",
+          "firmProfile": "Firm Profile",
+          "objectives": "Objectives",
+          "growthPlan": "Growth Plan",
+          "wizeMAndA": "Mergers & Acquisitions",
+          "budgetAndCapacity": "Budget & Capacity",
+          "taskManagement": "Task Management",
+          "delegationAndScheduling": "Delegation & Scheduling",
+          "meeting": "Meeting",
+          "policiesAndProcedures": "Policies and Procedures",
+          "financialOverview": "Financial Overview",
+          "netPromoterScore": "Net Promoter Score",
+          "fab5": "FAB5",
+          "prospectAndClientLifecycle": "Prospect & Client Lifecycle",
+          "leadManagement": "Lead Management",
+          "clientPortfolio": "Client Portfolio",
+          "marketingResults": "Marketing Results",
+          "leadCalculator": "Lead Calculator",
+          "clientNPS": "Client NPS",
+          "bookkeepingQuote": "Bookkeeping Quote",
+          "accountManagement": "Account Management",
+          "systemPreferences": "System Preferences",
+          "helpDesk": "Help Desk",
+          "contactAndFeedback": "Contact & Feedback",
+          "tutorialsAndGuides": "Tutorials & Guides",
+          "subMenuItems": {
+            "firmDetails": "Firm Details",
+            "missionVisionValues": "Mission, Vision, Values",
+            "people": "People",
+            "teamStructure": "Team Structure",
+            "teamNPS": "Team NPS",
+            "organizationChart": "Organisation Chart",
+            "idealIncome": "Ideal Income",
+            "idealLifestyle": "Ideal Lifestyle",
+            "potentialAcquisitions": "Potential Acquisitions",
+            "businessBrokers": "Business Brokers",
+            "riskAssessment": "Risk Assessment",
+            "borrowingCalculator": "Borrowing Calculator",
+            "fees": "Fees",
+            "ebitda": "EBITDA",
+            "lockups": "Lockups",
+            "feesWonAndLost": "Fees Won and Lost",
+            "launchPadSetup": "Launch Pad Apps",
+            "practiceLeadProgressSetup": "Lead Status",
+            "feeLostReasonSetup": "Reasons for Fees Lost",
+            "meetingMasterSetup": "Meeting Agendas",
+            "leadSourceSetup": "Lead Sources",
+            "leadIndustrySetup": "Client Industries",
+            "meetingCategory": "Meeting category",
+            "taskStatus": "Task Status",
+            "teamPositions": "Team Member Roles",
+            "team": "Team",
+            "client": "Client"
+          }
+        }
+      },
+      "logout": "Logout"
+    },
+    "header": {
+      "generalInfo": "General information",
+      "welcomeBack": "Welcome back"
+    },
+    "signup": {
+      "heading": "Let's get started!",
+      "subHeading": "Please enter your details and we will set you up in no time.",
+      "form": {
+        "firstName": "First name",
+        "lastName": "Last name",
+        "businessName": "Business trading name",
+        "financialYear": "First month of your financial year",
+        "abn": "ABN",
+        "mobileNumber": "Mobile number",
+        "email": "Email",
+        "country": "Country",
+        "city": "City",
+        "password": "Password",
+        "confirmPassword": "Confirm password",
+        "agree": "I agree to the",
+        "termsAndConditions": " Terms & Conditions ",
+        "and": "and the",
+        "privacyPolicy": " Privacy Policy",
+        "buttonText": "Create my account",
+        "alreadyHaveAccount": "Already have an account? ",
+        "login": "Login",
+        "fileUpload": {
+          "heading": "Your Identity is important to us.",
+          "subHeading": "Please provide a logo for your firm in any of the format given below.",
+          "uploadButton": "Upload",
+          "skipStep": "Skip the step",
+          "success": {
+            "uploaded": "File uploaded successfully"
+          },
+          "error": {
+            "unauthorizedTenant": "Tenant is unauthorized",
+            "invalidToken": "error.authToken.invalidToken"
+          }
+        },
+        "successPage": {
+          "heading": "Success!",
+          "subHeading": "Thank you for sharing the fundamental details about your organisation.",
+          "successButton": "Continue your journey with Wizehub"
+        },
+        "success": {
+          "created": "Tenant registered successfully"
+        },
+        "errors": {
+          "firstNameRequired": "Please enter first name",
+          "lastNameRequired": "Please enter last name",
+          "emailRequired": "Please enter an email",
+          "countryRequired": "Please select a country",
+          "businessNameRequired": "Please enter business trading name",
+          "financialYearRequired": "Please enter first month of your financial year",
+          "cityRequired": "Please enter a city",
+          "passwordRequired": "Please enter a password",
+          "confirmPasswordRequired": "Please enter confirm password",
+          "confirmPasswordMatchRequired": "Confirm password should match with the password",
+          "termsAndConditionsRequired": "Please agree to terms and conditions",
+          "serverError": {
+            "error.createUser.duplicateUser": "A user with the provided email already exists",
+            "error.tenant.duplicate": "Business with provided trading name already exists",
+            "error.tenant.unableToCreate": "Please enter valid details",
+            "error.createUser.unableToCreate": "Please enter valid details"
+          }
+        }
+      }
+    },
+    "login": {
+      "heading": "Login",
+      "subHeading": "Please enter your email address and password",
+      "form": {
+        "email": "Email address",
+        "password": "Password",
+        "logIn": "Login",
+        "forgotPassword": "Forgot password?",
+        "noAccount": "Don't have an account? ",
+        "createAccount": "Create an account",
+        "errors": {
+          "emailRequired": "Please enter an email address",
+          "passwordRequired": "Please enter a password",
+          "invalidDetails": "Your email address or password is invalid",
+          "serverError": {
+            "error.login.invalidCredentials": "Please enter valid credentials",
+            "error.user.inactiveUser": "Please enter valid credentials"
+          }
+        }
+      }
+    },
+    "noAccess": {
+      "heading": "Access Denied",
+      "subHeading": "You do not have permission to access this workspace. Please contact the admin for further details."
+    },
+    "tenantGroup": {
+      "heading": "Welcome Back!",
+      "subHeading": "Choose a workspace below to get back to working with your team.",
+      "form": {
+        "groupName": "Group name",
+        "tenantName": "Tenant name",
+        "btnText": "Continue",
+        "errors": {
+          "groupNameRequired": "Please select a group",
+          "tenantNameRequired": "Please select a tenant"
+        }
+      }
+    },
+    "twoFactorAuthentication": {
+      "heading": "Enter Secure code",
+      "subHeading": "You must have received a 6 digit secure code on your ",
+      "mobile": "mobile number ",
+      "email": "email address ",
+      "form": {
+        "submitCta": "Verify",
+        "success": "Link sent successfully. Redirecting to Login page",
+        "logIn": "Go back to Login",
+        "errors": {
+          "invalidDetails": "Your email address is invalid",
+          "enterOtp": "Please enter correct OTP."
+        }
+      }
+    },
+    "forgotPassword": {
+      "heading": "Reset password",
+      "subHeading": "Enter your email address and we will send a password reset link.",
+      "form": {
+        "submitCta": "Send link",
+        "success": "Link sent successfully. Redirecting to Login page",
+        "logIn": "Go Back to Login",
+        "errors": {
+          "invalidDetails": "Your email address is invalid"
+        }
+      }
+    },
+    "activeTwoFactorAuthentication": {
+      "heading": "Activate Multi Factor Authentication",
+      "subHeading": "Select the below option on which you want to receive an OTP (One-Time Password)",
+      "form": {
+        "submitCta": "Send",
+        "success": "Link sent successfully. Redirecting to Login page",
+        "mobileNumber": "Mobile number",
+        "email": "Email",
+        "emailAddress": "Email address",
+        "validators": {
+          "email": "Email is required",
+          "phone": "Phone number is required"
+        },
+        "errors": {}
+      }
+    },
+    "resetPassword": {
+      "heading": "Change password",
+      "subHeading": "Use at least 8 characters one uppercase, one lowercase, and one number in your password.",
+      "form": {
+        "success": "Password changed successfully",
+        "newPassword": "New password",
+        "confirmNewPassword": "Confirm new password",
+        "submitCta": "Update Password",
+        "errors": {
+          "passwordRequired": "New password is required",
+          "confirmPasswordRequired": "Confirm password is required",
+          "passwordNotMatched": "Password not matched",
+          "invalidDetails": "Your reset password link is invalid"
+        }
+      }
+    },
+    "profile": {
+      "heading": "My Profile",
+      "editButton": "Edit details",
+      "generalInformation": {
+        "heading": "General information",
+        "name": "Name",
+        "role": "Role",
+        "emailAddress": "Email address",
+        "phoneNumber": "Phone number",
+        "password": "Password",
+        "changePassword": "Change password",
+        "multiFactorAuthentication": "Multi Factor Authentication",
+        "activeChip": "Active",
+        "updateChange": "Update/Change",
+        "setupMFA": "Setup MFA",
+        "disableMFA": "Disable MFA",
+        "enableMFA": "Enable MFA",
+        "photo": "Photo"
+      },
+      "form": {
+        "errors": {
+          "firstNameRequired": "First name is required",
+          "lastNameRequired": "Last name is required",
+          "emailRequired": "Email is required",
+          "phoneRequired": "Phone number is required",
+          "serverErrors": {
+            "error.twoFactorAuthentication.unableToUpdateWithSameSenderDetails": "Please provide an alternate email address or mobile number to modify the existing MFA method"
+          }
+        }
+      },
+      "profileSection": {
+        "name": "Name",
+        "emailAddress": "Email address",
+        "phoneNumber": "Phone number"
+      },
+      "password": {
+        "heading": "Password",
+        "password": "Password",
+        "changePassword": "Change password"
+      },
+      "editForm": {
+        "heading": "Edit information",
+        "buttonText": "Update",
+        "name": "Name",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "emailAddress": "Email address",
+        "phoneNumber": "Phone number",
+        "changePhoto": "Change photo",
+        "profilePicture": "Profile picture",
+        "success": {
+          "updatedSuccessfully": "Profile updated successfully"
+        },
+        "updateError": "Profile update stuck. Retry?",
+        "photoError": "Oops! Something went wrong while uploading your photo."
+      },
+      "updateMultiFactorAuthentication": {
+        "heading": "Update/Change Multi Factor Authentication",
+        "enableHeading": "Enable Multi Factor Authentication",
+        "note": "Select the below option on which you want to receive an OTP (One-Time Password)",
+        "mobileNumber": "Mobile number",
+        "email": "Email",
+        "emailAddress": "Email address"
+      },
+      "updateVerifyCode": {
+        "heading": "Enter Secure code",
+        "note": "For updating the method you would need to provide secure codes received on both old and new devices.",
+        "deviceNote": "You must have received a 6 digit secure code on your ",
+        "success": "Two FA changed successfully",
+        "mobile": "mobile number ",
+        "email": "email address ",
+        "error": {
+          "serverError": {
+            "error.twoFactorAuthentication.unableToVerify": "Please enter the correct OTP in any of the fields above, as it may be incorrect.",
+            "error.invalidOtp": "Please enter an OTP"
+          }
+        }
+      },
+      "disableMFAForm": {
+        "heading": "Disable Multi Factor Authentication",
+        "note": "Multi factor authentication will be deactivated for your account. Disabling multi factor authentication will make your account less secure.",
+        "cancel": "Cancel",
+        "disableMFA": "Disable MFA"
+      },
+      "enableMFAForm": {
+        "heading": "Enable Multi Factor Authentication",
+        "note": "Multi factor authentication will be enabled for your account. Enabling multi factor authentication will make your account more secure.",
+        "cancel": "Cancel",
+        "enableMFA": "Enable MFA"
+      },
+      "verifySecureCode": {
+        "heading": "Enter Secure code",
+        "note": "You must have received a 6 digit secure code on your ",
+        "verify": "Verify",
+        "cancel": "Cancel",
+        "success": "Verification successful",
+        "mobile": "mobile number ",
+        "email": "email address "
+      },
+      "recoveryCode": {
+        "heading": "Recovery codes",
+        "note": "You need to store the recovery code in a safe place before activating multi factor authentication for your account",
+        "cautionNote": "If you lose access to your device you can deactivate two factor authentication using the following recovery codes.",
+        "download": "Download",
+        "copy": "Copy",
+        "finishSetupButton": "Finish setup",
+        "savedCheckBox": "I have saved my recovery codes",
+        "success": "Two FA setup completed successfully"
+      },
+      "changePasswordForm": {
+        "heading": "Change password",
+        "buttonText": "Change",
+        "oldPassword": "Old password",
+        "newPassword": "New password",
+        "confirmNewPassword": "Confirm new password",
+        "success": "Password changed successfully",
+        "required": {
+          "oldPassword": "Old password is required",
+          "password": "New password is required",
+          "confirmPassword": "Confirm password is required",
+          "passwordNotMatched": "Password not matched"
+        },
+        "error": "Password could not be changed"
+      }
+    },
+    "onBoarding": {
+      "trial": {
+        "accountHeading": "Your account is now active with a 15 day trial.",
+        "accountSubHeading": "You will have access to all our features to give you the best experience. It’s just that you are missing out on connecting with our best of the best coaches.",
+        "welcomeText": "While the WizeHub is preparing to welcome you onboard, we have a plan. Care to read?",
+        "heading1": "Your 15 day trial Begins.",
+        "subHeading1": "Access Everything. Or if needed talk to our Experts.",
+        "heading2": "Complete WizeGap.",
+        "subHeading2": "A 10 minutes questionnaire that can show you the bigger picture.",
+        "heading3": "The WizeWay",
+        "subHeading3": "Introduction to the Blueprint Developed over a decade to put your efforts at right place.",
+        "heading4": "Disover, Plan, Execute, Measure.",
+        "subHeading4": "Discover your business, Your Firm, Plan your Team & Growth, Execute & Delegate.",
+        "doYouKnow": "Do You Know?",
+        "chartHeading": "10x",
+        "chartSubHeading": "Higher success rate is the benchmark when firms use this tool with a coach.",
+        "appointmentBtn": "Book An Appointement Now",
+        "accountReady": "Your Account is Ready.",
+        "beginBtn": "Click here to begin"
+      },
+      "freedomScorecardSteps": {
+        "heading": "The 6 Steps of Freedom Scorecard",
+        "subHeading": "There is no real excellence in all the world which can be separated from right living ",
+        "meetingAgenda": "Meeting Agenda",
+        "discoverHeading": "Discover if you are at the place you want to be.",
+        "executeHeading": "Execute your plan using the Wize way.",
+        "planHeading": "Plan a course to get where you want to go.",
+        "measureHeading": "Measure the outcomes of your actions."
+      },
+      "heading": "Growth Start Here",
+      "subHeading": "A few minutes can help us understand your situation better",
+      "phaseHeading1": "Discover",
+      "phaseSubHeading1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "phaseHeading2": "Plan",
+      "phaseHeading3": "Execute",
+      "phaseHeading4": "Measure",
+      "phaseHeading5": "Take charge",
+      "btnText": "Let's see where you stand today"
+    },
+    "settings": {
+      "systemPreferences": {
+        "launchPadSetup": {
+          "heading": "Launch Pad Apps",
+          "button": "Create new application",
+          "search": "Search",
+          "status": "Status",
+          "table": {
+            "sno": "S.No.",
+            "name": "Name",
+            "status": "Status"
+          },
+          "detail": {
+            "heading": "Launch Pad Apps Detail",
+            "button": "Edit details",
+            "generalInformation": "General information",
+            "name": "Name",
+            "icon": "Icon",
+            "status": "Status",
+            "link": "Link",
+            "deleteButton": "Delete application"
+          },
+          "form": {
+            "addHeading": "Add new applications",
+            "editHeading": "Edit application details",
+            "deactivateApplicationHeading": "Deactivate application",
+            "deactivateApplicationNote": "This application is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the application from the system.",
+            "name": "Name",
+            "link": "Link",
+            "icon": "Icon",
+            "uploadIcon": "Upload icon",
+            "status": "Status",
+            "cancel": "Cancel",
+            "create": "Create",
+            "update": "Update",
+            "validators": {
+              "name": "Name is required",
+              "link": "Link is required"
+            },
+            "success": {
+              "updated": "Launch pad app updated successfully",
+              "created": "Launch pad app created successfully",
+              "deleted": "Launch pad app deactivated successfully"
+            },
+            "errors": {
+              "updateImageUplodError": "Content is updated but the image is not due to some error",
+              "createImageUploadError": "Application created but the image is not uploaded due to some error",
+              "fileSizeUploadError": "Try uploading image less than 1 MB"
+            },
+            "error": {
+              "serverError": {
+                "error.launchPad.unableToCreate": "Unable to create launch pad app",
+                "error.launchPad.duplicate": "Launch pad app already exists",
+                "error.launchPad.tenantAccessDenied": "Launch pad app access denied",
+                "error.launchPad.unableToUpdate": "Unable to update launch pad app",
+                "error.launchPad.unableToDelete": "Unable to delete launch pad app",
+                "error.launchPad.linkedEntity": "Launch pad app is linked to another entity",
+                "error.launchPad.unableToRemove": "Unable to remove launch pad app",
+                "error.launchPad.duplicateLaunchPad": "Launch pad app already exists"
+              }
+            }
+          }
+        },
+        "practiceLeadStageSetup": {
+          "heading": "Lead Status",
+          "search": "Search",
+          "status": "Status",
+          "leadStage": {
+            "heading": "Lead stage",
+            "button": "Create new stage",
+            "table": {
+              "sno": "S.No.",
+              "name": "Name",
+              "status": "Status"
+            },
+            "form": {
+              "name": "Name",
+              "status": "Status",
+              "cancelButton": "Cancel",
+              "createButton": "Create",
+              "updateButton": "Update",
+              "addHeading": "Add new stage",
+              "editHeading": "Edit stage details",
+              "deactivateHeading": "Deactivate stage",
+              "note": "This stage is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the stage from the system.",
+              "validators": {
+                "name": "Name is required"
+              },
+              "success": {
+                "created": "Lead status created successfully",
+                "updated": "Lead status updated successfully",
+                "deleted": "Lead status deactivated successfully"
+              },
+              "error": {
+                "serverError": {
+                  "error.leadProgressStatus.unableToCreate": "Unable to create lead progress status",
+                  "error.leadProgressStatus.duplicate": "Lead progress status already exists",
+                  "error.leadProgressStatus.tenantAccessDenied": "Lead progress status access denied",
+                  "error.leadProgressStatus.unableToUpdate": "Unable to update lead progress status",
+                  "error.subscription.noActiveSubscription": "No active subscription for current tenant"
+                }
+              }
+            }
+          },
+          "stageStatus": {
+            "heading": "Stage status",
+            "button": "Create new status",
+            "table": {
+              "sno": "S.No.",
+              "name": "Name",
+              "stage": "Stage",
+              "status": "Status"
+            },
+            "form": {
+              "name": "Name",
+              "status": "Status",
+              "stage": "Stage",
+              "cancelButton": "Cancel",
+              "createButton": "Create",
+              "updateButton": "Update",
+              "addHeading": "Add new status",
+              "editHeading": "Edit status",
+              "deactivateHeading": "Deactivate status",
+              "note": "This status is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the status from the system.",
+              "validators": {
+                "name": "Name is required",
+                "stage": "Stage is required"
+              },
+              "success": {
+                "created": "Stage status created successfully",
+                "updated": "Stage status updated successfully",
+                "deleted": "Stage status deactivated successfully"
+              },
+              "error": {
+                "serverError": {
+                  "error.leadProgressStage.unableToCreate": "Unable to create lead progress stage",
+                  "error.leadProgress.duplicate": "Lead progress stage already exists",
+                  "error.leadProgressStage.tenantAccessDenied": "Lead progress stage access denied",
+                  "error.leadProgressStage.unableToUpdate": "Unable to update lead progress stage",
+                  "error.subscription.noActiveSubscription": "No active subscription for current tenant"
+                }
+              }
+            }
+          }
+        },
+        "feeLostReasonSetup": {
+          "heading": "Reasons for Fees Lost",
+          "button": "Create new reason",
+          "search": "Search",
+          "status": "Status",
+          "table": {
+            "sno": "S.No.",
+            "title": "Title",
+            "status": "Status"
+          },
+          "form": {
+            "addHeading": "Add new reason",
+            "editHeading": "Edit reason details",
+            "title": "Title",
+            "status": "Status",
+            "cancel": "Cancel",
+            "update": "Update",
+            "create": "Create",
+            "deactivateReason": "Deactivate reason",
+            "note": "This reason is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the reason from the system.",
+            "validators": {
+              "title": "Title is required"
+            },
+            "success": {
+              "created": "Reason for fee lost created successfully",
+              "updated": "Reason for fee lost updated successfully",
+              "deleted": "Reason for fee lost deactivated successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.feeLostReason.unableToCreate": "Unable to create reason for fee lost",
+                "error.feeLostReason.tenantAccessDenied": "Reason for fee lost access denied",
+                "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+                "error.feeLostReason.unableToUpdate": "Unable to update reason for fee lost",
+                "error.feeLostReason.duplicateReason": "Reason for fee lost already exists"
+              }
+            }
+          }
+        },
+        "leadSourceSetup": {
+          "heading": "Lead Sources",
+          "button": "Create new source",
+          "search": "Search",
+          "status": "Status",
+          "table": {
+            "sno": "S.No.",
+            "name": "Name",
+            "status": "Status"
+          },
+          "form": {
+            "addHeading": "Add new source",
+            "editHeading": "Edit source details",
+            "name": "Name",
+            "status": "Status",
+            "cancel": "Cancel",
+            "update": "Update",
+            "create": "Create",
+            "deactivateLeadSource": "Deactivate lead source",
+            "deactivateButton": "Deactivate source",
+            "note": "This source is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the source from the system.",
+            "validators": {
+              "name": "Name is required"
+            },
+            "success": {
+              "created": "Lead source created successfully",
+              "updated": "Lead source updated successfully",
+              "deleted": "Lead source deactivated successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.leadSource.unableToCreate": "Unable to create lead source",
+                "error.leadSource.tenantAccessDenied": "Lead source access denied",
+                "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+                "error.leadSource.unableToUpdate": "Unable to update lead source",
+                "error.leadSource.duplicate": "Lead source already exists"
+              }
+            }
+          }
+        },
+        "leadIndustrySetup": {
+          "heading": "Client Industries",
+          "button": "Create new industry",
+          "search": "Search",
+          "status": "Status",
+          "table": {
+            "sno": "S.No.",
+            "name": "Name",
+            "status": "Status"
+          },
+          "form": {
+            "addHeading": "Add new industry",
+            "editHeading": "Edit industry details",
+            "name": "Name",
+            "status": "Status",
+            "cancel": "Cancel",
+            "update": "Update",
+            "create": "Create",
+            "deactivateLeadIndustry": "Deactivate lead industry",
+            "deactivateButton": "Deactivate industry",
+            "note": "This industry is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the industry from the system.",
+            "validators": {
+              "name": "Name is required"
+            },
+            "success": {
+              "created": "Client industry created successfully",
+              "updated": "Client industry updated successfully",
+              "deleted": "Client industry deactivated successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.leadIndustry.unableToCreate": "Unable to create client industry",
+                "error.leadIndustry.tenantAccessDenied": "Client industry access denied",
+                "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+                "error.leadIndustry.unableToUpdate": "Unable to update client industry",
+                "error.leadIndustry.duplicate": "Client industry already exists"
+              }
+            }
+          }
+        },
+        "meetingMasterSetup": {
+          "heading": "Meeting Agendas",
+          "viewCategory": "View category",
+          "newQuestion": "Create new question",
+          "progressStatus": "Progress status",
+          "newAgenda": "Create new agenda",
+          "questions": {
+            "heading": "Questions",
+            "search": "Search",
+            "division": "Division",
+            "category": "Category",
+            "status": "Status",
+            "table": {
+              "sno": "S.No.",
+              "name": "Name",
+              "status": "Status",
+              "category": "Category",
+              "division": "Division"
+            },
+            "form": {
+              "addHeading": "Add new question",
+              "editHeading": "Edit question details",
+              "category": "Category",
+              "division": "Division",
+              "question": "Question",
+              "status": "Status",
+              "cancel": "Cancel",
+              "update": "Update",
+              "create": "Create",
+              "deactivateQuestion": "Deactivate question",
+              "note": "This question is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the question from the system.",
+              "validators": {
+                "category": "Category is required",
+                "division": "Division is required",
+                "question": "Question is required"
+              },
+              "success": {
+                "created": "Question created successfully",
+                "updated": "Question updated successfully",
+                "deleted": "Question deactivated successfully"
+              },
+              "error": {
+                "serverError": {
+                  "error.meetingQuestion.unableToCreate": "Unable to create meeting question",
+                  "error.meetingQuestion.tenantAccessDenied": "Meeting question access denied",
+                  "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+                  "error.meetingQuestion.unableToUpdate": "Unable to update meeting question",
+                  "error.meetingQuestion.duplicate": "Meeting question already exists"
+                }
+              }
+            },
+            "detailPage": {
+              "heading": "Meeting Questions Detail",
+              "editDetail": "Edit details",
+              "generalInformation": "General information",
+              "category": "Category",
+              "division": "Division",
+              "status": "Status",
+              "question": "Questions",
+              "deleteQuestion": "Delete question"
+            }
+          },
+          "agenda": {
+            "heading": "Agenda",
+            "search": "Search",
+            "division": "Division",
+            "progress": "Progress",
+            "status": "Status",
+            "table": {
+              "sno": "S.No.",
+              "name": "Name",
+              "status": "Status",
+              "project": "Project",
+              "division": "Division"
+            },
+            "form": {
+              "addHeading": "Add new agenda",
+              "editHeading": "Edit agenda details",
+              "agenda": "Agenda",
+              "implementationDetail": "Implementation detail",
+              "divisions": "Divisions",
+              "project": "Project",
+              "guide": "Guide",
+              "name": "Name",
+              "type": "Type",
+              "guideLink": "Guide link",
+              "addMore": "Add more",
+              "status": "Status",
+              "cancel": "Cancel",
+              "update": "Update",
+              "create": "Create",
+              "deactivateAgenda": "Deactivate agenda",
+              "note": "This agenda is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the agenda from the system.",
+              "validators": {
+                "agenda": "Agenda is required",
+                "implementationDetail": "Implementation detail is required",
+                "divisions": "Divisions is required",
+                "name": "Name is required",
+                "type": "Type is required",
+                "guideLink": "Guide link is required",
+                "project": "Project is required"
+              },
+              "success": {
+                "created": "Agenda created successfully",
+                "updated": "Agenda updated successfully",
+                "deleted": "Agenda deactivated successfully"
+              },
+              "error": {
+                "serverError": {
+                  "error.meetingAgenda.unableToCreate": "Unable to create meeting agenda",
+                  "error.meetingAgenda.tenantAccessDenied": "Meeting agenda access denied",
+                  "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+                  "error.meetingAgenda.unableToUpdate": "Unable to update meeting agenda",
+                  "error.meetingAgenda.duplicate": "Meeting agenda already exists"
+                }
+              }
+            },
+            "detailPage": {
+              "heading": "Meeting Agenda Detail",
+              "editDetail": "Edit details",
+              "generalInformation": "General information",
+              "agenda": "Agenda",
+              "division": "Division",
+              "status": "Status",
+              "project": "Project",
+              "implementationDetail": "Implementation detail",
+              "guideVideo": "Guide video",
+              "table": {
+                "sno": "S.No.",
+                "name": "Name",
+                "type": "Type",
+                "guideLink": "Guide link"
+              },
+              "deleteAgenda": "Delete agenda"
+            }
+          },
+          "category": {
+            "heading": "Category",
+            "button": "Create new category",
+            "table": {
+              "sno": "S.No.",
+              "name": "Name",
+              "status": "Status"
+            },
+            "form": {
+              "addHeading": "Add new category",
+              "editHeading": "Edit category details",
+              "name": "Name",
+              "status": "Status",
+              "cancel": "Cancel",
+              "update": "Update",
+              "create": "Create",
+              "deactivateCategory": "Deactivate category",
+              "deactivateButton": "Deactivate category",
+              "note": "TThis category is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the category from the system.",
+              "validators": {
+                "name": "Name is required"
+              },
+              "success": {
+                "created": "Category created successfully",
+                "updated": "Category updated successfully",
+                "deleted": "Category deactivated successfully"
+              },
+              "error": {
+                "serverError": {
+                  "error.meetingQuestionCategory.unableToCreate": "Unable to create question category",
+                  "error.meetingQuestionCategory.tenantAccessDenied": "Question category access denied",
+                  "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+                  "error.meetingQuestionCategory.unableToUpdate": "Unable to update question category",
+                  "error.meetingQuestionCategory.duplicate": "Question already exists",
+                  "error.meetingQuestion.duplicate": "Meeting category already exists"
+                }
+              }
+            }
+          },
+          "progressStatusPage": {
+            "heading": "Progress status",
+            "button": "Add progress status",
+            "table": {
+              "sno": "S.No.",
+              "name": "Name",
+              "status": "Status"
+            },
+            "form": {
+              "addHeading": "Add progress status",
+              "editHeading": "Edit progress status details",
+              "name": "Name",
+              "status": "Status",
+              "cancel": "Cancel",
+              "update": "Update",
+              "create": "Create",
+              "deactivateProgressStatus": "Deactivate progress status",
+              "deactivateButton": "Deactivate status",
+              "note": "This status is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the status from the system.",
+              "success": {
+                "created": "Progress status created successfully",
+                "updated": "Progress status updated successfully",
+                "deleted": "Progress status deactivated successfully"
+              },
+              "validators": {
+                "name": "Name is required"
+              },
+              "error": {
+                "serverError": {
+                  "error.meetingAgendaProgressStatus.unableToCreate": "Unable to create progress status",
+                  "error.meetingAgendaProgressStatus.tenantAccessDenied": "Progress status access denied",
+                  "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+                  "error.meetingAgendaProgressStatus.unableToUpdate": "Unable to update progress status",
+                  "error.meetingAgendaProgressStatus.duplicate": "Progress status already exists",
+                  "error.meetingAgenda.duplicate": "Progress status already exists"
+                }
+              }
+            }
+          }
+        },
+        "teamPositions": {
+          "heading": "Team Member Roles",
+          "button": "Create new role",
+          "search": "Search",
+          "division": "Division",
+          "status": "Status",
+          "table": {
+            "sno": "S.No.",
+            "name": "Name",
+            "positionLevel": "Position Level",
+            "division": "Division",
+            "status": "Status"
+          },
+          "teamPositionDetail": {
+            "heading": "Team Member Roles Detail",
+            "generalInformation": "General information",
+            "editDetails": "Edit details",
+            "name": "Name",
+            "positionLevel": "Position level",
+            "division": "Division",
+            "status": "Status",
+            "description": "Description",
+            "deletePosition": "Delete position"
+          },
+          "form": {
+            "name": "Name",
+            "uniqueIdentifier": "Unique identifier",
+            "positionLevel": "Position level",
+            "division": "Division",
+            "description": "Description",
+            "status": "Status",
+            "addHeading": "Add new role",
+            "editHeading": "Edit role details",
+            "cancel": "Cancel",
+            "update": "Update",
+            "create": "Create",
+            "deactivatePosition": "Deactivate position",
+            "body": "This positions is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the positions from the system.",
+            "validators": {
+              "name": "Name is required",
+              "positionLevel": "Position level is required",
+              "division": "Division is required"
+            },
+            "success": {
+              "created": "Team member role created successfully",
+              "updated": "Team memeber role updated successfully",
+              "deleted": "Team memeber role deleted successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.teamPosition.unableToCreate": "Unable to create team member role",
+                "error.teamPosition.tenantAccessDenied": "Team member role access denied",
+                "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+                "error.teamPosition.unableToUpdate": "Unable to update team member role",
+                "error.teamPosition.duplicateTeam": "Team member role already exists"
+              }
+            }
+          }
+        },
+        "meetingCategory": {
+          "heading": "Meeting Category",
+          "button": "Create new category",
+          "table": {
+            "sno": "S.No.",
+            "name": "Name",
+            "status": "Status"
+          },
+          "form": {
+            "addCategory": "Add new category",
+            "name": "Name",
+            "status": "Status",
+            "cancel": "Cancel",
+            "create": "Create",
+            "deactivateCategory": "Deactivate category",
+            "note": "This category is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the category from the system.",
+            "editCategory": "Edit category details",
+            "update": "Update",
+            "success": {
+              "created": "Meeting category created successfully",
+              "updated": "Meeting category updated successfully",
+              "deleteCategory": "Meeting category deactivated successfully"
+            },
+            "validators": {
+              "name": "Name is required"
+            },
+            "error": {
+              "serverError": {
+                "error.meetingCategory.unableToCreate": "Unable to create meeting category, please try again.",
+                "error.meetingCategory.duplicate": "Meeting category already exists",
+                "error.meetingCategory.unableToUpdate": "Unable to update meeting category, please try again."
+              }
+            }
+          }
+        },
+        "taskStatus": {
+          "heading": "Task Status",
+          "button": "Create new task status",
+          "table": {
+            "sno": "S.No.",
+            "name": "Name",
+            "status": "Status"
+          },
+          "form": {
+            "addTask": "Add new task status",
+            "name": "Name",
+            "status": "Status",
+            "cancel": "Cancel",
+            "create": "Create",
+            "deactivateTaskStatus": "Deactivate task status",
+            "note": "This status is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the status from the system.",
+            "editTaskStatus": "Edit task status details",
+            "update": "Update",
+            "success": {
+              "created": "Task status created successfully",
+              "updated": "Task status updated successfully",
+              "deleteCategory": "Task status deactivated successfully"
+            },
+            "validators": {
+              "name": "Name is required"
+            },
+            "error": {
+              "serverError": {
+                "error.taskStatus.unableToCreate": "Unable to create task status, please try again.",
+                "error.taskStatus.duplicate": "Task status already exists",
+                "error.taskStatus.unableToUpdate": "Unable to update task status, please try again."
+              }
+            }
+          }
+        }
+      },
+      "accountManagement": {
+        "heading": "Account",
+        "button": "Add account",
+        "search": "Search user or email",
+        "dateRange": "Date range (Last logged in)",
+        "status": "Status",
+        "role": "Role",
+        "table": {
+          "sno": "S.No.",
+          "name": "Name",
+          "role": "Role",
+          "status": "Status",
+          "lastLoggedInDate": "Last Logged In Date"
+        },
+        "form": {
+          "addHeading": "Add account",
+          "editHeading": "Edit account",
+          "changePassword": "Change password",
+          "user": "User",
+          "createNew": "Create new",
+          "role": "Role",
+          "userStatus": "User status",
+          "sendLoginCredentials": "Send login credentials",
+          "createPassword": "Create password",
+          "cancel": "Cancel",
+          "create": "Create",
+          "generatePasswordHeading": "Generate new password",
+          "generate": "Generate",
+          "automatically": "Automatically",
+          "manually": "Manually",
+          "enterPassword": "Enter password",
+          "password": "Password",
+          "copy": "Copy",
+          "sendDetail": "Send password detail to the user",
+          "update": "Update",
+          "delete": "Delete account",
+          "note": "Are you sure you want to delete this account?",
+          "deleteButton": "Delete",
+          "copiedNotSuccesful": "Unable to copy",
+          "validators": {
+            "user": "User is required",
+            "role": "Role is required",
+            "password": "Password is required"
+          },
+          "success": {
+            "created": "Account created successfully",
+            "updated": "Account updated successfully",
+            "deleted": "Account deleted successfully",
+            "copied": "Password copied successfully",
+            "password": "Password updated successfully"
+          },
+          "error": {
+            "serverError": {
+              "error.account.unableToCreate": "Unable to create account",
+              "error.createUser.duplicateUser": "Account already exists",
+              "error.account.tenantAccessDenied": "Account access denied",
+              "error.account.unableToUpdate": "Unable to update account",
+              "error.account.unableToDelete": "Unable to delete account",
+              "error.tenant.unableToDetach": "Unable to delete account"
+            }
+          }
+        }
+      }
+    },
+    "wizeGapForms": {
+      "heading": "The WizeGAP",
+      "btnText": "Skip",
+      "steps": {
+        "havingTrouble": "Having trouble?",
+        "contactUs": "Contact us"
+      },
+      "questionnaireModal": {
+        "heading": "WizeGap Questionnaire",
+        "subHeading": "A few minutes can help us understand your situation better",
+        "btnText": "Let's see where you stand today",
+        "skipNow": "Skip for now, submit later.",
+        "supportText": "(Find this link on the overview page to submit later.)"
+      },
+      "formCompletion": {
+        "congratulations": "Congratulations!",
+        "nextSteps": "We are ready for the next steps.",
+        "btnText": "Let's Continue"
+      }
+    },
+    "businessAssessment": {
+      "heading": "Your Current Reality",
+      "idealIncomeCalculation": {
+        "heading1": "Gross fees needed to achieve ideal passive income ($)",
+        "heading2": "Difference between current fees & fees needed ($)",
+        "heading3": "Fees needed per year to achieve ideal passive income",
+        "heading4": "Average growth rate % per year"
+      },
+      "feeHistory": {
+        "heading": "Fee History",
+        "addYear": "Add Year",
+        "labels": {
+          "tradingYear": "Trading year",
+          "annualFee": "Your annual firm's fee or revenue",
+          "growthPercentage": "Growth % per year",
+          "ebitdaReview": "EBITDA review: $",
+          "ebitdaPercent": "EBITDA percent"
+        },
+        "forms": {
+          "heading": "Add year",
+          "annualFeesRevenue": "Annual Fees or Revenue ($)",
+          "ebitdaDollar": "EBITDA ($)",
+          "ebitdaPercent": "EBITDA Percent",
+          "validators": {
+            "tradingYearRequired": "Please select trading year",
+            "annualFeesRequired": "Please enter annual fees or revenue",
+            "ebitdaRequired": "Please enter an EBTIDA",
+            "ebitdaLessThanAnnualFee": "Please enter the value of EBITDA less than annual fees",
+            "validTradingYear": "Please select a trading year between 1900 and 2100"
+          },
+          "success": {
+            "created": "Fees history added successfully"
+          },
+          "error": {
+            "serverError": {
+              "error.feeHistory.duplicateFeeHistory": "Fee history already exists"
+            }
+          }
+        }
+      },
+      "formModal": {
+        "title": "Now discover where you are now and where you need to get to...",
+        "btnText": "Discovery Dashboard"
+      },
+      "discoveryDashboard": {
+        "heading": "Discovery Dashboard",
+        "pdfBtn": "Print to PDF",
+        "editBusinessAssessment": "Edit Business Assessment",
+        "lifeScorecard": {
+          "heading": "Life Scorecard",
+          "labels": {
+            "careerBusiness": "Career/Business",
+            "moneyWealth": "Money/Wealth",
+            "healthFitness": "Health/Fitness",
+            "friendsFamily": "Friends/Family",
+            "romancePartner": "Romance/Partner",
+            "comfortZoneGrowth": "Comfort Zone/Growth",
+            "funRecreation": "Fun/Recreation",
+            "materialSurroundings": "Material/Surroundings"
+          }
+        },
+        "freedomScorecard": {
+          "heading": "Freedom Scorecard",
+          "labels": {
+            "accounts": "Accounts",
+            "administration": "Administration",
+            "quality": "Quality",
+            "production": "Production",
+            "sales": "Sales",
+            "marketing": "Marketing",
+            "board": "Board",
+            "overallStatusReliance": "Overall status of reliance"
+          }
+        },
+        "businessScorecard": {
+          "heading": "Business Scorecard",
+          "labels": {
+            "runBusiness": "Your business runs without you",
+            "workOnBusiness": "Working ON your business",
+            "earningPassive": "Earning Passive",
+            "livingIdealLifestyle": "You are living your ideal lifestyle",
+            "completingMeetingRythms": "You are completing all meeting rhythms",
+            "marketingPlan": "Executing a strategic marketing plan",
+            "trackClientNPS": "You are tracking client NPS",
+            "trackTeamNPS": "You are tracking team NPS"
+          }
+        },
+        "feeHistoryGrowth": "Your Fee History and Growth Over Time",
+        "ebitdaHistoryGrowth": "Your EBITDA History and Growth Over Time",
+        "noFeeHistory": "Please update your fee history to know your growth",
+        "scoresPotential": "Your scores to find out your full potential!"
+      }
+    },
+    "firmProfile": {
+      "firmDetails": {
+        "heading": "Firm Details",
+        "button": "Edit details",
+        "generalInformation": "General information",
+        "firmName": "Firm name",
+        "noImage": "No image",
+        "abn": "ABN",
+        "country": "Country",
+        "firmIdentifier": "Firm identifier",
+        "currency": "Currency",
+        "financialYearStartMonth": "Financial year start month",
+        "group": "Group",
+        "status": "Status",
+        "streetAddress": "Street address",
+        "city": "City",
+        "postalCode": "Postal code",
+        "displayDateFormat": "Display date format",
+        "form": {
+          "editHeading": "Edit firm details",
+          "logo": "Logo",
+          "changeLogo": "Change logo",
+          "name": "Name",
+          "abn": "ABN",
+          "country": "Country",
+          "streetAddress": "Street address",
+          "city": "City",
+          "postalCode": "Postal code",
+          "cancel": "Cancel",
+          "firmIdentifier": "Firm identifier",
+          "update": "Update",
+          "success": {
+            "updated": "Firm details updated successfully"
+          },
+          "error": {
+            "photoError": "Oops! Something went wrong while uploading your photo.",
+            "serverError": {
+              "error.logo.unableToUpload": "Error while uploading, please try again",
+              "error.logo.unableToRemove": "Error while removing, please try again",
+              "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+              "error.updateTenantProfile.postalCode.invalid": "Postal code is invalid",
+              "error.tenant.duplicate": "Tenant with an existing trading name/:abn  already exists",
+              "error.tenant.unableUpdate": "Please enter valid details"
+            }
+          },
+          "validators": {
+            "name": "Name is required",
+            "postalCode": "Postal code is required",
+            "postalCodeNumber": "Postal code should be a number",
+            "country": "Country is required",
+            "streetAddress": "Street address is required",
+            "abn": "ABN is required",
+            "city": "City is required"
+          }
+        }
+      },
+      "missionVisionValues": {
+        "heading": "Mission, Vision, Values",
+        "button": "Add new",
+        "active": "Active",
+        "all": "All",
+        "templateName": "Template name",
+        "editButton": "Edit",
+        "mission": "Mission",
+        "vision": "Vision",
+        "values": "Values",
+        "image": "Image",
+        "addNewMvv": "Add new MVV",
+        "addNewMvvText": "Add your firm's Mission, Vision & Values",
+        "addNewMissionVisionValue": {
+          "heading": "Add new mission, vision, values",
+          "editHeading": "Edit mission, vision, values",
+          "generalInformation": "General information",
+          "templateName": "Template name",
+          "mission": "Mission",
+          "vision": "Vision",
+          "values": "Values",
+          "image": "Image",
+          "imageUpload": "Image upload",
+          "selectFile": "Select a file or drag and drop here",
+          "fileSizeText": "JPG, PNG file size no more than 10MB",
+          "status": "Status",
+          "selectFileButton": "Select file",
+          "discalimerText": "Only one mission, vision and values can be active at a time. Activating this will deactivate the current one.",
+          "cancel": "Cancel",
+          "add": "Add",
+          "update": "Update",
+          "validators": {
+            "templateName": "Template is required",
+            "mission": "Mission is required",
+            "vision": "Vision is required",
+            "value": "Values is required"
+          },
+          "success": {
+            "created": "Mission, vision, values created successfully",
+            "updated": "Mission, vision, values updated successfully"
+          },
+          "error": {
+            "serverError": {
+              "error.missionVisionValues.duplicate": "Mission, vision, values already exists",
+              "error.missionVisionValue.tenantAccessDenied": "Tenant access denied",
+              "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+              "error.missionVisionValue.unableToCreate": "Unable to create mission, vision, values. Please try again",
+              "error.missionVisionValue.duplicate": "Mission, vision, values already exists"
+            }
+          }
+        },
+        "deleteForm": {
+          "heading": "Delete MVV",
+          "note": "Are you sure you want to delete this MVV?",
+          "cancel": "Cancel",
+          "delete": "Delete",
+          "success": "MVV deleted successfully"
+        }
+      },
+      "people": {
+        "heading": "People",
+        "addPeople": "Add people",
+        "search": "Search",
+        "role": "Role",
+        "status": "Status",
+        "table": {
+          "sno": "S.No.",
+          "name": "Name",
+          "role": "Role",
+          "phoneNumber": "Phone Number",
+          "status": "Status"
+        },
+        "form": {
+          "addPeople": "Add people",
+          "editPeople": "Edit people",
+          "generalInformation": "Staff Profile",
+          "firstName": "First name",
+          "lastName": "Last name",
+          "email": "Email",
+          "phone": "Phone",
+          "dob": "DOB",
+          "role": "Role",
+          "extension": "Extension",
+          "linkedin": "LinkedIn URL",
+          "potentialRole": "Potential role (Internal use)",
+          "division": "Division",
+          "type": "Type",
+          "name": "Name",
+          "profilePicture": "Profile picture",
+          "uploadHere": "Upload here",
+          "status": "Status",
+          "strengths": "Strengths",
+          "weaknesses": "Weaknesses",
+          "bio": "Bio",
+          "contactInformation": "Contact Details",
+          "personalContactInformation": "Personal contact information",
+          "emergencyContactInformation": "Emergency contact information",
+          "relationship": "Relationship",
+          "workInformation": "Employment & Human Resources",
+          "commencementDate": "Commencement date",
+          "preCommencementExperience": "Pre-commencement experience",
+          "location": "Location",
+          "employmentType": "Employment type",
+          "hoursPerWeek": "Hours per week",
+          "inputWeeksPerYear": "Input weeks per year",
+          "inputAnnualLeave": "Input annual leave",
+          "inputSickLeave": "Input sick leave",
+          "inputPublicHolidays": "Input public holidays",
+          "salary": "Salary ($)",
+          "chargeRate": "Charge rate",
+          "productivity": "Productivity (%)",
+          "dateTerminated": "Date terminated",
+          "hireAgain": "Hire again",
+          "billableWorkingWeeks": "Billable working weeks",
+          "totalHours": "Total hours",
+          "productiveHours": "Productive hours",
+          "costPerHour": "Cost per hour ($)",
+          "multipleLabourCost": "Multiple labour cost",
+          "feesCapacity": "Fees capacity ($)",
+          "grossProfitkpi": "Gross profit KPI (%)",
+          "cancel": "Cancel",
+          "add": "Add",
+          "update": "Update",
+          "deactivatePeople": "Deactivate people",
+          "deactivate": "Deactivate",
+          "note": "This person is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the people from the system.",
+          "validators": {
+            "firstName": "First name is required",
+            "lastName": "Last name is required",
+            "email": "Email is required",
+            "phone": "Phone number is required",
+            "dob": "Date of birth is required",
+            "role": "Role is required",
+            "division": "Division is required",
+            "commencementDate": "Commencement date is required",
+            "employmentType": "Employment type is required",
+            "hoursPerWeek": "Hours per week is required",
+            "inputWeeksPerYear": "Input weeks per year is required",
+            "inputAnnualLeave": "Input annual leave is required",
+            "inputSickLeave": "Input sick leave is required",
+            "inputPublicHolidays": "Input public holidays is required",
+            "salary": "Salary is required",
+            "chargeRate": "Charge rate is required",
+            "productivity": "Productivity is required",
+            "salaryValidator": "Salary should be a number",
+            "chargeRateValidator": "Charge rate should be a number",
+            "productivityValidator": "Productivity should be a number",
+            "passedDate": "Please enter a valid date",
+            "personalEmail": "Please enter personal email",
+            "personalPhone": "Please enter personal phone number",
+            "emergencyName": "Please enter emergency contact name",
+            "emergencyEmail": "Please enter emergency contact email",
+            "emergencyPhone": "Please enter emergency phone number",
+            "preCommencementExperience": "Please enter a value greater than 0 and less than 100",
+            "linkedInUrl": "Please enter a valid LinkedIn URL"
+          },
+          "success": {
+            "created": "People created successfully",
+            "updated": "People updated successfully",
+            "deleted": "People deactivated successfully",
+            "updateImageSuccess": "Image updated successfully",
+            "createImageSuccess": "Image attached successfully",
+            "employeeDeleteSuccess": "Employee record isn't created due to missing sensitive details."
+          },
+          "errors": {
+            "updateImageUplodError": "Content is updated but the image is not due to some error",
+            "createImageUploadError": "People created but the image is not uploaded due to some error"
+          },
+          "error": {
+            "serverError": {
+              "error.peopleGeneral.unableToCreate": "Unable to create people",
+              "error.peopleGeneral.tenantAccessDenied": "People access denied",
+              "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+              "error.peopleGeneral.unableToUpdate": "Unable to update people",
+              "error.peopleGeneral.duplicateTeam": "People already exists",
+              "error.employeeBasic.type.invalid": "Employee type is invalid",
+              "error.employeeBasic.duplicateEmployee": "Employee already exists.",
+              "general": "Something went wrong. Please try again",
+              "error.employee.unableToDelete": "Unable to delete person, please try again.",
+              "error.employee.linked": "Unable to delete due to employee linked to some entity",
+              "error.employeeBasic.unableToCreate": "Unable to create employee basic details",
+              "error.employeeBasic.employeeAttachedWithTeam": "Employee is already linked to the production team"
+            }
+          }
+        },
+        "peopleDetail": {
+          "heading": "People",
+          "deleteButton": "Delete",
+          "editDetails": "Edit details",
+          "generalInformation": "General information",
+          "staffProfile": "Staff Profile",
+          "firstName": "First name",
+          "lastName": "Last name",
+          "email": "Email address",
+          "phone": "Phone",
+          "dob": "Date of birth",
+          "extension": "Extension",
+          "linkedin": "LinkedIn URL",
+          "role": "Role",
+          "potentialRole": "Potential role (Internal use)",
+          "division": "Division",
+          "type": "Type",
+          "name": "Name",
+          "status": "Status",
+          "strengths": "Strengths",
+          "weaknesses": "Weaknesses",
+          "bio": "Bio",
+          "contactInformation": "Contact information",
+          "contactDetails": "Contact Details",
+          "personalContactInformation": "Personal contact information",
+          "secondaryContactInformation": "Secondary contact information",
+          "emergencyContactInformation": "Emergency contact information",
+          "employmentAndHumanResources": "Employment & Human Resources",
+          "relationship": "Relationship",
+          "commencementDate": "Commencement date",
+          "preCommencementExperience": "Pre-commencement experience",
+          "location": "Location",
+          "employmentType": "Employment type",
+          "hoursPerWeek": "Hours per week",
+          "inputWeeksPerYear": "Input weeks per year",
+          "inputAnnualLeave": "Input annual leave",
+          "inputSickLeave": "Input sick leave",
+          "inputPublicHolidays": "Input public holidays",
+          "salary": "Salary ($)",
+          "chargeRate": "Charge rate ($)",
+          "productivity": "Productivity (%)",
+          "dateTerminated": "Date terminated",
+          "hireAgain": "Hire again",
+          "billableWorkingWeeks": "Billable working weeks",
+          "totalHours": "Total hours",
+          "productiveHours": "Productive hours",
+          "costPerHour": "Cost per hour ($)",
+          "multipleLabourCost": "Multiple labour cost",
+          "feeCapacity": "Fees capacity ($)",
+          "grossProfitKpi": "Gross profit KPI (%)"
+        }
+      },
+      "teamStructure": {
+        "heading": "Team Structure",
+        "addTeamMember": "Add team member",
+        "noDivisionFound": "No division found",
+        "noTeamMemberFound": "No team member found",
+        "addTeam": "Add team",
+        "type": "Type",
+        "status": "Status",
+        "allocatePeople": "Allocate people",
+        "teamChart": "Team Chart",
+        "teamMembers": "Team Members",
+        "noTeamFound": "No team found",
+        "deleteTeam": "Delete team",
+        "editTeam": "Edit team",
+        "form": {
+          "heading": "Add team member",
+          "addNewTeamHeading": "Add new team",
+          "name": "Name",
+          "productionTeam": "Production team",
+          "removeHeading": "Remove team member",
+          "note": "Are you sure you want to remove this team member?",
+          "remove": "Remove",
+          "selectTeam": "Select team",
+          "cancel": "Cancel",
+          "create": "Create",
+          "update": "Update",
+          "deleteTeam": "Delete team",
+          "deleteNote": "Are you sure you want to delete this team?",
+          "validators": {
+            "name": "Please select an employee",
+            "team": "Team is required"
+          },
+          "success": {
+            "created": "Team employee created successfully",
+            "deleted": "Team employee deleted successfully",
+            "teamCreated": "Team created successfully",
+            "teamUpdated": "Team updated successfully",
+            "teamDeleted": "Team deleted successfully"
+          },
+          "table": {
+            "sno": "S.No.",
+            "name": "Name",
+            "age": "Age",
+            "role": "Role",
+            "type": "Type",
+            "status": "Status",
+            "division": "Division"
+          },
+          "error": {
+            "serverError": {
+              "error.divisionEmployee.unableToCreate": "Unable to create division employee",
+              "error.divisionEmployee.tenantAccessDenied": "Division employee access denied",
+              "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+              "error.divisionEmployee.duplicateDivisionEmployee": "Division employee already exists",
+              "error.divisionEmployee.alreadyLinked": "Employee is already linked to another division",
+              "error.teamEmployee.unableToCreate": "Team employee already exists",
+              "error.team.alreadyExists": "Team already exists",
+              "error.teamEmployee.alreadyLinked": "Employee is already linked to another division"
+            }
+          }
+        }
+      },
+      "organisation": {
+        "heading": "Organisation Chart"
+      }
+    },
+    "plan": {
+      "budgetAndCapacity": {
+        "heading": "Budget & Capacity",
+        "plan": "Plan",
+        "firmWideResults": "Firm wide results",
+        "editDetails": "Edit details",
+        "feeBudget": "Fee Budget",
+        "teamCapacity": "Team Capacity",
+        "teamBudget": "Team Budget",
+        "summaryResults": "Summary Results",
+        "nofeeBudget": "No fee budget found",
+        "noTeamCapacity": "No team capacity found",
+        "addTeam": {
+          "heading": "Add team",
+          "editTeam": "Edit team",
+          "selectTeam": "Select team",
+          "consumerPriceIndex": "Consumer Price Index: %",
+          "actualFeesFromPreviousYear": "Fees Billed in Previous Financial Year: ",
+          "taxAndAccountingFees": "Tax & Accounting Fees: $",
+          "taxAndAccountingDivision": "Tax Accounting Division ($)",
+          "bookkeepingDivision": "Bookkeeping Division ($)",
+          "bookkeepingFees": "Bookkeeping Fees: $",
+          "total": "Total ($)",
+          "feelLost": "Fees Lost: previousYear Fees that will not be invoiced in the nextYear Forecasted Year",
+          "feeLostTooltipText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non erat velit. Nulla vel arcu ac massa pretium fringilla sed vitae est. Suspendisse elit ipsum, consectetur a nibh at, vulputate pellentesque risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+          "forNextYear": "For next year:",
+          "subtotal": "Subtotal",
+          "subtotalTax": "Subtotal Tax and Accounting Division: $",
+          "subtotalBookkeepingFees": "Subtotal Bookkeeping Division: $",
+          "feeIncreased": "CPI Fee Increase",
+          "feeIncreasedCPI": "CPI Fee Increase - Tax and Accounting Division: $",
+          "feeIncreasedBookkeeping": "CPI Fee Increase - Bookkeeping Division: $",
+          "feesWon": "Fees Won: New fees that you will invoice in the currentYear Financial Year",
+          "newFeesWon": "NEW Fees to be WON in the currentYear Financial Year",
+          "growthRate": "Growth Rate - Tax Accounting Division: %",
+          "growthRateBookkeeping": "Growth Rate - Bookkeeping Division: %",
+          "forecastYear": "Forecast Year - Growth KPI: %",
+          "feesToBeWON": "Fees to be WON - Tax Accounting Divsion: $",
+          "feesToBeWONBookkeeping": "Fees to be WON - Bookkeeping Division: $",
+          "forecastYearGrowth": "Forecast Year - Growth Percent: %",
+          "overheadAllocation": "Overhead Allocation: $",
+          "businessOverhead": "Business Overheads",
+          "administrationSalaries": "Administration Salaries",
+          "totalPercentage": "Total",
+          "finalisedBudget": "Finalised Budget for Financial Year ",
+          "bookkeepingAndBAS": "Bookkeeping & BAS: $",
+          "teamWages": "Team Wages ($)",
+          "scmGrossProfit": "Team Gross Profit ($)",
+          "forecast": "Forecast EBITDA ($)",
+          "cancel": "Cancel",
+          "add": "Add",
+          "update": "Update",
+          "validators": {
+            "selectTeam": "Team is required",
+            "cpi": "CPI is required",
+            "taxAndAccounting": "Tax and account fees is required",
+            "bookkeepingFees": "Bookkeeping fees is required",
+            "bookkeepingAndBASFees": "Bookkeeping and BAS fees is required",
+            "newFeesToBeWon": "Fees is required",
+            "growthRateTaxAndAccouting": "Tax and accounting growth rate is required",
+            "growthRateBookkeeping": "Bookkeeping growth rate is required",
+            "forecastYearGrowthKPI": "Forecast year growth KPI is required",
+            "businessOverhead": "Business overheads is required",
+            "administrationSalaries": "Administration salaries is required",
+            "cpiNumber": "CPI should be a number",
+            "taxAndAccountingNumber": "Tax and account fees should be a number",
+            "bookkeepingFeesNumber": "Bookkeeping fees should be a number",
+            "bookkeepingAndBASFeesNumber": "Bookkeeping and BAS fees should be a number",
+            "newFeesToBeWonNumber": "Fees should be a number",
+            "growthRateTaxAndAccoutingNumber": "Tax and accounting growth rate should be a number",
+            "growthRateBookkeepingNumber": "Bookkeeping growth rate should be a number",
+            "forecastYearGrowthKPINumber": "Forecast year growth KPI should be a number",
+            "businessOverheadNumber": "Business overheads should be a number",
+            "administrationSalariesNumber": "Administration salaries should be a number",
+            "maxNumber": "Please enter a valid number"
+          },
+          "success": {
+            "created": "Team created successfully",
+            "updated": "Team updated successfully"
+          },
+          "error": {
+            "serverError": {
+              "error.teamBudget.unableToCreate": "Unable to create team budget",
+              "error.teamBudget.tenantAccessDenied": "Team budget access denied",
+              "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+              "error.teamBudget.unableToUpdate": "Unable to update team budget",
+              "error.teamBudget.duplicateTeam": "Team budget already exists",
+              "error.budget.taxAndAccountingFee.invalid": "Invalid budget."
+            }
+          }
+        },
+        "planForm": {
+          "heading": "Budget & Capacity Plan",
+          "noPlan": "Please create a plan to continue",
+          "addPlan": "Add plan",
+          "table": {
+            "sno": "S.No.",
+            "planName": "Plan Name",
+            "planYear": "Plan Year"
+          },
+          "remove": "Remove",
+          "selectPlanYear": "Select Plan Year",
+          "addPlanName": "Add a brief plan name",
+          "active": "Active",
+          "validators": {
+            "planName": "Plan name is required",
+            "planYear": "Plan year is required"
+          },
+          "success": {
+            "created": "Plan created successfully",
+            "updated": "Plan updated successfully"
+          },
+          "error": {
+            "serverError": {
+              "error.plan.unableToCreate": "Unable to create plan",
+              "error.plan.tenantAccessDenied": "Plan access denied",
+              "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+              "error.plan.unableToUpdate": "Unable to update plan",
+              "error.plan.duplicatePlan": "Plan already exists"
+            }
+          }
+        },
+        "feeBudgetTab": {
+          "team": "Team",
+          "inflation": "Inflation",
+          "cpiNote": "CPI stands for Consumer Price Index, a measure that tracks the average change in prices paid by consumers for goods and services over time, indicating inflation trends in an economy.",
+          "teamSeniorClientManager": "Team Senior Client Manager",
+          "cpi": "CPI",
+          "feesBilledInPreviousFinancialYear": "Fees Billed in Previous Financial Year: ",
+          "taxAccountingDivision": "Tax Accounting Division ($)",
+          "bookkeepingDivision": "Bookkeeping Division ($)",
+          "total": "Total ($)",
+          "nextYear": "For next year",
+          "feesLost": "Fees Lost: :firstYear Fees that will not be invoiced in the :secondYear Forecasted Year",
+          "subTotal": "Subtotal",
+          "subTotalTaxAccountingDivision": "Subtotal Tax Accounting Division ($)",
+          "subTotalbookkeepingDivision": "Subtotal Bookkeeping Division ($)",
+          "cpiFreeIncrease": "CPI Fee Increase",
+          "cpiFreeIncreaseTaxDivision": "CPI Fee Increase - Tax Accounting Division ($)",
+          "cpiBookkeepingDivision": "CPI Fee Increase - Bookkeeping Division ($)",
+          "feesWon": "Fees Won: New fees that you will invoice in the :currentYear Financial Year",
+          "newFeesWon": "NEW Fees to be WON in the :currentYear Financial Year",
+          "growthRate": "Growth Rate - Tax Accounting Division (%)",
+          "growthRatebookkeepingDivision": "Growth Rate - Bookkeeping Division (%)",
+          "forecastYear": "Forecast Year - Growth KPI (%)",
+          "feesToBeWON": "Fees to be Won - Tax Accounting Division ($)",
+          "feesToBeWONBookkeepingDivision": "Fees to be Won - Bookkeeping Division ($)",
+          "forecastYearGrowth": "Forecast Year - Growth Percent (%)",
+          "overheadAllocation": "Overhead Allocation ($)",
+          "administrationSalaries": "Administration Salaries ($)",
+          "businessOverhead": "Business Overheads ($)",
+          "financialBudget": "Finalised Budget for :currentYear Financial Year",
+          "taxAccountingDivisions": "Tax Accounting Divisions ($)",
+          "teamWages": "Team Wages ($)",
+          "teamGrossProfit": "Team Gross Profit ($)",
+          "forecastebidta": "Forecast EBITDA ($)"
+        },
+        "teamCapacityTab": {
+          "heading": "Totals : (Accounting Team + Bookkeeping Team)",
+          "total": "Totals: ",
+          "totalSalary": "Total Salary",
+          "totalHours": "Total Hours",
+          "productiveHours": "Productive Hours",
+          "capacityFees": "Capacity Fees",
+          "totalBudget": "Total Budget",
+          "accountingTeam": "Accounting Team",
+          "bookkeepingTeam": "Bookkeeping Team",
+          "allocateBudget": "Allocate Budgets",
+          "addTeamMember": "Add team member",
+          "success": {
+            "allocated": "Team budget allocated successfully"
+          },
+          "error": {
+            "serverError": {
+              "error.divisionTeam.budgetMismatch": "Division team budget mismatch",
+              "error.divisionTeam.unableToAllocate": "Unable to allocate budget",
+              "error.divisionTeam.notFound": "Division team not found"
+            }
+          },
+          "table": {
+            "sno": "S.No.",
+            "name": "Name",
+            "role": "Role",
+            "type": "Type",
+            "capacityFees": "Capacity Fees",
+            "estAnnualBudget": "Est. Annual Budget",
+            "experience": "Experience",
+            "location": "Location",
+            "salary": "Salary",
+            "workingWeeks": "Working Weeks",
+            "hoursPerWeek": "Hours Per Week",
+            "totalHours": "Total Hours",
+            "productivity": "Productivity (%)",
+            "productiveHours": "Productive Hours",
+            "costPerHour": "Cost Per Hour",
+            "chargeRate": "Charge Rate"
+          },
+          "teamMemberForm": {
+            "heading": "Add team member",
+            "name": "Name",
+            "productivity": "Productivity: %",
+            "chargeRate": "Charge Rate: $",
+            "roleType": "Role Type",
+            "experienceYears": "Experience Years",
+            "location": "Location",
+            "salary": "Salary: $",
+            "inputWeeksPerYear": "Input weeks per year",
+            "inputAnnualLeave": "Input annual leave",
+            "inputSickLeave": "Input sick leave",
+            "inputPublicHolidays": "Input public holidays",
+            "workingWeek": "Working week",
+            "totalHours": "Total Hours",
+            "productiveHours": "Productive Hours",
+            "hoursPerWeek": "Hours per week",
+            "costPerHour": "Cost per hour: $",
+            "capacityFees": "Capacity Fees: $",
+            "grossProfit": "Gross Profit KPI: %",
+            "multipleLabourCost": "Multiple labour cost",
+            "cancel": "Cancel",
+            "add": "Add",
+            "deleteEmployee": "Delete Employee",
+            "note": "Are you sure you want to delete this employee?",
+            "infoText": "Please remember to re-distribute the team budget for data consistency",
+            "validators": {
+              "name": "Name is required",
+              "productivity": "Productivity is required",
+              "chargeRate": "Charge rate is required"
+            },
+            "success": {
+              "created": "Division employee created successfully",
+              "updated": "Division employee updated successfully",
+              "deleted": "Division employee removed successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.divisionTeamEmployee.unableToCreate": "Unable to create division employee",
+                "error.divisionTeamEmployee.tenantAccessDenied": "Division employee access denied",
+                "error.subscription.noActiveSubscription": "No active subscription for current tenant",
+                "error.divisionTeamEmployee.unableToUpdate": "Unable to update division employee",
+                "error.divisionTeamEmployee.duplicateEmployee": "Division employee already exists"
+              }
+            }
+          }
+        },
+        "teamBudgetTab": {
+          "teamMember": "Team Member",
+          "distributeBudget": "Distribute budget",
+          "total": "Total",
+          "edit": "Edit",
+          "distributeBudgetForm": {
+            "heading": "Distribute budget",
+            "distributeBy": "Distribute by:",
+            "lastYearActualFees": "Seasonal",
+            "linear": "Linear",
+            "lastYearActualFeesText": "",
+            "linearText": "",
+            "cancel": "Cancel",
+            "text": "It's important to have Accountants doing Accountants work and not bookkeeping work, otherwise the firm will pay for the most expensive person doing the lowest valued tasks. Expensive team members should be doing the high valued work. So hire the right team members to get your resource mix right.",
+            "distribute": "Distribute",
+            "success": "Budget distributed successfully",
+            "error": {
+              "serverError": {
+                "error.teamBudget.unableToUpdate": "Unable to update team budget, please try again",
+                "error.teamBudget.budgetOverflow": "Current budget doesn't matches total budget",
+                "error.teamBudget.allocateAnnualBudget": "Unable to allocate annual budget, please try again",
+                "error.teamBudget.employeeNotFound": "No matching employee found, please try again"
+              }
+            }
+          },
+          "editTeamBudgetForm": {
+            "heading": "Edit Team Budget",
+            "totalBudget": "Total Budget ($)",
+            "currentBudget": "Current Budget Distributed ($)",
+            "cancel": "Cancel",
+            "update": "Update",
+            "success": "Team budget updated successfully",
+            "error": {
+              "serverError": {
+                "error.teamBudget.unableToUpdate": "Unable to update team budget, please try again",
+                "error.teamBudget.budgetOverflow": "Current budget doesn't matches total budget"
+              }
+            }
+          }
+        },
+        "summaryResultsTab": {
+          "teamCapacityAnalysis": "Team Capacity Analysis",
+          "accountingTeam": "Accounting Team ($)",
+          "bookkeepingTeam": "Bookkeeping Team ($)",
+          "combined": "Combined ($)",
+          "spareCapacity": "Spare Capacity",
+          "forecastActualFees": "Forecast Actual Fees",
+          "capacityFees": "Capacity Fees",
+          "underCapacity": "Over (Under) Capacity",
+          "over": "Over (",
+          "under": "Under) ",
+          "capacity": "Capacity",
+          "aim": "Aim for around 10% - 15% Spare Capacity",
+          "grossProfitAnalysis": "Gross Profit Analysis:Forecasted Fees Versus Capacity Fees",
+          "totalTeamCapacity": "Total Team Capacity ($)",
+          "grossProfitForecastFees": "Gross Profit at Forecasted Fees",
+          "grossProfitCapacityFees": "Gross Profit at Capacity Fees",
+          "grossProfit": "Gross Profit ($)",
+          "percentage": "(%)",
+          "kpi": "KPI",
+          "review": "(Please review)",
+          "goodText": "(Good - meets KPI)",
+          "exceedsText": "(Exceeds - exceeds KPI)"
+        },
+        "firmWideCapacity": {
+          "heading": "Firm Wide Capacity Planner Results",
+          "forecastTradingStatement": "Forecast Trading Statement",
+          "forecastCostofGoldSold": "Forecasted Cost of Goods Sold ($)",
+          "forecastFeesGrossProfit": "Forecasted Fees Gross Profit ($)",
+          "note": "Good your KPI will be reached.",
+          "capacityResultsFirmWide": "Capacity Results Firm Wide",
+          "totalFirmCapacity": "Total Firm Capacity in Fees ($)",
+          "forecastFeesNextYear": "Forecasted Fees next year ($)",
+          "overOrSpareCapacity": "Over or Spare Capacity ($)",
+          "resourceMix": "Resource Mix",
+          "resourceMixNote": "It's important to have Accountants doing Accountants work and not bookkeeping work, otherwise the firm will pay for the most expensive person doing the lowest valued tasks. Expensive team members should be doing the high valued work. So hire the right team members to get your resource mix right.",
+          "pleaseNote": "Please Note",
+          "pleaseNoteText": "You may have enough team members or too many based on the forecasted fees, but have 'some' spare capacity. This can be good as it will allow you to take on more work."
+        }
+      }
+    },
+    "execute": {
+      "policiesAndProcedures": {
+        "heading": "Policies & Procedures",
+        "button": "Add policy",
+        "showArchived": "Show Archived",
+        "recentlyAdded": "Recently Added",
+        "policyName": "Policy Name",
+        "author": "Author/Creator",
+        "dateUpdated": "Date Updated",
+        "newText": "New",
+        "details": {
+          "heading": "Policy Detail",
+          "generalInformation": "General Information",
+          "policyNumber": "Policy Number",
+          "dateUpdated": "Date Updated",
+          "division": "Division",
+          "searchableKeywords": "Searchable Keywords",
+          "description": "Description",
+          "links": "Links",
+          "video": "Video",
+          "document": "Document",
+          "resourceName": "Resource Name",
+          "resourceLink": "Resource Link",
+          "videoDisplayName": "Video Display Name",
+          "videoLink": "Video Link",
+          "videoType": "Video Type"
+        },
+        "form": {
+          "addPolicyHeading": "Add Policy",
+          "editPolicyHeading": "Edit Policy",
+          "policyInformation": "Policy Information",
+          "deletePolicy": "Delete policy",
+          "deactivatePolicy": "Deactivate Policy",
+          "deactivatePolicyNote": "Are you sure you want to remove this policy?",
+          "labels": {
+            "policy": "Policy",
+            "documents": "Documents"
+          },
+          "validators": {
+            "policyNameRequired": "Policy name is required",
+            "policyNumberRequired": "Policy number is required",
+            "divisionRequired": "Division is required",
+            "authorRequired": "Author/Creator is required",
+            "statusRequired": "Status is required",
+            "keywordsRequired": "Searchable keywords is required",
+            "resourceNameRequired": "Resource name is required",
+            "resourceLinkRequired": "Resource link is required",
+            "videoLinkRequired": "Video link is required",
+            "videoDisplayNameRequired": "Video display name is required",
+            "videoTypeRequired": "Video type is required"
+          },
+          "success": {
+            "created": "Policy created successfully",
+            "updated": "Policy updated successfully",
+            "deactivated": "Policy deactivated successfully"
+          },
+          "error": {
+            "serverError": {}
+          }
+        }
+      }
+    },
+    "measure": {
+      "financialOverview": {
+        "lockup": {
+          "heading": "Lockup",
+          "success": "Lockup team resynced successfully",
+          "plan": "Plan",
+          "error": {
+            "serverError": {
+              "error.lockupTeam.unableToResync": "Unable to resync, please try again",
+              "error.lockupTeam.lockupNotFound": "Lockup team not found"
+            }
+          },
+          "noLockupTeamFound": "No lockup team found",
+          "table": {
+            "sno": "S.No.",
+            "team": "Team",
+            "wip": "WIP (Month) $",
+            "debtors": "Debtors (Month) $"
+          },
+          "editForm": {
+            "wipHeading": "WIP (Month) $",
+            "month": "Month",
+            "total": "Total ($)",
+            "cancel": "Cancel",
+            "udpate": "Update",
+            "success": {
+              "wipUpdated": "WIP updated successfully",
+              "debtorsUpdated": "Debtors updated successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.lockup.unableToUpdate": "Unable to update lockup, please try again later."
+              }
+            }
+          },
+          "planForm": {
+            "heading": "Plan",
+            "addPlan": "Add plan",
+            "remove": "Remove",
+            "active": "Active",
+            "financialYear": "Financial year",
+            "capacityPlan": "Capacity plan",
+            "title": "Title",
+            "cancel": "Cancel",
+            "add": "Add",
+            "update": "Update",
+            "table": {
+              "sno": "S.No.",
+              "financialYear": "Financial Year",
+              "capacityYear": "Capacity Year"
+            },
+            "validators": {
+              "financialYear": "Financial year is required",
+              "capacityPlan": "Capacity plan is required",
+              "planName": "Plan name is required"
+            },
+            "success": {
+              "created": "Lockup plan created successfully",
+              "updated": "Lockup plan updated successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.currentFee.lockupNotFound": "Lockup not found",
+                "error.lockup.duplicateLockup": "Lockup already exists",
+                "error.lockup.unableToCreate": "Unable to create lockup, please try again later.",
+                "error.lockup.planNotFound": "Selected plan not found"
+              }
+            }
+          }
+        },
+        "fees": {
+          "heading": "Fees",
+          "plan": "Plan",
+          "resyncTeam": "Resync team",
+          "feeBreakdown": "Fee Breakdown",
+          "varianceAnalysis": "Variance Analysis",
+          "editDetails": "Edit details",
+          "currentYearActuals": "Current Year's Actuals",
+          "lastYearActuals": "Last Year's Actuals",
+          "total": "Total ($)",
+          "noTeamFound": "No team found, please create a team to continue",
+          "billing": "Billing",
+          "budget": "Budget",
+          "resyncTeamForm": {
+            "success": "Team resynced successfully",
+            "error": {
+              "error.feeTeam.unableToResync": "Unable to resync team, please try again",
+              "error.feeTeam.feeNotFound": "Fee team not found"
+            }
+          },
+          "editDetailForm": {
+            "total": "Total ($)",
+            "totalPercentage": "Total Percentage (%)",
+            "cancel": "Cancel",
+            "update": "Update",
+            "success": {
+              "currentFeeUpdate": "Current fee updated successfully",
+              "previousFeeUpdate": "Previous fee updated successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.fee.unableToUpdate": "Unable to update fee, please try again later.",
+                "error.fee.teamFeeNotFound": "Team fee not found"
+              }
+            }
+          },
+          "planForm": {
+            "heading": "Fees Plan",
+            "addPlan": "Add plan",
+            "remove": "Remove",
+            "active": "Active",
+            "forecastYear": "Forecast year",
+            "capacityPlan": "Capacity plan",
+            "title": "Title",
+            "planName": "Plan name/identifier",
+            "cancel": "Cancel",
+            "add": "Add",
+            "update": "Update",
+            "table": {
+              "sno": "S.No.",
+              "forecastYear": "Forecast Year",
+              "capacityYear": "Capacity Year",
+              "planName": "Plan Name"
+            },
+            "validators": {
+              "forecastYear": "Forecast year is required",
+              "capacityPlan": "Capacity plan is required",
+              "planName": "Plan name is required"
+            },
+            "success": {
+              "created": "Fee plan created successfully",
+              "updated": "Fee plan updated successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.currentFee.lockupNotFound": "Fee plan not found",
+                "error.fee.duplicateFee": "Fee plan already exists",
+                "error.currentFee.unableToCreate": "Unable to create fee plan, please try again later.",
+                "error.fee.planNotFound": "Fee plan not found",
+                "error.ebita.feePlanNotFound": "Fee plan not found"
+              }
+            }
+          }
+        },
+        "ebidta": {
+          "heading": "EBITDA",
+          "noPlanHeading": "No Plan found, please create a plan to continue",
+          "plan": "Plan",
+          "distributeBonus": "Distribute bonus",
+          "resyncTeam": "Resync team",
+          "overheadAllocation": "Overhead allocation",
+          "backToEbitda": "Back to EBITDA",
+          "bonusSystemNotes": "Bonus System Notes",
+          "ebitdaThreshold": "EBITDA Threshold",
+          "period": "Period : ",
+          "title": "Title",
+          "firmWide": "Firm Wide",
+          "revenue": "Revenue",
+          "costOfGoodsSold": "Cost of Goods Sold",
+          "salaries": "Salaries",
+          "directExpenses": "Direct Expenses",
+          "otherDirectExpenses": "Other Direct Expenses",
+          "totalCostOfGoodsSold": "Total Cost of Goods Sold",
+          "salariesPercentage": "Salaries (%) KPI",
+          "grossProfit": "Gross Profit",
+          "ytdOverhead": "YTD Overheads",
+          "ebitda": "EBITDA",
+          "writeOns": "Write Ons(Offs) $",
+          "writeUp": "Write Up(Offs)",
+          "success": "Team resynced successfully",
+          "ebitdaCalculation": "EBITDA Calculation",
+          "firmsOverall": "Firms Overall EBITDA",
+          "ebitdaPerTeam": "EBITDA per Team",
+          "calculate": "Calculate",
+          "ebitdaAchieved": "EBITDA Achieved (%)",
+          "achieved": "Achieved",
+          "unachieved": "Unachieved",
+          "bonusSystem": "Bonus System",
+          "distributeBonusAmongTeam": "Distribution of Bonus Amongst Team",
+          "seniorClientManager": "Senior Client Manager (%)",
+          "productionTeam": "Production Team (%)",
+          "adminTeam": "Admin Team (%)",
+          "distribute": "Distribute",
+          "ebitdaPercentage": "EBITDA (%)",
+          "ebitdaIfAbove": "EBITDA if Above",
+          "teamEbitda": "Team EBITDA",
+          "teamEbitdaAtHurdle": "EBITDA at Hurdle",
+          "bonusPoolAvailable": "Bonus Pool Available",
+          "totalBonusAchieved": "Bonus Achieved",
+          "teamBonusAchieved": "Bonus Achieved",
+          "distribution": "Distribution",
+          "seniorClient": "Senior Client Manager",
+          "production": "Production Team",
+          "admin": "Admin Team",
+          "noTeamFound": "No team data available in this EBITDA plan",
+          "addTeam": " Please add a team or resync the teams to continue",
+          "ebitdaThresholdSuccess": "EBITDA threshold calculated successfully",
+          "error": {
+            "serverError": {
+              "error.ebitaTeam.unableToResync": "Unable to resync ebitda, please try again later",
+              "error.ebitaTeam.ebitaNotFound": "Team EBITDA not found",
+              "error.bonus.unableToUpdate": "Bonus update not updated",
+              "error.bonusManagement.teamEbitaThresholdPercentage.invalid": "Ebitda threshold percentage is invalid"
+            }
+          },
+          "editForm": {
+            "edit": "Edit Team Details",
+            "salaries": "Salaries",
+            "directExpenses": "Direct Expenses",
+            "otherDirectExpenses": "Other Direct Expenses",
+            "ownerSalary": "Owner's Salaries",
+            "withdrawlSalaries": "Withdrawl Salaries",
+            "marketSalaries": "Market Salaries",
+            "cancel": "Cancel",
+            "update": "Update",
+            "success": {
+              "updated": "Team COGS updated successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.cogs.unableToUpdate": "Unable to update COGS, please try again later",
+                "error.overheads.teamEbitaNotFound": "Team EBITDA not found"
+              }
+            }
+          },
+          "bonusSystemNotesForm": {
+            "heading": "Bonus System Notes",
+            "proceduralNotes": "Procedural Note on the Final Amount of the Bonus Allocation Split Between the Senior Client Manager and the Team of the Senior Client Manager. The final bonus amount will be split between the Senior Client manager and the team of the Senior Client Manager.",
+            "guidelines": "The Following Guidelines will be used:",
+            "quantitaive": "Quantitative",
+            "firstPoint": "Productivity Target being achieved.",
+            "secondPoint": "Write Offs and Write ups.",
+            "thirdPoint": "The net billings of the individual team member.",
+            "fourthPoint": "If an Assistant Client Manager, the ability to bring new clients to the firm and new fees.",
+            "qualitative": "Qualitative",
+            "first": "The contrition and reflection of the team member walking and living the values and standards of the firm.",
+            "second": "Reflection of a positive attitude.",
+            "third": "Reflection of helping and guiding and supporting others.",
+            "fourth": "Reflection of walking the Non - Triangles Policy.",
+            "finalNote": "The Client Manager will make a recommendation to the Board of Directors and CEO and the Board & CEO will have the final say in the determination of the bonus split."
+          },
+          "planForm": {
+            "heading": "EBITDA Plan",
+            "plan": "Plan",
+            "addPlan": "Add plan",
+            "table": {
+              "sno": "S.No.",
+              "planName": "Plan Name",
+              "financialYear": "Financial year",
+              "capacityPlan": "Capacity Plan"
+            },
+            "validators": {
+              "financialYear": "Financial year is required",
+              "capacityPlan": "Capacity plan is required",
+              "planName": "Plan name is required"
+            },
+            "financialYear": "Financial year",
+            "capacityPlan": "Capacity Plan",
+            "title": "Title",
+            "active": "Active",
+            "cancel": "Cancel",
+            "add": "Add",
+            "update": "Update",
+            "success": {
+              "created": "Ebitda plan created successfully",
+              "updated": "Ebitda plan updated successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.ebita.planNotFound": "EBITDA plan not found",
+                "error.ebita.unableToCreate": "Unable to create EBITDA plan, please try again later.",
+                "error.ebita.duplicateEbita": "EBITDA plan already exists",
+                "error.feePlan.unableToUpdate": "Unable to update EBITDA plan, please try again later.",
+                "error.ebita.feePlanNotFound": "Please create a fee plan first to proceed"
+              }
+            }
+          },
+          "overheadAllocationForm": {
+            "overheadAllocationMethod": "Overhead allocation method",
+            "yearToDateOverhead": "Overheads",
+            "team": "Team",
+            "overheadAllocation": "Overhead allocation",
+            "editOverheadAllocation": "Edit Overhead allocation",
+            "cancel": "Cancel",
+            "update": "Update",
+            "calculate": "Calculate",
+            "success": {
+              "updated": "Overhead allocation updated successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.overheads.unableToUpdate": "Unable to update overhead allocation, please try again later.",
+                "error.overheads.teamEbitaNotFound": "Team EBITDA not found",
+                "error.overheads.overheadOverflow": "Overhead allocation overflow"
+              }
+            }
+          },
+          "writeUpForm": {
+            "writeUp": "Write Up(Offs)",
+            "total": "Total ($)",
+            "cancel": "Cancel",
+            "update": "Update",
+            "success": {
+              "updated": "Write ups updated successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.fee.unableToUpdate": "Unable to update fee, please try again later.",
+                "error.writeOnOff.teamEbitaNotFound": "Team EBITDA not found"
+              }
+            }
+          },
+          "ebitdaThresholdForm": {
+            "heading": "EBITDA Thresholds (%)",
+            "thresholdSetting": "Threshold Settings",
+            "addNew": "Add new",
+            "table": {
+              "ebitdaThreshold": "EBITDA Thresholds (%)",
+              "triggeredBonus": "Triggered Bonus ($)"
+            },
+            "cancel": "Cancel",
+            "update": "Update",
+            "add": "Add",
+            "delete": "Delete",
+            "note": "Are you sure you want to delete EBITDA threshold.",
+            "success": {
+              "created": "Ebitda threshold created successfully",
+              "updated": "Ebitda threshold updated successfully",
+              "deleted": "Ebitda threshold deleted successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.bonusThreshold.unableToUpdate": "Unable to update bonus threshold, please try again.",
+                "error.bonusThreshold.ebitaNotFound": "Bonus threshold not found",
+                "error.bonusThreshold.unableToDelete": "Unable to delete EBITDA plan, please try again later."
+              }
+            },
+            "validators": {
+              "ebitdaThreshold": "EBITDA threshold is required",
+              "triggeredBonus": "Triggered bonus is required"
+            }
+          }
+        },
+        "feesWonAndLost": {
+          "heading": "Fees Won & Lost",
+          "aboutFeeWonLost": "About Fees Won & Lost",
+          "newClient": "Add new client",
+          "lostClients": "Lost Clients",
+          "newClients": "New Clients",
+          "deleteHeading": "Are you sure you want to delete this client?",
+          "delete": "Delete",
+          "body": "Please select a plan with team to continue.",
+          "btnText": "OK",
+          "newClientsTab": {
+            "heading": "Clients Won",
+            "subHeading1FirstText": "First Year Fees to be invoiced",
+            "subHeading1SecondText": "this financial year ",
+            "subHeading2FirstText": "Balance of First Year Fees to be invoiced",
+            "subHeading2SecondText": "next financial year ",
+            "taxAccountingDivision": "Tax & Accounting Division",
+            "bookkeepingDivision": "Bookkeeping Division",
+            "totals": "Totals",
+            "totalFeesWon": "Total Fees Won ($)",
+            "success": {
+              "created": "Won client created successfully",
+              "updated": "Won client updated successfully",
+              "deleted": "Won client deleted successfully"
+            }
+          },
+          "lostClientsTab": {
+            "heading": "Clients Lost",
+            "subHeading1FirstText": "Annual fees no longer invoiced",
+            "subHeading1SecondText": "this financial year ",
+            "subHeading2FirstText": "Balance of annual fees not invoiced",
+            "subHeading2SecondText": "next financial year ",
+            "totalFeesLost": "Total Fees Won ($)",
+            "leavingReason": "Reason for leaving",
+            "reason": "Reason",
+            "feesLost": "Fees Lost",
+            "footerHeading": "Allocate Value of Lost Annual Fees to the financial year fees will not be invoiced.",
+            "footerSubHeading": "NB* If your firm does not have a standalone Bookkeeping division, group all fees under Tax & Accounting (or vice versa).",
+            "validators": {
+              "clientRequired": "Client is required"
+            },
+            "success": {
+              "created": "Lost client created successfully",
+              "updated": "Lost client updated successfully",
+              "deleted": "Lost client deleted successfully"
+            }
+          },
+          "planForm": {
+            "heading": "Fee Won and Lost Plan",
+            "selectTeamPlan": "Select Team Plan",
+            "thisYear": "This Year",
+            "nextYear": "Next year",
+            "notes": "Notes",
+            "validators": {
+              "yearRequired": "Year is required",
+              "teamPlanRequired": "Team plan is required",
+              "noteRequired": "Note is required"
+            },
+            "success": {
+              "created": "Fee won and lost plan created successfully",
+              "updated": "Fee won and lost plan updated successfully"
+            }
+          },
+          "error": {
+            "serverError": {
+              "error.clientFeeWon.duplicateClientWon": "Client already exists",
+              "error.clientFeeLost.duplicateClientLost": "Lost client already exists"
+            }
+          }
+        }
+      },
+      "netPromoterScore": {
+        "team": {
+          "heading": "Team NPS",
+          "plan": "Plan",
+          "edit": "Edit",
+          "noTeam": "No team data available in this team nps plan",
+          "npsSurveyResult": "NPS Survey Results",
+          "ytdAverage": "YTD Average",
+          "delete": "Delete",
+          "cancel": "Cancel",
+          "update": "Update",
+          "success": "Team NPS updated successfully",
+          "error": {
+            "serverError": {
+              "error.teamNps.unableToUpdate": "Unable to update team NPS, please try again later.",
+              "error.teamNps.duplicateTeamNps": "Team NPS already exists"
+            }
+          },
+          "planForm": {
+            "heading": "Team NPS Plan",
+            "plan": "Plan",
+            "addPlan": "Add plan",
+            "financialYear": "Financial year",
+            "teamPlan": "Team plan",
+            "notes": "Title",
+            "active": "Active",
+            "cancel": "Cancel",
+            "add": "Add",
+            "update": "Update",
+            "table": {
+              "financialYear": "Financial year",
+              "scorecardNotes": "Scorecard notes"
+            },
+            "success": {
+              "updated": "Team NPS plan updated successfully",
+              "created": "Team NPS plan created successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.teamNps.planNotFound": "Team NPS plan not found",
+                "error.teamNps.duplicateTeamNps": "Team NPS already exists",
+                "error.teamNps.unableToCreate": "Unable to create team NPS plan, please try again later."
+              }
+            },
+            "validators": {
+              "financialYear": "Financial year is required",
+              "teamPlan": "Team plan is required",
+              "notes": "Notes is required"
+            }
+          },
+          "deleteForm": {
+            "heading": "Delete Entries",
+            "note": "Are you sure you want to remove entries?",
+            "cancel": "Cancel",
+            "delete": "Delete",
+            "success": {
+              "deleted": "Entries cleared successfully"
+            }
+          }
+        },
+        "client": {
+          "heading": "Client NPS",
+          "plan": "Plan",
+          "noTeam": "No team data available in this client nps plan",
+          "addTeam": "Please add a team or resync the teams to continue",
+          "edit": "Edit",
+          "npsSurveyResult": "NPS Survey Results",
+          "ytdAverage": "YTD Average",
+          "delete": "Delete",
+          "cancel": "Cancel",
+          "update": "Update",
+          "success": "Client NPS updated successfully",
+          "responseRate": "Response Rate (%)",
+          "error": {
+            "serverError": {
+              "error.teamNps.unableToUpdate": "Unable to update client NPS, please try again later.",
+              "error.teamNps.duplicateTeamNps": "Client NPS already exists"
+            }
+          },
+          "planForm": {
+            "heading": "Client NPS Plan",
+            "plan": "Plan",
+            "addPlan": "Add plan",
+            "financialYear": "Financial year",
+            "teamPlan": "Client plan",
+            "notes": "Title",
+            "active": "Active",
+            "cancel": "Cancel",
+            "add": "Add",
+            "update": "Update",
+            "table": {
+              "financialYear": "Financial year",
+              "scorecardNotes": "Scorecard notes"
+            },
+            "success": {
+              "updated": "Client NPS plan updated successfully",
+              "created": "Client NPS plan created successfully"
+            },
+            "error": {
+              "serverError": {
+                "error.clientNps.planNotFound": "Client NPS plan not found",
+                "error.clientNps.duplicateClientNps": "Client NPS already exists",
+                "error.clientNps.unableToCreate": "Unable to create client NPS plan, please try again later."
+              }
+            },
+            "validators": {
+              "financialYear": "Financial year is required",
+              "teamPlan": "Client plan is required",
+              "notes": "Notes is required"
+            }
+          },
+          "deleteForm": {
+            "heading": "Delete Entries",
+            "note": "Are you sure you want to remove entries?",
+            "cancel": "Cancel",
+            "delete": "Delete",
+            "success": {
+              "deleted": "Entries cleared successfully"
+            }
+          }
+        }
+      },
+      "fab5": {
+        "heading": "Fab5",
+        "plan": "Plan",
+        "previewFab5": "Preview - Fab5",
+        "preview": "Preview",
+        "matrix": "Matrix",
+        "keyPerformanceIndicator": "Key Performance Indicators",
+        "team": "Team",
+        "revenue": "Revenue",
+        "profitability": "Profitability",
+        "lockup": "Lockup",
+        "sales": "Sales",
+        "nps": "NPS",
+        "total": "Total",
+        "actualYtdLastYear": "Actual YTD last year ($)",
+        "actualYtdThisYear": "Actual YTD this year ($)",
+        "growth": "Growth (%)",
+        "budgetYtd": "Budget YTD ($)",
+        "budgetVariance": "Budget Variance ($)",
+        "costOfGoods": "Cost of Goods (%)",
+        "ytdEbitda": "YTD EBITDA ($)",
+        "ytdEbitdaPercentage": "YTD EBITDA (%)",
+        "writeOnOff": "Write On/Off ($)",
+        "writeOnOffPercentage": "Write On/Off (%)",
+        "ytdWipBalance": "YTD WIP Balance",
+        "debtorsBalance": "Debtors Balance",
+        "lockupDays": "Lockup Days",
+        "prospectsToClients": "Prospects to Client (%)",
+        "feesWon": "Fees Won",
+        "feesLost": "Fees Lost",
+        "net": "Net ($)",
+        "client": "Client NPS",
+        "teamNps": "Team NPS",
+        "clientTeam": "Client",
+        "wizeBenchmarks": "Wize Benchmarks",
+        "growthPercentage": "Growth (%)",
+        "betterThan": "Better Than Last Year & At Budget or Over",
+        "writeOffs": "Write Offs",
+        "ytdWipBalanceAs": "YTD WIP Balance as",
+        "prospectsClient": "Prospects clients (%)",
+        "period": "Period: ",
+        "planForm": {
+          "heading": "Fab5 Plan",
+          "plan": "Plan",
+          "addPlan": "Add plan",
+          "planYear": "Select plan year",
+          "briefName": "Add a brief plan name",
+          "active": "Active",
+          "cancel": "Cancel",
+          "add": "Add",
+          "update": "Update",
+          "table": {
+            "planName": "Plan Name",
+            "planYear": "Plan Year"
+          },
+          "success": {
+            "updated": "Fab5 plan updated successfully",
+            "created": "Fab5 plan created successfully"
+          },
+          "error": {
+            "serverError": {
+              "error.teamNps.planNotFound": "Team NPS plan not found",
+              "error.teamNps.duplicateTeamNps": "Team NPS already exists",
+              "error.teamNps.unableToCreate": "Unable to create team NPS plan, please try again later."
+            }
+          },
+          "validators": {
+            "planYear": "Plan year is required",
+            "briefName": "Plan name is required"
+          },
+          "matrixPage": {
+            "revenue": {
+              "heading": "Revenue",
+              "legends": {
+                "actualYtd": "Actual YTD Last Year",
+                "budget": "Budget YTD",
+                "actualYtdThisYear": "Actual YTD This Year"
+              }
+            },
+            "fees": {
+              "heading": "Fees (Your firm's annual fees or revenue)",
+              "legends": {
+                "default": "Default",
+                "actualYtd": "Actual YTD",
+                "budget": "Budget"
+              }
+            },
+            "profitability": {
+              "heading": "Profitability (Team YTD EBITDA %)",
+              "legends": {
+                "cogs": "COGS",
+                "ebitda": "EBITDA ($)",
+                "ebitdaPercentage": "EBITDA (%)"
+              }
+            },
+            "feesWonAndLost": {
+              "heading": "Fees Won & Lost",
+              "legends": {
+                "won": "Won ($)",
+                "lost": "Lost ($)",
+                "fees": "Fees (%)"
+              }
+            },
+            "leadsToClient": {
+              "heading": "Leads to Clients Converted: %",
+              "legends": {
+                "converted": "Converted (%)"
+              }
+            },
+            "npsClient": {
+              "heading": "NPS (Client & Team)",
+              "legends": {
+                "team": "Team",
+                "client": "Client"
+              }
+            }
+          }
+        }
+      }
+    },
+    "marketingResults": {
+      "heading": "Marketing Results",
+      "btnText": "Add new year",
+      "tabHeadings": {
+        "monthlyLeadData": "Monthly Lead Data",
+        "websiteTraffic": "Website Traffic",
+        "newsLetterOpenRate": "Newsletter Open Rate",
+        "clickThroughRate": "Click Through Rate",
+        "databaseGrowth": "Database Growth"
+      },
+      "form": {
+        "financialYear": "Financial Year",
+        "monthlyLeadData": {
+          "deleteHeading": "Are you sure you want to delete this year monthly lead data?",
+          "noContent": "Please update your yearly data to know your monthly lead data.",
+          "success": {
+            "created": "Monthly lead data created successfully.",
+            "updated": "Monthly lead data updated successfully.",
+            "deleted": "Monthly lead data deleted successfully."
+          }
+        },
+        "websiteTraffic": {
+          "deleteHeading": "Are you sure you want to delete this year website traffic data?",
+          "noContent": "Please update your yearly data to know your website traffic.",
+          "success": {
+            "created": "Website traffic data created successfully.",
+            "updated": "Website traffic data updated successfully.",
+            "deleted": "Website traffic data deleted successfully."
+          }
+        },
+        "newsLetterOpenRate": {
+          "deleteHeading": "Are you sure you want to delete this year newsletter open rate data?",
+          "noContent": "Please update your yearly data to know your newsletter open rate.",
+          "success": {
+            "created": "Newsletter open rate data created successfully.",
+            "updated": "Newsletter open rate data updated successfully.",
+            "deleted": "Newsletter open rate data deleted successfully."
+          }
+        },
+        "clickThroughRate": {
+          "deleteHeading": "Are you sure you want to delete this year click through rate data?",
+          "noContent": "Please update your yearly data to know your click through rate.",
+          "success": {
+            "created": "Click through rate data created successfully.",
+            "updated": "Click through rate data updated successfully.",
+            "deleted": "Click through rate data deleted successfully."
+          }
+        },
+        "databaseGrowth": {
+          "deleteHeading": "Are you sure you want to delete this year database growth data?",
+          "noContent": "Please update your yearly data to know your database growth.",
+          "success": {
+            "created": "Database growth data created successfully.",
+            "updated": "Database growth data updated successfully.",
+            "deleted": "Database growth data deleted successfully."
+          }
+        },
+        "error": {
+          "validators": {
+            "financialYear": "Please provide financial year"
+          },
+          "serverError": {
+            "error.marketingResult.alreadyExists": "Data already exists"
+          }
+        }
+      }
+    },
+    "leadManagement": {
+      "tabHeadings": {
+        "leadBoard": "Lead Board",
+        "summaryOrChart": "Summary / Chart"
+      },
+      "labels": {
+        "source": "Source",
+        "industry": "Industry",
+        "leads": "Leads",
+        "prospects": "Prospects",
+        "clients": "Clients",
+        "builderName": "Builder Name",
+        "type": "Type",
+        "contactName": "Contact Name",
+        "clientManager": "Client Manager",
+        "dateUpdated": "Date Updated",
+        "clientType": "Client Type",
+        "amount": "Amount",
+        "allocatedClientManager": "Allocated Client Manager",
+        "clientName": "Client Name",
+        "businessName": "Business Name",
+        "dateLeadFound": "Date lead found",
+        "clientClass": "Client class",
+        "annualFeesDollar": "Annual Fees ($)",
+        "referralSource": "Referral Source",
+        "referrer": "Name of Referrer",
+        "leadDetails": "Lead Details",
+        "mobileNumber": "Mobile Number",
+        "fileAttachments": "File Attachments",
+        "appointmentBooked": "Appointment Booked"
+      },
+      "form": {
+        "heading": {
+          "addLead": "Add lead",
+          "editLead": "Edit lead",
+          "addClient": "Add client",
+          "editClient": "Edit client"
+        },
+        "success": {
+          "leadAdded": "Lead added successfully",
+          "leadUpdated": "Lead updated successfully",
+          "clientAdded": "Client added successfully",
+          "clientUpdated": "Client updated successfully"
+        },
+        "error": {
+          "clientNameRequired": "Please provide client name",
+          "businessNameRequired": "Please provide business name",
+          "dateLeadFoundRequired": "Please provide date lead found",
+          "mobileNumberRequired": "Please provide mobile number",
+          "statusRequired": "Please select status",
+          "serverError": {
+            "error.client.alreadyExists": "Client already exists",
+            "error.client.phoneNumber.empty": "Phone number is not valid"
+          }
+        }
+      },
+      "details": {
+        "leadProgessInformation": {
+          "heading": "Lead Progress Information",
+          "labels": {
+            "totalProgress": "Total Progress",
+            "addProgress": "Add new Progress",
+            "actionStep": "Action Step",
+            "who": "Who"
+          }
+        },
+        "notes": {
+          "heading": "Notes",
+          "labels": {
+            "totalNotes": "Total Notes",
+            "addNote": "Add new Note"
+          }
+        }
+      },
+      "clientDetailsModal": {
+        "labels": {
+          "engagementStartMonth": "Engagement Start Month",
+          "taxAndAccountingDivision": "Tax & Accounting Division ($)",
+          "bookkeepingDivision": "Bookkeeping Division ($)",
+          "onceOffFee": "Is this once off fee?"
+        },
+        "validators": {
+          "startMonthRequired": "Please select start month",
+          "taxAccountDivisionRequired": "Please provide tax and accounting division",
+          "bookkeepingDivisionRequired": "Please provide bookkeeping division",
+          "feeRequired": "Please select fee"
+        },
+        "heading1": "First Year Fees to be invoiced this financial year ",
+        "heading2": "Balance of First Year Fees to be invoiced next financial year ",
+        "subHeading1": "Tax & Accounting Division ($)",
+        "subHeading2": "Bookkeeping Division ($)",
+        "error": {
+          "totalError": "Total of tax & accounting division and bookkeeping division should be equal to annual fee.",
+          "serverError": {}
+        }
+      },
+      "leadProgress": {
+        "actionStep": "Action step",
+        "who": "Who",
+        "form": {
+          "headings": {
+            "addNewProgress": "Add New Progress",
+            "editNewProgress": "Edit New Progress",
+            "deleteHeading": "Are you sure you want to delete this Progress?"
+          },
+          "validators": {
+            "actionStepRequired": "Please select action step",
+            "employeeRequired": "Please select employee"
+          },
+          "success": {
+            "created": "Lead progress added successfully",
+            "updated": "Lead progress updated successfully",
+            "deleted": "Lead progress deleted successfully"
+          }
+        }
+      },
+      "note": {
+        "label": "Write here",
+        "form": {
+          "headings": {
+            "addNewNote": "Add New Note",
+            "editNote": "Edit Note",
+            "deleteHeading": "Are you sure you want to delete this Note?"
+          },
+          "validators": {
+            "noteRequired": "Please provide note"
+          },
+          "success": {
+            "created": "Note added successfully",
+            "updated": "Note updated successfully",
+            "deleted": "Note deleted successfully"
+          }
+        }
+      },
+      "summary": {
+        "leadProspectConversion": "Lead to Prospect Conversion Level: %",
+        "prospectClientConversion": "Prospect to Client Conversion Level: %",
+        "conversionLevel": "Conversion level (%)",
+        "leadIndustryByValue": "Lead Industry (By Value $)",
+        "leadIndustryByQuantity": "Lead Industry (By Quantity)",
+        "leadSourceByValue": "Lead Source (By Value $)",
+        "leadSourceByQuantity": "Lead Source (By Quantity Q)",
+        "totalLeads": "Total Leads",
+        "totalProspects": "Total Prospects",
+        "totalConverted": "Total Converted"
+      }
+    },
+    "clientPortfolio": {
+      "heading": "Client Portfolio",
+      "tabularView": "Tabular view",
+      "chartView": "Chart view",
+      "classCountPercent": "Class count percent",
+      "feesCountPercent": "Fees count percent",
+      "clientBreakupAnalysis": "Client breakup analysis",
+      "businessName": "Business Name",
+      "class": "Class",
+      "feesDollar": "Fees $",
+      "percent": "Percent %",
+      "number": "Number",
+      "aAndBDollar": "A & B ($)",
+      "numberOfClientsAandB": "Number of clients A & B (%)",
+      "cAndDollar": "C & D ($)",
+      "numberOfClientsCandD": "Number of clients C & D (%)",
+      "chart": {
+        "heading1": "Client breakup - $ Revenue and Groups",
+        "result": "Result",
+        "heading2": "Client class (By numbers #)",
+        "heading3": "Client class (By Fees $)"
+      }
+    },
+    "overview": {
+      "quoteHeading": "QUOTE OF THE DAY",
+      "quoteText": "Business opportunities are like buses, there's always another one coming.",
+      "wizeGapHeading": "WIZE GAP",
+      "wizeGapText": "Complete your Wize Gap now"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+projectKey=wizehub-web-admin-portal
+serverUrl=http://13.234.251.21
+serverVersion=10.3.0.82913
+dashboardUrl=http://13.234.251.21/dashboard?id=wizehub-web-admin-portal
+ceTaskId=AZAApKFZuEUoy2Vh3Tye
+ceTaskUrl=http://13.234.251.21/api/ce/task?id=AZAApKFZuEUoy2Vh3Tye

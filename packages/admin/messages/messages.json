@@ -1,0 +1,1397 @@
+{
+  "en": {
+    "general": {
+      "change": "Change",
+      "update": "Update",
+      "remove": "Remove",
+      "show": "Show",
+      "edit": "Edit",
+      "create": "Create",
+      "view": "View",
+      "setup": "Setup",
+      "noData": "No data found",
+      "action": "Action",
+      "showMore": "Show more",
+      "showing": "Rows per page:",
+      "search": "Search...",
+      "reset": "Reset",
+      "add": "Add",
+      "submit": "Submit",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "validLink": "Please enter a valid link",
+      "generalInformation": "General information",
+      "errors": {
+        "invalidEmail": "Please enter a valid email address",
+        "serverError": "Something went wrong! please try again",
+        "invalidPassword": "Password should contain atleast 8 characters, one upper case letter, one lower case letter, one number and one special character",
+        "invalidPhone": "Phone number is not valid",
+        "emptyValue": "Please enter a value",
+        "nameToBeDeleted": "Please enter a name to be deleted",
+        "fileSizeError": "Try uploading a file less than 4 MB",
+        "fileTypeError": "Try uploading image file",
+        "invalidABN": "Please enter only alphanumeric characters",
+        "invalidMonth": "Please enter a valid month"
+      },
+      "error": {
+        "serverError": {
+          "error.twoFactorAuthentication.failed": "Two factor authentication failed",
+          "error.project.duplicate": "Project with name already exists",
+          "error.resetPassword.urlExpired": "Password link has expired.",
+          "error.resetPassword.invalidUrl": "Password link is invalid",
+          "error.tenant.tenantAlreadyAttachedToGroup": "Tenant already attached to this group",
+          "error.tenantSubscription.alreadyActiveSubscription": "Tenant subscription is already active.",
+          "error.deleteVillageAdmin.deleteAssociatedData": "Unable to delete village. Associated data must be cleared first",
+          "error.deleteCompany.deleteAssociatedData": "Unable to delete company. Associated data must be cleared first",
+          "error.deleteCompany.companyNotFound": "Company not found",
+          "error.deleteCompany.unableToDeleteCompany": "Unable to delete company.",
+          "error.deleteVillage.villageNotFound": "Village not found",
+          "error.deleteVillage.deleteAssociatedData": "Unable to delete village. Associated data must be cleared first",
+          "error.deleteVillage.unableToDeleteVillage": "Unable to delete village, please try again.",
+          "error.deleteVillageAdmin.villageNotFound": "Unable to delete village admin. Associated data must be cleared first.",
+          "error.deleteVillageAdmin.villageAdminNotFound": "Village admin not found.",
+          "error.deleteVillageAdmin.unableToDeleteVillageAdmins": "Unable to delete village admins.",
+          "error.deleteVillageAdmin.unableToDeleteVillageAdmin": "Unable to delete village admin.",
+          "error.deleteCompanyAdmin.companyNotFound": "Unable to delete company admin due to company not found.",
+          "error.deleteCompanyAdmin.userNotFound": "Unable to delete company admin due to user not found.",
+          "error.deleteCompanyAdmin.unableToDeleteCompanyAdmin": "Unable to delete company admin, please try again.",
+          "error.deleteCompanyAdmin.deleteAssociatedData": "Unable to delete company. Associated data must be cleared first.",
+          "Name not matched": "Name not matched",
+          "error.group.duplicate": "Group with this name already exists.",
+          "error.product.duplicate": "Product with this identifier already exists",
+          "error.twoFactorAuthentication.invalidToken": "Invalid OTP, please try again.",
+          "error.invalidOtp": "Please enter an OTP",
+          "error.leadProgress.linkedEnitity": "Can't delete lead progress stage, data associated with it.",
+          "error.createUser.duplicateUser": "User already exists, please try with different user",
+          "error.tenantSubscription.inActiveProduct": "Try attaching an active product",
+          "error.group.unableToAdd": "User already exists in the tenant group",
+          "error.tenant.unableToAdd": "User already exists in the respective tenant",
+          "error.user.inactiveUser": "User is inactive",
+          "error.twoFactorAuthentication.unableToVerify": "Entered OTP incorrect",
+          "error.profile.invalidOldPassword": "Please enter valid old password"
+        }
+      },
+      "headings": {
+        "manageLocations": "Manage locations",
+        "manageUsers": "Manage users",
+        "about": "About"
+      }
+    },
+    "sidePanel": {
+      "upperMiddleText": "We lead with Hope",
+      "lowerMiddleText": "To transform accounting firm leaders, teams, and systems to achieve exceptional results.",
+      "lowerText": " WizeHub. All right reserved."
+    },
+    "sidebar": {
+      "menuItems": {
+        "mainMenu": {
+          "heading": "MAIN MENU",
+          "subMenuItems": {
+            "dashboard": "Dashboard",
+            "userManagement": "User Management",
+            "tenantManagement": "Tenant Management",
+            "productManagement": "Product Management"
+          }
+        },
+        "secondaryMenu": {
+          "heading": "SECONDARY MENU",
+          "subMenuItems": {
+            "masterData": {
+              "heading": "Master Data",
+              "subItems": {
+                "application": {
+                  "heading": "Application",
+                  "deactivateCategoryText": "This category is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the category from the system.",
+                  "applicationButtonText": "Create new application",
+                  "wizeTool":"Wize tool",
+                  "applicationDetails": {
+                    "heading": "Application Detail",
+                    "icon": "Icon",
+                    "isWizeApplication": "Is Wize Application",
+                    "link": "Link"
+                  },
+                  "form": {
+                    "deleteApplication": "Delete application",
+                    "addApplication": "Add new applications",
+                    "editApplication": "Edit application details",
+                    "uploadIcon": "Upload icon",
+                    "deactivateApplication": "Deactivate application",
+                    "deactivateApplicationText": "This application is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the application from the system.",
+                    "success": {
+                      "created": "Application created successfully",
+                      "updated": "Application updated successfully",
+                      "deleted": "Application deactivated successfully"
+                    },
+                    "error": {
+                      "updateImageUplodError": "Content is updated but the image is not due to some error",
+                      "createImageUploadError": "Application created but the image is not uploaded due to some error",
+                      "fileSizeUploadError": "Try uploading image less than 1 MB"
+                    }
+                  }
+                },
+                "project": {
+                  "heading": "Project"
+                },
+                "feeLostReason": {
+                  "heading": "Fee Lost Reason",
+                  "reasonButtonText": "Create new reason",
+                  "update": "Update",
+                  "create": "Create",
+                  "cancel": "Cancel",
+                  "form": {
+                    "title": "Title",
+                    "addReason": "Add new reason",
+                    "editReason": "Edit reason details",
+                    "deactivateReason": "Deactivate reason",
+                    "deactivateReasonText": "This reason is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the reason from the system.",
+                    "success": {
+                      "created": "Fee lost reason created successfully",
+                      "updated": "Fee lost reason updated successfully",
+                      "deleted": "Fee lost reason deactivated successfully"
+                    }
+                  }
+                },
+                "teamPosition": {
+                  "heading": "Team Positions",
+                  "positionButtonText": "Create new position",
+                  "division": "Division",
+                  "status": "Status",
+                  "teamPositionDetails": {
+                    "positionLevel": "Position level",
+                    "description": "Description",
+                    "cancel": "Cancel",
+                    "update": "Update",
+                    "create": "Create"
+                  },
+                  "form": {
+                    "deletePosition": "Delete position",
+                    "addPosition": "Add new position",
+                    "editPosition": "Edit position details",
+                    "uniqueIdentifier": "Unique indentifier",
+                    "deactivatePosition": "Deactivate position",
+                    "deactivatePositionText": "This positions is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the positions from the system.",
+                    "success": {
+                      "created": "Team position created successfully",
+                      "updated": "Team position updated successfully",
+                      "deleted": "Team position deactivated successfully"
+                    }
+                  }
+                },
+                "meetingQuestionsAndCategories": {
+                  "heading": "Meeting Questions and Categories",
+                  "meetingQuestions": "Meeting questions",
+                  "cancel": "Cancel",
+                  "update": "Update",
+                  "create": "Create",
+                  "category": "Category",
+                  "question": "Question",
+                  "questionButtonText": "Create new question",
+                  "categoryButtonText": "Create new category",
+                  "meetingQuestionDetails": {
+                    "heading": "Meeting Questions Detail",
+                    "questions": "Questions"
+                  },
+                  "form": {
+                    "addQuestion": "Add new question",
+                    "editQuestion": "Edit question details",
+                    "deleteQuestion": "Delete question",
+                    "deactivateQuestion": "Deactivate question",
+                    "deactivateQuestionText": "This question is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the question from the system.",
+                    "addCategory": "Add new category",
+                    "editCategory": "Edit category details",
+                    "deactivateCategory": "Deactivate category",
+                    "deactivateCategoryText": "This category is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the category from the system.",
+                    "success": {
+                      "questionCreated": "Meeting question created successfully",
+                      "questionUpdated": "Meeting question updated successfully",
+                      "questionDeleted": "Meeting question deactivated successfully",
+                      "categoryCreated": "Meeting category created successfully",
+                      "categoryUpdated": "Meeting category updated successfully",
+                      "categoryDeleted": "Meeting category deactivated successfully"
+                    }
+                  }
+                },
+                "meetingAgendaAndStatus": {
+                  "heading": "Meeting Agenda and Status",
+                  "agenda": "Agenda",
+                  "project": "Project",
+                  "divisions": "Divisions",
+                  "progressStatus": "Progress Status",
+                  "agendaButtonText": "Create new agenda",
+                  "progressButtonText": "Add progress status",
+                  "meetingAgendaDetails": {
+                    "heading": "Meeting Agenda Detail",
+                    "priority": "Priority",
+                    "implementationDetail": "Implementation detail",
+                    "guideVideo": "Guide video"
+                  },
+                  "form": {
+                    "addAgenda": "Add new agenda",
+                    "editAgenda": "Edit agenda details",
+                    "deleteAgenda": "Delete agenda",
+                    "deactivateAgenda": "Deactivate agenda",
+                    "deactivateAgendaText": "This agenda is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the agenda from the system.",
+                    "addStatus": "Add progress status",
+                    "editStatus": "Edit progress status details",
+                    "deactivateProgressStatus": "Deactivate progress status",
+                    "deactivateStatus": "Deactivate status",
+                    "deactivateStatusText": "This status is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the status from the system.",
+                    "guide": "Guide",
+                    "guideLink": "Guide link",
+                    "addMore": "Add more",
+                    "type": "Type",
+                    "success": {
+                      "agendaCreated": "Meeting agenda created successfully",
+                      "agendaUpdated": "Meeting agenda updated successfully",
+                      "agendaDeleted": "Meeting agenda deactivated successfully",
+                      "statusCreated": "Meeting progress status created successfully",
+                      "statusUpdated": "Meeting progress status updated successfully",
+                      "statusDeleted": "Meeting progress status deactivated successfully"
+                    }
+                  }
+                },
+                "meetingCategory": {
+                  "heading": "Meeting Category",
+                  "addButton": "Create new category",
+                  "table": {
+                    "sno": "S.No.",
+                    "name": "Name",
+                    "status": "Status"
+                  },
+                  "form": {
+                    "addCategory": "Add new category",
+                    "name": "Name",
+                    "status": "Status",
+                    "cancel": "Cancel",
+                    "create": "Create",
+                    "deactivateCategory": "Deactivate category",
+                    "note": "This category is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the category from the system.",
+                    "editCategory": "Edit category details",
+                    "update": "Update",
+                    "success": {
+                      "created": "Meeting category created successfully",
+                      "updated": "Meeting category updated successfully",
+                      "deleteCategory": "Meeting category deactivated successfully"
+                    },
+                    "validators": {
+                      "name": "Name is required"
+                    },
+                    "error": {
+                      "serverError": {
+                        "error.meetingCategory.unableToCreate": "Unable to create meeting category, please try again.",
+                        "error.meetingCategory.duplicate": "Meeting category already exists",
+                        "error.meetingCategory.unableToUpdate": "Unable to update meeting category, please try again."
+                      }
+                    }
+                  }
+                },
+                "taskStatus": {
+                  "heading": "Task Status",
+                  "createTask": "Create new task status",
+                  "table": {
+                    "sno": "S.No.",
+                    "name": "Name",
+                    "status": "Status"
+                  },
+                  "form": {
+                    "addTask": "Add new task status",
+                    "name": "Name",
+                    "status": "Status",
+                    "cancel": "Cancel",
+                    "create": "Create",
+                    "deactivateTaskStatus": "Deactivate task status",
+                    "note": "This status is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the status from the system.",
+                    "editTaskStatus": "Edit task status details",
+                    "update": "Update",
+                    "success": {
+                      "created": "Task status created successfully",
+                      "updated": "Task status updated successfully",
+                      "deleteCategory": "Task status deactivated successfully"
+                    },
+                    "validators": {
+                      "name": "Name is required"
+                    },
+                    "error": {
+                      "serverError": {
+                        "error.taskStatus.unableToCreate": "Unable to create task status, please try again.",
+                        "error.taskStatus.duplicate": "Task status already exists",
+                        "error.taskStatus.unableToUpdate": "Unable to update task status, please try again."
+                      }
+                    }
+                  }
+                }
+              },
+              "validators": {
+                "linkRequired": "Link is required",
+                "titleRequired": "Title is required",
+                "positionLevelRequired": "Position level is required",
+                "divisionRequired": "Division is required",
+                "project": "Project is required",
+                "categoryRequired": "Category is required",
+                "questionRequired": "Question is required",
+                "implementationDetailRequired": "Implementation detail is required",
+                "agendaRequired": "Agenda is required",
+                "typeRequired": "Type is required",
+                "guideLinkRequired": "Guide link is required"
+              },
+              "error": {
+                "serverError": {
+                  "error.launchPad.duplicateLaunchPad": "Launch pad already exists",
+                  "error.launchPad.duplicateProduct": "Application already exists",
+                  "error.meetingQuestion.duplicate": "Meeting question already exists",
+                  "error.meetingQuestion.unableToCreate": "Meeting category already exists",
+                  "error.meetingQuestion.unableToUpdate": "Meeting category already exists",
+                  "error.meetingAgenda.duplicate": "Meeting agenda already exists",
+                  "error.feeLostReason.duplicateReason": "Fee lost reason already exists",
+                  "error.teamPosition.duplicateTeam": "Team position already exists"
+                }
+              }
+            },
+            "leadStages": {
+              "search": "Search",
+              "status": "Status",
+              "table": {
+                "sno": "S.No.",
+                "name": "Name",
+                "status": "Status"
+              },
+              "subItems": {
+                "stageStatusBlock": {
+                  "form": {
+                    "addStage": "Add new stage",
+                    "addStatus": "Add new status",
+                    "editStage": "Edit stage details",
+                    "editStatus": "Edit status",
+                    "name": "Name",
+                    "stage": "Stage",
+                    "deleteStageButtonText": "Deactivate stage",
+                    "deleteStatusButtonText": "Deactivate status",
+                    "deactivateStageText": "This stage is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the stage from the system.",
+                    "deactivateStatusText": "This status is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the status from the system.",
+                    "success": {
+                      "stageCreated": "Lead stage created successfully",
+                      "stageUpdated": "Lead stage updated successfully",
+                      "stageDeleted": "Lead stage deactivated successfully",
+                      "statusCreated": "Stage status created successfully",
+                      "statusUpdated": "Stage status updated successfully",
+                      "statusDeleted": "Stage status deatcivated successfully"
+                    }
+                  }
+                }
+              }
+            },
+            "stageStatus": {
+              "search": "Search",
+              "status": "Status",
+              "subItems": {
+                "stageStatusBlock": {
+                  "form": {
+                    "addStage": "Add new stage",
+                    "addStatus": "Add new status",
+                    "editStage": "Edit stage details",
+                    "editStatus": "Edit status",
+                    "name": "Name",
+                    "stage": "Stage",
+                    "deleteStageButtonText": "Deactivate stage",
+                    "deleteStatusButtonText": "Deactivate status",
+                    "deactivateStageText": "This stage is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the stage from the system.",
+                    "deactivateStatusText": "This status is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the status from the system.",
+                    "success": {
+                      "stageCreated": "Lead stage created successfully",
+                      "stageUpdated": "Lead stage updated successfully",
+                      "stageDeleted": "Lead stage deactivated successfully",
+                      "statusCreated": "Stage status created successfully",
+                      "statusUpdated": "Stage status updated successfully",
+                      "statusDeleted": "Stage status deatcivated successfully"
+                    }
+                  }
+                }
+              }
+            },
+            "leadDataManagement": {
+              "heading": "Lead Data Management",
+              "search": "Search",
+              "wizeTool": "Wize tool",
+              "subItems": {
+                "leadProgressStages": {
+                  "heading": "Lead Progress Status",
+                  "leadStage": "Lead stage",
+                  "stageStatus": "Stage status",
+                  "stageButtonText": "Create new stage",
+                  "statusButtonText": "Create new status",
+                  "form": {
+                    "addStage": "Add new stage",
+                    "addStatus": "Add new status",
+                    "editStage": "Edit stage details",
+                    "editStatus": "Edit status",
+                    "name": "Name",
+                    "stage": "Stage",
+                    "deleteStageButtonText": "Deactivate stage",
+                    "deleteStatusButtonText": "Deactivate status",
+                    "deactivateStageText": "This stage is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the stage from the system.",
+                    "deactivateStatusText": "This status is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the status from the system.",
+                    "success": {
+                      "stageCreated": "Lead stage created successfully",
+                      "stageUpdated": "Lead stage updated successfully",
+                      "stageDeleted": "Lead stage deactivated successfully",
+                      "statusCreated": "Stage status created successfully",
+                      "statusUpdated": "Stage status updated successfully",
+                      "statusDeleted": "Stage status deatcivated successfully"
+                    }
+                  }
+                },
+                "leadSource": {
+                  "heading": "Lead Source",
+                  "buttonText": "Create new source",
+                  "form": {
+                    "addSource": "Add new source",
+                    "editSource": "Edit source details",
+                    "deactivateLeadSource": "Deactivate lead source",
+                    "name": "Name",
+                    "questions": "Questions",
+                    "deleteButtonText": "Deactivate source",
+                    "deactivateSourceText": "This source is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the source from the system.",
+                    "success": {
+                      "created": "Lead source created successfully",
+                      "updated": "Lead source updated successfully",
+                      "deleted": "Lead source deactivated successfully"
+                    }
+                  }
+                },
+                "leadIndustry": {
+                  "heading": "Lead Industry",
+                  "buttonText": "Create new industry",
+                  "form": {
+                    "addIndustry": "Add new industry",
+                    "editIndustry": "Edit industry details",
+                    "deactivateLeadIndustry": "Deactivate lead industry",
+                    "name": "Name",
+                    "deactivateIndustryText": "This industry is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the industry from the system.",
+                    "deleteButtonText": "Deactivate industry",
+                    "success": {
+                      "created": "Lead industry created successfully",
+                      "updated": "Lead industry updated successfully",
+                      "deleted": "Lead industry deactivated successfully"
+                    }
+                  }
+                }
+              },
+              "error": {
+                "serverError": {
+                  "error.leadSource.duplicate": "Lead source already exists",
+                  "error.leadIndustry.duplicate": "Lead industry already exists",
+                  "error.leadProgress.duplicate": "Lead progress stage already exists",
+                  "error.leadProgressStatus.duplicate": "Lead progress status already exists"
+                }
+              },
+              "validators": {
+                "nameRequired": "Name is required",
+                "stageRequired": "Stage is required"
+              }
+            },
+            "leadIndustry": {
+              "search": "Search",
+              "status": "Status",
+              "table": {
+                "sno": "S.No.",
+                "name": "Name",
+                "status": "Status"
+              },
+              "subItems": {
+                "stageStatusBlock": {
+                  "form": {
+                    "addStage": "Add new stage",
+                    "addStatus": "Add new status",
+                    "editStage": "Edit stage details",
+                    "editStatus": "Edit status",
+                    "name": "Name",
+                    "stage": "Stage",
+                    "deleteStageButtonText": "Deactivate stage",
+                    "deleteStatusButtonText": "Deactivate status",
+                    "deactivateStageText": "This stage is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the stage from the system.",
+                    "deactivateStatusText": "This status is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the status from the system.",
+                    "success": {
+                      "stageCreated": "Lead stage created successfully",
+                      "stageUpdated": "Lead stage updated successfully",
+                      "stageDeleted": "Lead stage deactivated successfully",
+                      "statusCreated": "Stage status created successfully",
+                      "statusUpdated": "Stage status updated successfully",
+                      "statusDeleted": "Stage status deatcivated successfully"
+                    }
+                  }
+                }
+              }
+            },
+            "leadSource": {
+              "search": "Search",
+              "status": "Status",
+              "table": {
+                "sno": "S.No.",
+                "name": "Name",
+                "status": "Status"
+              },
+              "subItems": {
+                "stageStatusBlock": {
+                  "form": {
+                    "addStage": "Add new stage",
+                    "addStatus": "Add new status",
+                    "editStage": "Edit stage details",
+                    "editStatus": "Edit status",
+                    "name": "Name",
+                    "stage": "Stage",
+                    "deleteStageButtonText": "Deactivate stage",
+                    "deleteStatusButtonText": "Deactivate status",
+                    "deactivateStageText": "This stage is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the stage from the system.",
+                    "deactivateStatusText": "This status is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the status from the system.",
+                    "success": {
+                      "stageCreated": "Lead stage created successfully",
+                      "stageUpdated": "Lead stage updated successfully",
+                      "stageDeleted": "Lead stage deactivated successfully",
+                      "statusCreated": "Stage status created successfully",
+                      "statusUpdated": "Stage status updated successfully",
+                      "statusDeleted": "Stage status deatcivated successfully"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "logout": "Logout"
+    },
+    "header": {
+      "generalInfo": "General information",
+      "welcomeBack": "Welcome back"
+    },
+    "login": {
+      "heading": "Login",
+      "subHeading": "Please enter the email address & password",
+      "saasOwner": "SAAS Owner",
+      "form": {
+        "email": "Email",
+        "password": "Password",
+        "logIn": "Login",
+        "forgotPassword": "Forgot password?",
+        "errors": {
+          "emailRequired": "Please enter an email address",
+          "passwordRequired": "Please enter a password",
+          "invalidDetails": "Your email address or password is invalid",
+          "error.login.accountBlocked": "Account blocked due to multiple failed login attempts",
+          "error.login.invalidCredentials": "Please enter valid credentials",
+          "error.user.inactiveUser": "User is inactive"
+        }
+      }
+    },
+    "twoFactorAuthentication": {
+      "heading": "Enter Secure code",
+      "subHeading": "You must have received a 6 digit secure code on your ",
+      "mobile": "mobile number ",
+      "email": "email address ",
+      "form": {
+        "submitCta": "Verify",
+        "success": "Link sent successfully. Redirecting to Login page",
+        "logIn": "Go back to Login",
+        "errors": {
+          "invalidDetails": "Your email address is invalid",
+          "enterOtp": "Please enter correct OTP."
+        }
+      }
+    },
+    "forgotPassword": {
+      "heading": "Reset password",
+      "subHeading": "We will send a password reset link to your email address",
+      "form": {
+        "submitCta": "Send link",
+        "success": "Link sent successfully. Redirecting to Login page",
+        "error": "Something went wront, please try again.",
+        "logIn": "Go Back to Login",
+        "errors": {
+          "invalidDetails": "Your email address is invalid"
+        }
+      }
+    },
+    "activeTwoFactorAuthentication": {
+      "heading": "Activate Multi Factor Authentication",
+      "subHeading": "Select the below option on which you want to receive an OTP (One-Time Password)",
+      "form": {
+        "submitCta": "Send",
+        "success": "Link sent successfully. Redirecting to Login page",
+        "mobileNumber": "Mobile number",
+        "email": "Email",
+        "emailAddress": "Email address",
+        "validators": {
+          "email": "Email is required",
+          "phone": "Phone number is required"
+        },
+        "errors": {}
+      }
+    },
+    "resetPassword": {
+      "heading": "Change password",
+      "subHeading": "Use at least 8 characters one uppercase, one lowercase, and one number in your password.",
+      "form": {
+        "success": "Password changed successfully",
+        "newPassword": "New password",
+        "confirmNewPassword": "Confirm new password",
+        "submitCta": "Update Password",
+        "errors": {
+          "confirmPasswordRequired": "Please enter confirm password",
+          "invalidDetails": "Your reset password link is invalid"
+        }
+      }
+    },
+    "userManagement": {
+      "heading": "User Management",
+      "buttonText": "Add new user",
+      "searchUser": "Search user or email",
+      "dateRange": "Date range (Last logged in)",
+      "status": "Status",
+      "role": "Role",
+      "table": {
+        "sno": "S.No.",
+        "name": "Name",
+        "role": "Role",
+        "status": "Status",
+        "lastLogin": "Last logged in date"
+      },
+      "userProfile": {
+        "heading": "User Profile",
+        "changeUserPassword": "Change user password",
+        "editDetails": "Edit details",
+        "generalInformation": "General information",
+        "deleteThisUser": "Delete this user",
+        "userName": "User name",
+        "emailAddress": "Email address",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "role": "Role",
+        "status": "Status"
+      },
+      "form": {
+        "addUser": "Add new user",
+        "editUser": "Edit user",
+        "create": "Create",
+        "emailAddress": "Email address",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "role": "Role",
+        "userStatus": "User status",
+        "cancelButton": "Cancel button",
+        "update": "Update",
+        "addButton": "Add",
+        "generateNewPassword": "Generate new password",
+        "generate": "Generate",
+        "automatically": "Automatically",
+        "manually": "Manually",
+        "enterPassword": "Enter password",
+        "generatePassword": "Generate password",
+        "sendpassword": "Send password",
+        "passwordDetails": "Send password detail to the user",
+        "copy": "Copy",
+        "sendLoginCredentials": "Send login credentials",
+        "deactivateUser": "Deactivate user",
+        "deactivateUserText": "This user is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the user from the system.",
+        "success": {
+          "created": "User created sucessfully.",
+          "updated": "User updated sucessfully."
+        },
+        "delete": "User deactivated successfully",
+        "textCopy": {
+          "success": "Text copied successfully.",
+          "error": "Error copying text."
+        },
+        "validators": {
+          "emailAddress": "Email is required",
+          "firstName": "First name is required",
+          "lastName": "Last name is required",
+          "role": "Role is required"
+        }
+      },
+      "passwordForm": {
+        "validators": {
+          "password": "Password is required"
+        },
+        "success": {
+          "updated": "Password updated sucessfully."
+        }
+      }
+    },
+    "projectManagement": {
+      "heading": "Project",
+      "buttonText": "Add project",
+      "search": "Search",
+      "stage": "Stage",
+      "division": "Division",
+      "status": "Status",
+      "table": {
+        "serialNo": "S.No.",
+        "title": "Title",
+        "stage": "Stage",
+        "division": "Division",
+        "status": "Status"
+      },
+      "form": {
+        "addProject": "Add project",
+        "editProject": "Edit project",
+        "title": "Title",
+        "stage": "Stage",
+        "division": "Division",
+        "description": "Description",
+        "status": "Status",
+        "link": "Link",
+        "addMore": "Add more",
+        "attachments": "Attachments",
+        "validation": {
+          "title": "Title is required",
+          "stage": "Stage is required",
+          "division": "Division is required",
+          "linkTitle": "Title is required",
+          "link": "Link is required"
+        },
+        "success": {
+          "created": "Project created successfully",
+          "updated": "Project updated successfully"
+        }
+      },
+      "projectDetail": {
+        "heading": "Project detail",
+        "buttonText": "Edit details",
+        "generalInformation": "General information",
+        "title": "Title",
+        "stage": "Stage",
+        "division": "Division",
+        "description": "Description",
+        "status": "Status",
+        "links": "Links",
+        "attachments": "Attachments"
+      }
+    },
+    "productManagement": {
+      "heading": "Product Management",
+      "buttonText": "Add new product",
+      "search": "Search",
+      "status": "Status",
+      "table": {
+        "serialNo": "S.No.",
+        "name": "Name",
+        "numberOfTenantsAttached": "No. of tenants attached",
+        "status": "Status"
+      },
+      "form": {
+        "addNewProduct": "Add new product",
+        "editProduct": "Edit product details",
+        "name": "Name",
+        "uniqueIdentifier": "Unique identifier",
+        "trialPeriod": "Trial period",
+        "gracePeriod": "Grace period",
+        "basePrice": "Base price",
+        "extraUserPrice": "Extra user price",
+        "noOfUsers": "Number of users included with the base price",
+        "currency": "Currency",
+        "productStatus": "Product status",
+        "validators": {
+          "name": "Product name is required",
+          "uniqueIdentifier": "Unique identifier is required",
+          "trialPeriod": "Trial period is required",
+          "gracePeriod": "Grace period is required",
+          "basePrice": "Base price is required",
+          "extraUserPrice": "Extra user price is required",
+          "noOfUsers": "Number of users included with the base price is required",
+          "currency": "Currency is required",
+          "productStatus": "Product status",
+          "trailPeriodValidator": "Trial period must be a number",
+          "gracePeriodValidator": "Grace period must be a number",
+          "basePriceValidator": "Base price must be a number",
+          "extraUserPriceValidator": "Extra user price must be a number",
+          "baseUsersValidator": "Base users must be a number"
+        },
+        "created": {
+          "success": "Product created successfully.",
+          "failure": "Something went wrong."
+        },
+        "updated": {
+          "success": "Product updated successfully.",
+          "failure": "Something went wrong."
+        },
+        "deleted": {
+          "success": "Product deactivated successfully."
+        }
+      },
+      "productDetail": {
+        "heading": "Product detail",
+        "button": "Edit details",
+        "generalInformation": "General information",
+        "deleteProduct": "Delete product",
+        "name": "Name",
+        "basePrice": "Base price",
+        "trialPeriod": "Trial period",
+        "gracePeriod": "Grace period",
+        "extraUserPrice": "Extra user price",
+        "noOfUsers": "Number of users included with the base price",
+        "status": "Status"
+      },
+      "deactivateProduct": {
+        "heading": "Deactivate product",
+        "note": "This product is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the product from the system.",
+        "cancel": "Cancel",
+        "deactivateProduct": "Deactivate product"
+      }
+    },
+    "tenantManagement": {
+      "heading": "Tenant Management",
+      "exportTenantButton": "Export tenants (CSV)",
+      "addNewTenantButton": "Add new tenant",
+      "addNewGroup": "Add new group",
+      "tenantListing": "Tentant listing",
+      "tenantGroups": "Tenant groups",
+      "dateRange": "Next billing date range",
+      "search": "Search",
+      "status": "Status",
+      "group": "Group",
+      "tenantListingTable": {
+        "serialNo": "S.No.",
+        "name": "Name",
+        "product": "Product",
+        "abn": "ABN",
+        "groupName": "Group name",
+        "nextBillingDate": "Next billing date",
+        "status": "Status"
+      },
+      "tenantGroupsTable": {
+        "serialNo": "S.No.",
+        "name": "Name",
+        "tenants": "Tenants",
+        "status": "Status"
+      },
+      "groupForm": {
+        "heading": "Add new group",
+        "name": "Name",
+        "description": "Description",
+        "status": "Status",
+        "success": {
+          "created": "Tenant group created successfully",
+          "updated": "Tenant group updated successfully"
+        },
+        "created": {
+          "success": "Tenant group created successfully"
+        },
+        "validator": {
+          "name": "Name is required",
+          "description": "Description is required"
+        }
+      },
+      "form": {
+        "addNewTenant": "Add new tenant",
+        "editTenant": "Edit tenant",
+        "name": "Name",
+        "abn": "ABN",
+        "financialYear": "Financial year start month",
+        "country": "Country",
+        "streetAddress": "Street address",
+        "city": "City",
+        "postalCode": "Postal code",
+        "group": "Group",
+        "displayDateFormat": "Display date format",
+        "tenantStatus": "Tenant status",
+        "editTenantDetails": "Edit tenant details",
+        "editTenantGroupDetails": "Edit tenant group details",
+        "validators": {
+          "name": "Name is required",
+          "abn": "ABN is required",
+          "financialYear": "Start month is required",
+          "country": "Country is required",
+          "streetAddress": "Street address is required",
+          "city": "City is required",
+          "postalCode": "Postal code is required",
+          "displayDateFormat": "Display date format is required",
+          "group": "Group is required",
+          "postalCodeNumberOnly": "Postal code must be a number"
+        },
+        "success": {
+          "created": "Tenant created successfully",
+          "updated": "Tenant updated successfully"
+        },
+        "errors": {
+          "serverError": {
+            "error.createTenant.postalCode.invalid": "Postal code is invalid",
+            "error.tenats.unableCreate": "Tenant already exists",
+            "error.tenant.unableUpdate": "Tenant already exists"
+          }
+        }
+      },
+      "deactivateUserForm": {
+        "heading": "Deactivate user",
+        "note": "This tenant is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the tenant from the system.",
+        "deactivateUser": "Deactivate user",
+        "success": "Tenant deactivated successfully"
+      },
+      "attachProductForm": {
+        "heading": "Attach product",
+        "productName": "Product name",
+        "startDate": "Start date",
+        "paymentId": "Payment ID",
+        "paymentMethod": "Payment method",
+        "amountPayable": "Amount payable: $",
+        "attach": "Attach",
+        "success": "Product activated successfully",
+        "validators": {
+          "productName": "Product name is required",
+          "startDate": "Start date is required",
+          "paymentId": "Payment ID is required",
+          "paymentMethod": "Payment method is required",
+          "validYear": "Please select a start date year between 1900 and 2300"
+        }
+      },
+      "addNewUser": {
+        "heading": "Add new user",
+        "name": "Name",
+        "createNewUser": "Create new user",
+        "emailAddress": "Email address",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "role": "Role",
+        "userStatus": "User status",
+        "sendLoginCredentials": "Send login credentials",
+        "success": {
+          "created": "User attached successfully"
+        }
+      },
+      "removeUser": {
+        "heading": "Remove user",
+        "note": "Are you sure you want to remove this user?",
+        "remove": "Remove",
+        "success": "User detached successfully"
+      },
+      "tenantGroupDetail": {
+        "heading": "Tenant Group detail",
+        "editButton": "Edit details",
+        "generalInformation": "General information",
+        "groupName": "Group name",
+        "status": "Status",
+        "description": "Description",
+        "deleteThisGroup": "Delete this group",
+        "users": "Users",
+        "tenants": "Tenants",
+        "addNewUser": "Add new user",
+        "addNewTenant": "Add new tenant",
+        "userTable": {
+          "sno": "S.No.",
+          "name": "Name",
+          "status": "Status"
+        },
+        "editTenant": {
+          "heading": "Edit tenant group details",
+          "name": "Name",
+          "groupStatus": "Group status"
+        },
+        "deactivateGroup": {
+          "heading": "Deactivate group",
+          "note": "This group is associated with multiple data entities, making immediate deletion impossible. Please proceed with deactivating the group from the system.",
+          "deactivateUser": "Deactivate user",
+          "success": "Tenant group deactivated successfully"
+        },
+        "addTenant": {
+          "heading": "Add new tenant",
+          "name": "Name",
+          "success": "Tenant attached successfully",
+          "table": {
+            "sno": "S.No.",
+            "name": "Name",
+            "status": "Status"
+          }
+        },
+        "removeForm": {
+          "userHeading": "Remove user",
+          "tenantHeading": "Remove tenant",
+          "userNote": "Are you sure you want to remove this user?",
+          "tenantNote": "Are you sure you want to remove this tenant?"
+        }
+      },
+      "tenantListingDetail": {
+        "heading": "Tenant detail",
+        "editButton": "Edit details",
+        "attachProduct": "Attach product",
+        "generalInformation": "General information",
+        "deleteTenant": "Delete this tenant",
+        "tenantName": "Tenant name",
+        "abn": "ABN",
+        "currency": "Currency",
+        "country": "Country",
+        "financialYearStartMonth": "Financial year start month",
+        "group": "Group",
+        "status": "Status",
+        "streetAddress": "Street address",
+        "city": "City",
+        "postalAddress": "Postal code",
+        "subscriptDetail": {
+          "heading": "Subscription detail",
+          "productName": "Product name",
+          "startDate": "Start date",
+          "nextBillingDate": "Next billing date",
+          "validityEndDate": "Validity end date",
+          "endDate": "End date",
+          "status": "Status",
+          "cancel": "Cancel",
+          "renew": "Renew"
+        },
+        "cancelSubscription": {
+          "heading": "Cancel subscription",
+          "note": "Are you sure you want to cancel this subscription?",
+          "cancelSubscription": "Cancel subscription",
+          "noButton": "No",
+          "success": "Product subscription cancelled successfully."
+        },
+        "activate": "Activate",
+        "attachedUser": {
+          "heading": "Attached users",
+          "assignExecutiveCoaches": "Assign executives / coaches",
+          "serialNo": "S.No.",
+          "name": "Name",
+          "status": "Status",
+          "success": "User detached successfully"
+        },
+        "renewForm": {
+          "heading": "Renew subscription",
+          "paymentDate": "Payment date",
+          "paymentId": "Payment ID",
+          "paymentMethod": "Payment method",
+          "amountPayable": "Amount payable: $",
+          "cancel": "Cancel",
+          "renew": "Renew",
+          "success": "Subscription renewed successfully"
+        }
+      }
+    },
+    "customersList": {
+      "heading": "Customers list",
+      "buttonText": "Create new",
+      "form": {
+        "heading": "Create new customer",
+        "buttonText": "Create",
+        "basicDetails": "Basic details",
+        "billingDetails": "Billing details",
+        "customerName": "Customer name",
+        "abn": "ABN",
+        "address": "Address",
+        "businessName": "Business name",
+        "billingEmail": "Billing email",
+        "registeredAddress": "Registered address",
+        "error": {
+          "customerName": "Please enter a customer name",
+          "abn": "Please enter an ABN",
+          "address": "Please enter an address",
+          "businessName": "Please enter a business name",
+          "billingEmail": "Please enter a billing email",
+          "registeredAddress": "Please enter a registered address",
+          "customerNameLength": "Please enter a name shorter than 120 characters"
+        },
+        "success": {
+          "createdSuccessfully": "Customer created successfully"
+        }
+      },
+      "errors": {
+        "serverError": {
+          "error.createCompany.companyWithAbnNAlreadyExist": "Company with ABN already exists",
+          "error.createCompany.companyWithemailAlreadyExist": "Company with email already exists",
+          "error.createCompany.unableToCreateCompany": "Something went wrong! please try again",
+          "error.createCompany.maxLengthExceeded": "Company name exceeds max length",
+          "error.createCompany.companyAlreadyExist": "Company already exists",
+          "error.createCompany.duplicateEntry": "Company with same details already exists",
+          "error.updateCompany.companyNotFound": "Company with details not found",
+          "error.updateCompany.customerAlreadyExistWithGivenData": "Customer already exists with given data"
+        }
+      }
+    },
+    "manageLocations": {
+      "heading": "Manage locations",
+      "buttonText": "Create new",
+      "form": {
+        "heading": "Create new location",
+        "buttonText": "Create",
+        "locationName": "Location name",
+        "address": "Address",
+        "error": {
+          "locationName": "Please enter a location name",
+          "address": "Please enter an address"
+        },
+        "success": "Location created successfully",
+        "edited": "Location edited successfully"
+      },
+      "errors": {
+        "serverError": {
+          "error.createVillage.companyNotFound": "Company not found",
+          "error.createVillage.unableToCreateVillage": "Unable to create location",
+          "error.createVillage.maxLengthExceeded": "Unable to create location due to max length reached",
+          "error.updateVillage.villageNotFound": "Village not found.",
+          "error.updateVillage.unableToUpdateVillage": "Unable to update village, please try again.",
+          "error.updateVillage.maxLengthExceeded": "Unable to update location due to max length reached"
+        }
+      }
+    },
+    "manageUsers": {
+      "heading": "Manage users",
+      "buttonText": "Create new",
+      "form": {
+        "heading": "Create new",
+        "buttonText": "Create",
+        "name": "Name",
+        "emailAddress": "Email address",
+        "editHeading": "Edit admin",
+        "status": "Status",
+        "updateButtonText": "Update",
+        "error": {
+          "name": "Please enter name",
+          "emailAddress": "Please enter an email address"
+        },
+        "created": "Company admin created successfully",
+        "edited": "Company admin edited successfully"
+      },
+      "deleteForm": {
+        "heading": "Delete admin",
+        "subHeading": "This will permanently delete the admin.",
+        "body": "To confirm, please enter the name of the admin.",
+        "buttonText": "Delete admin",
+        "deletedUserText": "Company admin deleted successfully"
+      },
+      "errors": {
+        "serverError": {
+          "error.createCompanyAdmin.companyNotFound": "Company not found.",
+          "error.createCompanyAdmin.userAlreadyExist": "Company admin already exists.",
+          "error.createCompanyAdmin.unableToCreateCompanyAdmin": "Unable to create company admin, please try again.",
+          "error.updateCompanyAdmin.userNotFound": "Company admin not found.",
+          "error.updateCompanyAdmin.unableToUpdateCompanyAdmin": "Company admin coudn't be updated, please try again.",
+          "error.updateCompanyAdmin.emailAlreadyExists": "Company admin with email already exists",
+          "error.updateCompanyAdmin.maxLengthExceeded": "Company admin coudn't be updated due to max length exceeded"
+        }
+      }
+    },
+    "about": {
+      "heading": "General information",
+      "logo": "Company logo",
+      "contactEmail": "Contact email",
+      "status": "Status",
+      "address": "Address",
+      "website": "Website",
+      "billingDetails": "Billing details",
+      "abn": "ABN",
+      "businessName": "Business name",
+      "registeredAddress": "Registered address",
+      "form": {
+        "heading": "Delete company",
+        "subHeading": "This will permanently delete the company. The associated village will get affected.",
+        "body": "To confirm, please enter the name of the company.",
+        "buttonText": "Delete company"
+      },
+      "success": {
+        "deleted": "Company deleted successfully"
+      }
+    },
+    "companyInformation": {
+      "heading": "General information",
+      "general": {
+        "address": "Address",
+        "locationStatus": "Location status",
+        "deleteForm": {
+          "heading": "Delete location",
+          "subHeading": "This will permanently delete the location.",
+          "body": "To confirm, please enter the name of the location.",
+          "buttonText": "Delete location",
+          "success": "Location deleted successfully"
+        },
+        "editForm": {
+          "heading": "Edit location",
+          "buttonText": "Update"
+        }
+      },
+      "theme": {
+        "heading": "Theme",
+        "primaryColor": "Primary color",
+        "secondaryColor": "Secondary color",
+        "buttonColor": "Button color",
+        "buttonText": "Button text"
+      },
+      "locationAdmin": {
+        "heading": "Location admin",
+        "buttonText": "Create new admin",
+        "form": {
+          "createAdmin": "Create new admin",
+          "name": "Name",
+          "emailAddress": "Email address",
+          "userType": "User type",
+          "assignModules": "Assign modules",
+          "editAdmin": "Edit admin",
+          "status": "Status",
+          "createButtonText": "Create",
+          "updateButtonText": "Update",
+          "error": {
+            "name": "Please enter name",
+            "userType": "Please select a user type",
+            "assignModules": "Please select at least one module",
+            "emailAddress": "Please enter an email address"
+          },
+          "edit": "Location admin edited successfully",
+          "created": "Location admin created successfully"
+        },
+        "deleteForm": {
+          "heading": "Delete admin",
+          "subHeading": "This will permanently delete the admin.",
+          "body": "To confirm, please enter the name of the admin.",
+          "buttonText": "Delete admin",
+          "success": "Location admin deleted successfully"
+        },
+        "errors": {
+          "serverError": {
+            "error.createVillageAdmin.villageNotFound": "Village not found",
+            "error.createVillageAdmin.roleNotFound": "Please select correct role",
+            "error.createVillageAdmin.incorrectRoleType": "Please select correct role type.",
+            "error.createVillageAdmin.userAlreadyExist": "User already exists",
+            "error.createVillageAdmin.duplicatedModulesDetected": "Please select different modules",
+            "error.createVillageAdmin.noModulesSelected": "Please select at least one module",
+            "error.createVillageAdmin.modulesNotFound": "Please select a module",
+            "error.createVillageAdmin.someModulesNotFound": "Some moudules not found",
+            "error.createVillageAdmin.unableToCreateVillageAdmins": "Village admin coudn't be created",
+            "error.createVillageAdmin.unableToCreateVillageAdmin": "Village admin not created, please try again.",
+            "error.updateVillageAdmin.villageAdminNotFound": "Village admin not found",
+            "error.updateVillageAdmin.roleNotFound": "Please select correct role",
+            "error.updateVillageAdmin.incorrectRoleType": "Please select correct role type.",
+            "error.updateVillageAdmin.duplicatedModulesDetected": "Please select different modules",
+            "error.updateVillageAdmin.noModulesSelected": "Please select at least one module",
+            "error.updateVillageAdmin.modulesNotFound": "Please select a module",
+            "error.updateVillageAdmin.someModulesNotFound": "Some moudules not found",
+            "error.updateVillageAdmin.unableToUpdateVillageAdmins": "Village admin coudn't be updated",
+            "error.updateVillageAdmin.unableToUpdateVillageAdmin": "Village admin not updated, please try again.",
+            "error.updateVillageAdmin.emailAlreadyExists": "User with email already exists",
+            "error.updateVillageAdmin.maxLengthExceeded": "Admin not updated due to max length exceeded",
+            "error.updateUser.firstName.empty": "First name can not be empty",
+            "error.updateUser.lastName.empty": "Last name can not be empty"
+          }
+        }
+      }
+    },
+    "profile": {
+      "heading": "My Profile",
+      "editButton": "Edit details",
+      "generalInformation": {
+        "heading": "General information",
+        "name": "Name",
+        "role": "Role",
+        "emailAddress": "Email address",
+        "phoneNumber": "Phone number",
+        "password": "Password",
+        "changePassword": "Change password",
+        "multiFactorAuthentication": "Multi Factor Authentication",
+        "activeChip": "Active",
+        "updateChange": "Update/Change",
+        "setupMFA": "Setup MFA",
+        "disableMFA": "Disable MFA",
+        "enableMFA": "Enable MFA",
+        "photo": "Photo"
+      },
+      "form": {
+        "errors": {
+          "firstNameRequired": "First name is required",
+          "lastNameRequired": "Last name is required",
+          "emailRequired": "Email is required",
+          "phoneRequired": "Phone number is required",
+          "serverErrors": {
+            "error.twoFactorAuthentication.unableToUpdateWithSameSenderDetails": "Please provide an alternate email address or mobile number to modify the existing MFA method"
+          }
+        }
+      },
+      "profileSection": {
+        "name": "Name",
+        "emailAddress": "Email address",
+        "phoneNumber": "Phone number"
+      },
+      "password": {
+        "heading": "Password",
+        "password": "Password",
+        "changePassword": "Change password"
+      },
+      "editForm": {
+        "heading": "Edit details",
+        "buttonText": "Update",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "emailAddress": "Email address",
+        "phoneNumber": "Phone number",
+        "changePhoto": "Change photo",
+        "profilePicture": "Profile picture",
+        "success": {
+          "updatedSuccessfully": "Profile updated successfully"
+        },
+        "updateError": "Profile update stuck. Retry?",
+        "photoError": "Oops! Something went wrong while uploading your photo."
+      },
+      "updateMultiFactorAuthentication": {
+        "heading": "Update/Change Multi Factor Authentication",
+        "enableHeading": "Enable Multi Factor Authentication",
+        "note": "Select the below option on which you want to receive an OTP (One-Time Password)",
+        "mobileNumber": "Mobile number",
+        "email": "Email",
+        "emailAddress": "Email address"
+      },
+      "updateVerifyCode": {
+        "heading": "Enter Secure code",
+        "note": "For updating the method you would need to provide secure codes received on both old and new devices.",
+        "deviceNote": "You must have received a 6 digit secure code on your ",
+        "success": "Two FA changed successfully",
+        "mobile": "mobile number ",
+        "email": "email address ",
+        "error": {
+          "serverError": {
+            "error.twoFactorAuthentication.unableToVerify": "Please enter the correct OTP in any of the fields above, as it may be incorrect.",
+            "error.invalidOtp": "Please enter an OTP"
+          }
+        }
+      },
+      "disableMFAForm": {
+        "heading": "Disable Multi Factor Authentication",
+        "note": "Multi factor authentication will be deactivated for your account. Disabling multi factor authentication will make your account less secure.",
+        "cancel": "Cancel",
+        "disableMFA": "Disable MFA"
+      },
+      "enableMFAForm": {
+        "heading": "Enable Multi Factor Authentication",
+        "note": "Multi factor authentication will be enabled for your account. Enabling multi factor authentication will make your account more secure.",
+        "cancel": "Cancel",
+        "enableMFA": "Enable MFA"
+      },
+      "verifySecureCode": {
+        "heading": "Enter Secure code",
+        "note": "You must have received a 6 digit secure code on your ",
+        "verify": "Verify",
+        "cancel": "Cancel",
+        "success": "Verification successful",
+        "mobile": "mobile number ",
+        "email":"email address "
+      },
+      "recoveryCode": {
+        "heading": "Recovery codes",
+        "note": "You need to store the recovery code in a safe place before activating multi factor authentication for your account",
+        "cautionNote": "If you lose access to your device you can deactivate two factor authentication using the following recovery codes.",
+        "download": "Download",
+        "copy": "Copy",
+        "finishSetupButton": "Finish setup",
+        "savedCheckBox": "I have saved my recovery codes",
+        "success": "Two FA setup completed successfully"
+      },
+      "changePasswordForm": {
+        "heading": "Change password",
+        "buttonText": "Change",
+        "oldPassword": "Old password",
+        "newPassword": "New password",
+        "confirmNewPassword": "Confirm new password",
+        "success": "Password changed successfully",
+        "required": {
+          "oldPassword": "Old password is required",
+          "password": "New password is required",
+          "confirmPassword": "Confirm password is required",
+          "passwordNotMatched": "Password not matched"
+        },
+        "error": "Password could not be changed"
+      }
+    }
+  }
+}

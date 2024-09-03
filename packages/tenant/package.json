@@ -1,0 +1,25 @@
+{
+  "name": "@wizehub/tenant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --config webpack/webpack.config.js --env env=local --host=0.0.0.0",
+    "lint": "esw -w --ext '.tsx' --fix --clear --color",
+    "build:prod": "webpack --config webpack/webpack.config.js --env env=prod",
+    "build:stage": "webpack --config webpack/webpack.config.js --env env=stage",
+    "build:dev": "webpack --config webpack/webpack.config.js --env env=dev",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@wizehub/common": "1.0.0",
+    "@wizehub/components": "1.0.0",
+    "@wizehub/eslint-config": "1.0.0",
+    "dnd-core": "^16.0.1",
+    "immutability-helper": "^3.1.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "redux-persist": "^6.0.0"
+  }
+}
