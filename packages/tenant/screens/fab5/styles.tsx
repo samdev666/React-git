@@ -26,8 +26,3 @@ export const StyledBenchmarksNoteText = styled(Typography)`
   font-weight: ${fontWeight.medium} !important;
   line-height: 24px !important;
 `;
-
-export const StyledBenchedData =styled(Typography)`
-`
-export const StyledDataBench = styled(Troubleshoot)`
-`
