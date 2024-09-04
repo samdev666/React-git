@@ -106,6 +106,7 @@
           "growthPlan": "Growth Plan",
           "wizeMAndA": "Mergers & Acquisitions",
           "budgetAndCapacity": "Budget & Capacity",
+          "idealIncome": "Ideal Income",
           "taskManagement": "Task Management",
           "delegationAndScheduling": "Delegation & Scheduling",
           "meeting": "Meeting",
@@ -1955,7 +1956,30 @@
           "pleaseNote": "Please Note",
           "pleaseNoteText": "You may have enough team members or too many based on the forecasted fees, but have 'some' spare capacity. This can be good as it will allow you to take on more work."
         }
+      },
+     "objectives":{
+        "idealIncome":{
+          "heading": "Ideal Income",
+          "plan": "Plan",
+          "yourIdealIcome":{
+           "heading": "Your Ideal Income",
+           "ebitdaPartnerSalaries":"Your ideal income is your EBITDA after partner salaries",
+           "profitMargin":"Enter your target gross profit margin",
+           "achieveIdealIncome":"What year do you want to achieve your Ideal Income?",
+           "form":{
+            "enterName":"Name",
+            "enterIncome":"Enter Income($)",
+            "enterYourEbita":"Enter your EBITDA (%)",
+            "enterYourGP": "Enter your GP (%)",
+            "button": "Calculate"
+           }
+          },
+          "desiredIncome":{
+          "heading": "Revenue needed for desired income ($)"
+          }
+        }
       }
+      
     },
     "execute": {
       "policiesAndProcedures": {

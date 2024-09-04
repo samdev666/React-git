@@ -96,6 +96,9 @@ export const routes = {
     teamBudget: "/budget-and-capacity/team-budget",
     summaryResults: "/budget-and-capacity/summary-results",
   },
+  idealIncome: {
+    root: "/ideal-income"
+  },
   taskManagement: "/task-management",
   delegationAndScheduling: "/delegation-scheduling",
   meeting: "/other-route",

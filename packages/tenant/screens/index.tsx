@@ -30,6 +30,7 @@ import BusinessAssessmentForms from "./businessScorecards";
 import DiscoveryDashboard from "./businessScorecards";
 import AccountManagement from "./accountManagement";
 import BudgetAndCapacity from "./plan/budgetAndCapacity";
+import IdealIncome from "./plan/objectives/idealIncome";
 import profile from "./profile";
 import MarketingResults from "./marketingResults";
 import Fab5 from "./fab5";
@@ -47,13 +48,13 @@ import OrganisationChart from "./firmProfile";
 import Fees from "./financialOverview";
 import Lockup from "./financialOverview";
 import Ebidta from "./financialOverview";
-import EbitdaBonus from './financialOverview';
-import FeeWonAndLost from './financialOverview';
+import EbitdaBonus from "./financialOverview";
+import FeeWonAndLost from "./financialOverview";
 import Team from "./netPromoterScore";
 import Client from "./netPromoterScore";
 import ClientPortfolio from "./clientPortfolio.tsx";
 import PoliciesAndProcedures from "./policiesAndProcedures";
-
+import idealIncome from "./plan/objectives/idealIncome";
 
 const modules = [
   {
@@ -82,13 +83,19 @@ const modules = [
   },
   {
     key: "missionVisionValue",
-    right: [Right.TENANT_MISSION_VISION_VALUES_MANAGEMENT, Right.TENANT_MISSION_VISION_VALUES_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_MISSION_VISION_VALUES_MANAGEMENT,
+      Right.TENANT_MISSION_VISION_VALUES_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.firmProfile.missionVisionValues,
     component: MissionVisionValue,
   },
   {
     key: "people",
-    right: [Right.TENANT_EMPLOYEE_MANAGEMENT_BASIC, Right.TENANT_EMPLOYEE_MANAGEMENT_SENSITIVE],
+    right: [
+      Right.TENANT_EMPLOYEE_MANAGEMENT_BASIC,
+      Right.TENANT_EMPLOYEE_MANAGEMENT_SENSITIVE,
+    ],
     route: routes.firmProfile.people,
     component: People,
   },
@@ -100,7 +107,10 @@ const modules = [
   },
   {
     key: "organisationChart",
-    right: [Right.TENANT_ORGANIZATION_STRUCTURE, Right.TENANT_ORGANIZATION_STRUCTURE_READ_ONLY],
+    right: [
+      Right.TENANT_ORGANIZATION_STRUCTURE,
+      Right.TENANT_ORGANIZATION_STRUCTURE_READ_ONLY,
+    ],
     route: routes.firmProfile.organizationChart,
     component: OrganisationChart,
   },
@@ -111,6 +121,12 @@ const modules = [
     component: BudgetAndCapacity,
   },
   {
+    key: "idealIncome",
+    right: [Right.IDEAL_INCOME_MANAGEMENT],
+    route: routes.idealIncome.root,
+    component: IdealIncome,
+  },
+  {
     key: "policiesAndProcedures",
     right: [Right.POLICY_PROCEDURE_MANAGEMENT],
     route: routes.policiesAndProcedures?.root,
@@ -118,49 +134,73 @@ const modules = [
   },
   {
     key: "launchPad",
-    right: [Right.TENANT_LAUNCH_PAD_APP_MANAGEMENT, Right.TENANT_LAUNCH_PAD_APP_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_LAUNCH_PAD_APP_MANAGEMENT,
+      Right.TENANT_LAUNCH_PAD_APP_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.launchPadSetup,
     component: LaunchPadComponent,
   },
   {
     key: "leadProgress",
-    right: [Right.TENANT_LEAD_PROGRESS_MANAGEMENT, Right.TENANT_LEAD_PROGRESS_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_LEAD_PROGRESS_MANAGEMENT,
+      Right.TENANT_LEAD_PROGRESS_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.practiceLeadProgressSetup.root,
     component: LeadProgressSetup,
   },
   {
     key: "feeLostReason",
-    right: [Right.TENANT_FEE_LOST_REASON_MANAGEMENT, Right.TENANT_FEE_LOST_REASON_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_FEE_LOST_REASON_MANAGEMENT,
+      Right.TENANT_FEE_LOST_REASON_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.feeLostReasonSetup.root,
     component: FeeLostReasonSetup,
   },
   {
     key: "leadIndustry",
-    right: [Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT, Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT,
+      Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.leadIndustrySetup.root,
     component: LeadIndustrySetup,
   },
   {
     key: "leadSource",
-    right: [Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT, Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT,
+      Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.leadSourceSetup.root,
     component: LeadSourceSetup,
   },
   {
     key: "meetingMaster",
-    right: [Right.TENANT_MEETING_MASTER_MANAGEMENT, Right.TENANT_MEETING_MASTER_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_MEETING_MASTER_MANAGEMENT,
+      Right.TENANT_MEETING_MASTER_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.meetingMasterSetup.root,
     component: MeetingMaster,
   },
   {
     key: "teamPositions",
-    right: [Right.TENANT_TEAM_POSITION_MANAGEMENT, Right.TENANT_TEAM_POSITION_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_TEAM_POSITION_MANAGEMENT,
+      Right.TENANT_TEAM_POSITION_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.teamPositions.root,
     component: TeamPositions,
   },
   {
     key: "accountManagement",
-    right: [Right.TENANT_ACCOUNT_MANAGEMENT, Right.TENANT_ACCOUNT_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_ACCOUNT_MANAGEMENT,
+      Right.TENANT_ACCOUNT_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.accountManagement,
     component: AccountManagement,
   },
@@ -178,7 +218,10 @@ const modules = [
   },
   {
     key: "marketingResults",
-    right: [Right.MARKETING_RESULTS_MANAGEMENT, Right.MARKETING_RESULTS_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.MARKETING_RESULTS_MANAGEMENT,
+      Right.MARKETING_RESULTS_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.marketingResults.root,
     component: MarketingResults,
   },
@@ -247,8 +290,8 @@ const modules = [
     right: [Right.PROFILE_MANAGEMENT],
     route: routes.profile,
     component: profile,
-  }
-]
+  },
+];
 
 //TODO: this needs to be removed after delivery of first milestone*/
 const stagingModules = [
@@ -278,49 +321,73 @@ const stagingModules = [
   },
   {
     key: "missionVisionValue",
-    right: [Right.TENANT_MISSION_VISION_VALUES_MANAGEMENT, Right.TENANT_MISSION_VISION_VALUES_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_MISSION_VISION_VALUES_MANAGEMENT,
+      Right.TENANT_MISSION_VISION_VALUES_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.firmProfile.missionVisionValues,
     component: MissionVisionValue,
   },
   {
     key: "launchPad",
-    right: [Right.TENANT_LAUNCH_PAD_APP_MANAGEMENT, Right.TENANT_LAUNCH_PAD_APP_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_LAUNCH_PAD_APP_MANAGEMENT,
+      Right.TENANT_LAUNCH_PAD_APP_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.launchPadSetup,
     component: LaunchPadComponent,
   },
   {
     key: "leadProgress",
-    right: [Right.TENANT_LEAD_PROGRESS_MANAGEMENT, Right.TENANT_LEAD_PROGRESS_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_LEAD_PROGRESS_MANAGEMENT,
+      Right.TENANT_LEAD_PROGRESS_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.practiceLeadProgressSetup.root,
     component: LeadProgressSetup,
   },
   {
     key: "feeLostReason",
-    right: [Right.TENANT_FEE_LOST_REASON_MANAGEMENT, Right.TENANT_FEE_LOST_REASON_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_FEE_LOST_REASON_MANAGEMENT,
+      Right.TENANT_FEE_LOST_REASON_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.feeLostReasonSetup.root,
     component: FeeLostReasonSetup,
   },
   {
     key: "leadIndustry",
-    right: [Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT, Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT,
+      Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.leadIndustrySetup.root,
     component: LeadIndustrySetup,
   },
   {
     key: "leadSource",
-    right: [Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT, Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT,
+      Right.TENANT_LEAD_SOURCE_INDUSTRY_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.leadSourceSetup.root,
     component: LeadSourceSetup,
   },
   {
     key: "meetingMaster",
-    right: [Right.TENANT_MEETING_MASTER_MANAGEMENT, Right.TENANT_MEETING_MASTER_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_MEETING_MASTER_MANAGEMENT,
+      Right.TENANT_MEETING_MASTER_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.meetingMasterSetup.root,
     component: MeetingMaster,
   },
   {
     key: "teamPositions",
-    right: [Right.TENANT_TEAM_POSITION_MANAGEMENT, Right.TENANT_TEAM_POSITION_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_TEAM_POSITION_MANAGEMENT,
+      Right.TENANT_TEAM_POSITION_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.teamPositions.root,
     component: TeamPositions,
   },
@@ -332,7 +399,10 @@ const stagingModules = [
   },
   {
     key: "marketingResults",
-    right: [Right.MARKETING_RESULTS_MANAGEMENT, Right.MARKETING_RESULTS_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.MARKETING_RESULTS_MANAGEMENT,
+      Right.MARKETING_RESULTS_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.marketingResults.root,
     component: MarketingResults,
   },
@@ -356,7 +426,10 @@ const stagingModules = [
   },
   {
     key: "people",
-    right: [Right.TENANT_EMPLOYEE_MANAGEMENT_BASIC, Right.TENANT_EMPLOYEE_MANAGEMENT_SENSITIVE],
+    right: [
+      Right.TENANT_EMPLOYEE_MANAGEMENT_BASIC,
+      Right.TENANT_EMPLOYEE_MANAGEMENT_SENSITIVE,
+    ],
     route: routes.firmProfile.people,
     component: People,
   },
@@ -368,7 +441,10 @@ const stagingModules = [
   },
   {
     key: "organisationChart",
-    right: [Right.TENANT_ORGANIZATION_STRUCTURE, Right.TENANT_ORGANIZATION_STRUCTURE_READ_ONLY],
+    right: [
+      Right.TENANT_ORGANIZATION_STRUCTURE,
+      Right.TENANT_ORGANIZATION_STRUCTURE_READ_ONLY,
+    ],
     route: routes.firmProfile.organizationChart,
     component: OrganisationChart,
   },
@@ -404,7 +480,10 @@ const stagingModules = [
   },
   {
     key: "accountManagement",
-    right: [Right.TENANT_ACCOUNT_MANAGEMENT, Right.TENANT_ACCOUNT_MANAGEMENT_READ_ONLY],
+    right: [
+      Right.TENANT_ACCOUNT_MANAGEMENT,
+      Right.TENANT_ACCOUNT_MANAGEMENT_READ_ONLY,
+    ],
     route: routes.accountManagement,
     component: AccountManagement,
   },
@@ -419,8 +498,8 @@ const stagingModules = [
     right: [Right.CLIENT_NPS_MANAGEMENT],
     route: routes.netPromoterScore.client,
     component: Client,
-  }
-]
+  },
+];
 
 const Screens: React.FC = () => {
   const auth = useSelector((state: ReduxState) => state.auth);
@@ -430,7 +509,8 @@ const Screens: React.FC = () => {
 
   //TODO: this needs to be removed after delivery of first milestone
   const finalStagingModuleArray = stagingModules.filter((module) =>
-    module.right.some((right) => auth?.rights?.includes(right)))
+    module.right.some((right) => auth?.rights?.includes(right))
+  );
 
   return (
     <>
@@ -440,7 +520,10 @@ const Screens: React.FC = () => {
         featureLevel={FeatureLevel.development}
       >
         <Switch>
-          <Route path={routes.businessScoreccards.summary} component={DiscoveryDashboard} />
+          <Route
+            path={routes.businessScoreccards.summary}
+            component={DiscoveryDashboard}
+          />
           {finalModuleArray.map((module) =>
             module.right.some((right) =>
               auth.hasStatusAndRight(AuthenticationStatus.AUTHENTICATED, right)
@@ -456,18 +539,23 @@ const Screens: React.FC = () => {
         </Switch>
       </OnlyWith>
       {/* //TODO: this needs to be removed after delivery of first milestone*/}
-      {
-        config.featureLevel === FeatureLevel.staging &&
+      {config.featureLevel === FeatureLevel.staging && (
         <OnlyWith
           status={AuthenticationStatus.AUTHENTICATED}
           isApplicableFeatureLevel={isApplicableFeatureLevel}
           featureLevel={FeatureLevel.staging}
         >
           <Switch>
-            <Route path={routes.businessScoreccards.summary} component={DiscoveryDashboard} />
+            <Route
+              path={routes.businessScoreccards.summary}
+              component={DiscoveryDashboard}
+            />
             {finalStagingModuleArray.map((module) =>
               module.right.some((right) =>
-                auth.hasStatusAndRight(AuthenticationStatus.AUTHENTICATED, right)
+                auth.hasStatusAndRight(
+                  AuthenticationStatus.AUTHENTICATED,
+                  right
+                )
               ) ? (
                 <Route
                   key={module.key}
@@ -479,7 +567,7 @@ const Screens: React.FC = () => {
             <Route component={() => <Redirect to={routes.overview} />} />
           </Switch>
         </OnlyWith>
-      }
+      )}
       <OnlyWith status={AuthenticationStatus.ONBOARDING}>
         <Switch>
           <Route path={routes.fileUpload} component={FileUploadComponent} />
@@ -496,9 +584,17 @@ const Screens: React.FC = () => {
       </OnlyWith>
       <OnlyWith status={AuthenticationStatus.INCOMPLETE_BUSINESS_ASSESSMENT}>
         <Switch>
-          <Route path={routes.freedomScorecardStep} component={FreedomScorecardComponent} />
-          <Route path={routes.businessScoreccards.businessAssessment} component={BusinessAssessmentForms} />
-          <Route component={() => <Redirect to={routes.freedomScorecardStep} />} />
+          <Route
+            path={routes.freedomScorecardStep}
+            component={FreedomScorecardComponent}
+          />
+          <Route
+            path={routes.businessScoreccards.businessAssessment}
+            component={BusinessAssessmentForms}
+          />
+          <Route
+            component={() => <Redirect to={routes.freedomScorecardStep} />}
+          />
         </Switch>
       </OnlyWith>
       <OnlyWith status={AuthenticationStatus.NOT_AUTHENTICATED}>
