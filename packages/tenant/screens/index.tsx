@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { AuthenticationStatus, Right } from "../redux/reducers/auth";
 import OnlyWith from "@wizehub/common/onlyWith";
@@ -31,6 +31,7 @@ import DiscoveryDashboard from "./businessScorecards";
 import AccountManagement from "./accountManagement";
 import BudgetAndCapacity from "./plan/budgetAndCapacity";
 import IdealIncome from "./plan/objectives/idealIncome";
+import IdealLifestyle from "./plan/objectives/idealLifeStyle";
 import profile from "./profile";
 import MarketingResults from "./marketingResults";
 import Fab5 from "./fab5";
@@ -119,6 +120,12 @@ const modules = [
     right: [Right.BUDGET_AND_CAPACITY_MANAGEMENT],
     route: routes.budgetAndCapacity.root,
     component: BudgetAndCapacity,
+  },
+  {
+    key: "idealLifestyle",
+    right: [Right.IDEAL_LIFESTYLE_MANAGEMENT],
+    route: routes.idealLifestyle.root,
+    component: IdealLifestyle,
   },
   {
     key: "idealIncome",

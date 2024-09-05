@@ -325,8 +325,10 @@ const Container: React.FC<Props> = ({
               label:
                 messages?.sidebar?.menuItems?.mainMenuItems?.subMenuItems
                   ?.idealLifestyle,
-              path: routes.objectives.idealLifestyle,
+              path: routes.idealLifestyle.root,
               icon: <NightlifeOutlinedIcon />,
+              right: Right.IDEAL_LIFESTYLE_MANAGEMENT,
+
             },
           ],
         },
