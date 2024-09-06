@@ -1994,6 +1994,16 @@
             "returnInvestment": "Return on investment (ROI)",
             "message": "Your Ideal Income (EBITDA) is a passive income via a Return On Investment. We have based the Investment on a valuation of a dollar per dollar of turnover as a Capital Value. For example, Firm Return on investment should be 25% on capital value of dollar per dollar of fees"
           }
+        },
+        "idealLifestyle":{
+          "heading": "Ideal Lifestyle",
+          "plan": "Plan",
+          "idealLifestyle":{
+            "heading": "Ideal Lifestyle"
+          },
+          "eulogy":{
+            "heading": "Eulogy"
+          }
         }
       }
       
