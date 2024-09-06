@@ -185,6 +185,7 @@ const MeetingAgendaDetail = () => {
       />
       <Modal
         show={visibility}
+      
         heading={
           messages?.settings?.systemPreferences?.meetingMasterSetup?.agenda
             ?.form?.editHeading

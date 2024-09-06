@@ -1,3 +1,4 @@
+import { Troubleshoot } from "@mui/icons-material";
 import { Typography } from "@mui/material";
 import { greyScaleColour } from "@wizehub/common/theme/style.palette";
 import { fontSize, fontWeight } from "@wizehub/common/theme/style.typography";

@@ -106,6 +106,7 @@
           "growthPlan": "Growth Plan",
           "wizeMAndA": "Mergers & Acquisitions",
           "budgetAndCapacity": "Budget & Capacity",
+          "idealIncome": "Ideal Income",
           "taskManagement": "Task Management",
           "delegationAndScheduling": "Delegation & Scheduling",
           "meeting": "Meeting",
@@ -1955,7 +1956,57 @@
           "pleaseNote": "Please Note",
           "pleaseNoteText": "You may have enough team members or too many based on the forecasted fees, but have 'some' spare capacity. This can be good as it will allow you to take on more work."
         }
+      },
+     "objectives":{
+        "idealIncome":{
+          "heading": "Ideal Income",
+          "plan": "Plan",
+          "yourIdealIcome": {
+            "heading": "Your Ideal Income",
+            "addMore": "Add More",
+            "ebitdaPartnerSalaries": "Your ideal income is your EBITDA after partner salaries",
+            "profitMargin": "Enter your target gross profit margin",
+            "achieveIdealIncome": "What year do you want to achieve your Ideal Income?",
+            "form": {
+              "enterName": "Name",
+              "enterIncome": "Income",
+              "enterYourEbita": "Enter your EBITDA (%)",
+              "enterYourGP": "Enter your GP (%)",
+              "button": "Calculate",
+              "validators":{
+                "name": "Name is required",
+                "income": "Income is required"
+              }
+            }
+          },
+          "desiredIncome": {
+            "heading": "Revenue needed for desired income ($)",
+            "soldCost": "Cost of goods sold",
+            "grossProfit": "Gross Profit",
+            "expenses": "Expenses",
+            "yourIdealIncome": "Your ideal Income"
+          },
+          "capitalValueAnalysis": {
+            "heading": "Frim capital value analysis",
+            "revenue": "Revenue (turnover)",
+            "dollerInvestment": "Dollar for $ capital value investment",
+            "yourIdealIncome": "Your ideal income",
+            "returnInvestment": "Return on investment (ROI)",
+            "message": "Your Ideal Income (EBITDA) is a passive income via a Return On Investment. We have based the Investment on a valuation of a dollar per dollar of turnover as a Capital Value. For example, Firm Return on investment should be 25% on capital value of dollar per dollar of fees"
+          }
+        },
+        "idealLifestyle":{
+          "heading": "Ideal Lifestyle",
+          "plan": "Plan",
+          "idealLifestyle":{
+            "heading": "Ideal Lifestyle"
+          },
+          "eulogy":{
+            "heading": "Eulogy"
+          }
+        }
       }
+      
     },
     "execute": {
       "policiesAndProcedures": {

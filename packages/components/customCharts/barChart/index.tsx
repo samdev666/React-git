@@ -65,7 +65,7 @@ interface BarChartProps {
   /** Colors for bars */
   colors?: string[];
   /** Array for stacking bars */
-  stackArray?: string[]
+  stackArray?: string[];
   barRadius?: number | [number, number, number, number];
   hoverColor?: string;
   customTooltip?: (props: any) => React.JSX.Element;
@@ -73,7 +73,7 @@ interface BarChartProps {
   yAxisTickMargin?: number;
   xAxisTickCount?: number;
   yAxisTickCount?: number;
-  legendAlignment?: 'top' | 'bottom' | 'middle';
+  legendAlignment?: "top" | "bottom" | "middle";
   customLegend?: (props: any) => React.JSX.Element;
   /** Labels for special ticks */
   specialTicks?: string[];
@@ -92,10 +92,9 @@ const CustomBarChart: React.FC<BarChartProps> = ({
   height,
   margin = {
     top: 0,
-    right: 40,
-    left: 50,
+    right: 30,
+    left: 20,
     bottom: 10,
-
   },
   barSize = 40,
   xAxisDataKey = "name",
@@ -187,7 +186,7 @@ const CustomBarChart: React.FC<BarChartProps> = ({
 
   const customMouseOver = (e: Record<string, any>, dataIndex: number) => {
     setActiveBarIndex(dataIndex);
-    setTooltipPosition({ x: ((e.x - 45) + barSize / 2), y: e.y - 55 });
+    setTooltipPosition({ x: e.x - 45 + barSize / 2, y: e.y - 55 });
   };
 
   const customMouseLeave = () => {
@@ -213,14 +212,13 @@ const CustomBarChart: React.FC<BarChartProps> = ({
 
   return (
     <>
-      <ResponsiveContainer width={width || "90%"} height={height} style={{ paddingLeft: "20px", paddingRight: "30px" }}>
+      <ResponsiveContainer width={width || "90%"} height={height} style={{paddingLeft: '20px', paddingRight: '20px'}}>
         <BarChart
           width={width}
           height={height}
           data={data}
           margin={margin}
           barSize={barSize}
-          
         >
           <XAxis
             dataKey={xAxisDataKey}
@@ -244,42 +242,49 @@ const CustomBarChart: React.FC<BarChartProps> = ({
             }}
             tickLine={false}
             tickMargin={props?.yAxisTickMargin}
-            // tickMargin={55}
             interval={0}
             tickCount={props?.yAxisTickCount}
             domain={props?.domain}
           />
-          <Tooltip
-            content={(CustomTooltipComponent && activeBarIndex != null) ? <CustomTooltipComponent /> : <CustomTooltip />}
-            position={{ x: tooltipPosition?.x, y: tooltipPosition?.y }}
-            cursor={false}
-          />
-          {legend &&
+          {tooltip && (
+            <Tooltip
+              content={
+                CustomTooltipComponent && activeBarIndex != null ? (
+                  <CustomTooltipComponent />
+                ) : (
+                  <CustomTooltip />
+                )
+              }
+              position={{ x: tooltipPosition?.x, y: tooltipPosition?.y }}
+              cursor={false}
+            />
+          )}
+          {legend && (
             <Legend
               verticalAlign={legendAlignment}
               content={CustomLegendComponent && <CustomLegendComponent />}
             />
-          }
+          )}
           <CartesianGrid stroke={otherColour.sidebar} vertical={false} />
           {yAxisDataKeys?.map((key, keysIndex) => (
             <Bar
               key={key}
               dataKey={key}
               radius={barRadius}
-              stackId={stackArray[keysIndex] !== '' ? stackArray[keysIndex] : undefined}
+              stackId={
+                stackArray[keysIndex] !== "" ? stackArray[keysIndex] : undefined
+              }
               onMouseEnter={(data, dataIndex) => {
                 customMouseOver(data, dataIndex);
               }}
               onMouseLeave={customMouseLeave}
             >
-               {data?.map((entry, index) => {
-                // Determine the color for each cell
+             {data?.map((entry, index) => {
                 const tickIndex = specialTicks.indexOf(entry[xAxisDataKey]?.toString());
                 const cellColor =
                   tickIndex !== -1 && specialTickColors[tickIndex]
                     ? specialTickColors[tickIndex]
                     : barColors[index % barColors.length];
-                
                 return (
                   <Cell
                     key={`cell-${index}`}

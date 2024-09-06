@@ -316,16 +316,19 @@ const Container: React.FC<Props> = ({
               label:
                 messages?.sidebar?.menuItems?.mainMenuItems?.subMenuItems
                   ?.idealIncome,
-              path: routes.objectives.idealIncome,
+              path: routes.idealIncome.root,
               icon: <MoneyOutlinedIcon />,
+              right: Right.IDEAL_INCOME_MANAGEMENT,
             },
             {
               key: "idealLifestyle",
               label:
                 messages?.sidebar?.menuItems?.mainMenuItems?.subMenuItems
                   ?.idealLifestyle,
-              path: routes.objectives.idealLifestyle,
+              path: routes.idealLifestyle.root,
               icon: <NightlifeOutlinedIcon />,
+              right: Right.IDEAL_LIFESTYLE_MANAGEMENT,
+
             },
           ],
         },

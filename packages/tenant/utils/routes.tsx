@@ -1,3 +1,5 @@
+import idealLifestyle from "../screens/plan/objectives/idealLifestyle";
+
 export const createResourceRoutes = (resource: string) => ({
   root: `/${resource}`,
   create: `/${resource}/create`,
@@ -95,6 +97,12 @@ export const routes = {
     teamCapacity: "/budget-and-capacity/team-capacity",
     teamBudget: "/budget-and-capacity/team-budget",
     summaryResults: "/budget-and-capacity/summary-results",
+  },
+  idealLifestyle:{
+    root: "/ideal-lifestyle"
+  },
+  idealIncome: {
+    root: "/ideal-income"
   },
   taskManagement: "/task-management",
   delegationAndScheduling: "/delegation-scheduling",
